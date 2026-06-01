@@ -526,8 +526,11 @@ codex-skills/web-design-engineer/SKILL.md
 codex-skills/weights-and-biases/SKILL.md
 codex-skills/whisper/SKILL.md
 project-agent-skills/career-ops/SKILL.md
+project-agent-skills/claude-mem-operations/SKILL.md
+project-agent-skills/freedomain-dns-ops/SKILL.md
 project-agent-skills/gpt-image-2-style-library/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
+project-agent-skills/ppf-contact-solver-workflows/SKILL.md
 project-agent-skills/rw-api-reference/SKILL.md
 project-agent-skills/rw-check-compatibility/SKILL.md
 project-agent-skills/rw-check-org-details/SKILL.md
@@ -547,5 +550,8 @@ project-agent-skills/rw-setup-api-key/SKILL.md
 project-agent-skills/scrapling-official/SKILL.md
 project-agent-skills/seedance-prompt-en/SKILL.md
 project-agent-skills/seedance-prompt-zh/SKILL.md
+project-agent-skills/taste-skill-frontend-direction/SKILL.md
+project-agent-skills/twenty-crm-development/SKILL.md
+project-agent-skills/understand-anything-knowledge-graph/SKILL.md
 project-agent-skills/use-runway-api/SKILL.md
 user-agent-skills/youtube-clipper/SKILL.md

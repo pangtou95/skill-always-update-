@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 中文提示词"
+  short_description: "Write Seedance 2.0 Chinese video prompts"
+  default_prompt: "Use $seedance-prompt-zh to 为这个创意撰写即梦 Seedance 2.0 视频提示词。"

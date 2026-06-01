@@ -1,0 +1,4 @@
+interface:
+  display_name: "Career Ops"
+  short_description: "AI job search pipeline and career ops"
+  default_prompt: "Use $career-ops to evaluate this job description and generate the next actions."

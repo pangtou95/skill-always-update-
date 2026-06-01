@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scrapling"
+  short_description: "Scrape and crawl websites with Scrapling"
+  default_prompt: "Use $scrapling-official to write a Python scraper for this website."

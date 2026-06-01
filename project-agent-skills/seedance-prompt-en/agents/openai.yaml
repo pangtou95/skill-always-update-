@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance Prompt EN"
+  short_description: "Write Seedance 2.0 video prompts in English"
+  default_prompt: "Use $seedance-prompt-en to write a Seedance 2.0 video prompt."

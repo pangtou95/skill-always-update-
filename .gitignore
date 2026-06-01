@@ -1,0 +1,18 @@
+.DS_Store
+*.tar
+*.tar.gz
+*.zip
+
+# Keep real local secrets out of the repository.
+.env
+.env.*
+!.env.example
+
+# Avoid committing generated dependency/build artifacts if any skill contains examples.
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.pyc

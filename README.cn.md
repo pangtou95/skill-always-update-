@@ -25,7 +25,7 @@
 | 论文与科研写作 | `ml-paper-writing`、`systems-paper-writing`、`academic-plotting`、`presenting-conference-talks` | 写 ML/系统论文、实验图表、会议演讲稿、研究叙事和投稿材料 |
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
-| Runway 与媒体生成 | `rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 对接 Runway API，生成图片、视频、音频，并把生成能力集成到项目里 |
+| 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，对接 Runway API，生成图片、视频、音频，并把生成能力集成到项目里 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
 
 ## 适合哪些场景
@@ -89,10 +89,11 @@
 
 ### 做视觉设计和内容生成
 
-可以结合 `open-design`、`frontend-design`、`web-design-engineer`、`rw-generate-image`、`rw-generate-video`、`stable-diffusion` 等 skills，让 Agent 帮你：
+可以结合 `open-design`、`frontend-design`、`web-design-engineer`、`seedance2-skill`、`seedance-prompt-zh`、`rw-generate-image`、`rw-generate-video`、`stable-diffusion` 等 skills，让 Agent 帮你：
 
 - 生成网页、App 原型、仪表盘和落地页
 - 制作 PPT、海报、社媒图、报告和视觉模板
+- 撰写 Seedance 2.0 视频提示词，支持图片、视频、音频和文本的多模态引用
 - 生成图片、视频、音频素材
 - 把媒体生成 API 集成进项目
 

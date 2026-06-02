@@ -41,8 +41,26 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Academic and research writing | `ml-paper-writing`, `systems-paper-writing`, `academic-plotting`, `presenting-conference-talks` | Draft papers, improve research narratives, build academic plots, and prepare conference talks |
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
 | Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
+| Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 prompts, use Runway APIs, generate media, and integrate generation into projects |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
+
+## Official GSAP Skills
+
+The latest update also installs the official [greensock/gsap-skills](https://github.com/greensock/gsap-skills) package as top-level skills:
+
+| Skill | Main use |
+| --- | --- |
+| `gsap-core` | Core tweens, `gsap.to()`, `from()`, `fromTo()`, eases, staggers, transforms |
+| `gsap-timeline` | Timeline sequencing, labels, nesting, playback control, position parameter |
+| `gsap-scrolltrigger` | Scroll-linked animation, scrub, pinning, markers, refresh, scroller patterns |
+| `gsap-react` | React and Next.js animation with `useGSAP`, refs, scope, cleanup, SSR-safe patterns |
+| `gsap-plugins` | Flip, Draggable, Observer, SplitText, MorphSVG, ScrollToPlugin, ScrollSmoother, easing and SVG plugins |
+| `gsap-utils` | `gsap.utils` helpers such as clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe |
+| `gsap-performance` | Smooth animation practices: transforms, opacity, batching, `will-change`, avoiding layout thrash |
+| `gsap-frameworks` | Vue, Nuxt, Svelte, SvelteKit and other lifecycle-based framework patterns |
+
+These official copies are available under both `codex-skills/` and `project-agent-skills/`.
 
 ## Newly Added Repository-Derived Skills
 
@@ -122,6 +140,7 @@ Use understand-anything-knowledge-graph to map this repository for onboarding.
 Use taste-skill-frontend-direction to redesign this landing page.
 Use ppf-contact-solver-workflows to run a Docker/Jupyter contact simulation.
 Use pixelle-video-workflows to install Pixelle-Video and generate a 5-scene short video.
+Use gsap-scrolltrigger and gsap-react to build a pinned scroll animation in Next.js.
 ```
 
 ## How To Use In Codex

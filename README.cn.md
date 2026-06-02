@@ -41,8 +41,26 @@ English version: [README.md](README.md)
 | 论文与科研写作 | `ml-paper-writing`、`systems-paper-writing`、`academic-plotting`、`presenting-conference-talks` | 写 ML/系统论文、实验图表、会议演讲稿、研究叙事和投稿材料 |
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
+| 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，对接 Runway API，生成图片、视频、音频，并把生成能力集成到项目里 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
+
+## 官方 GSAP Skills
+
+最新更新也安装了官方 [greensock/gsap-skills](https://github.com/greensock/gsap-skills) 包，并作为顶层 skills 使用：
+
+| Skill | 主要用途 |
+| --- | --- |
+| `gsap-core` | 核心 tween、`gsap.to()`、`from()`、`fromTo()`、缓动、stagger、transform |
+| `gsap-timeline` | 时间线编排、label、嵌套、播放控制、position parameter |
+| `gsap-scrolltrigger` | 滚动联动动画、scrub、pin、markers、refresh、scroller 模式 |
+| `gsap-react` | React / Next.js 中使用 `useGSAP`、refs、scope、cleanup 和 SSR 安全模式 |
+| `gsap-plugins` | Flip、Draggable、Observer、SplitText、MorphSVG、ScrollToPlugin、ScrollSmoother、缓动和 SVG 插件 |
+| `gsap-utils` | `gsap.utils` 辅助方法，例如 clamp、mapRange、normalize、interpolate、random、snap、toArray、wrap、pipe |
+| `gsap-performance` | 高性能动画实践：transform、opacity、batching、`will-change`、避免 layout thrash |
+| `gsap-frameworks` | Vue、Nuxt、Svelte、SvelteKit 和其它生命周期型框架里的 GSAP 模式 |
+
+这些官方副本同时放在 `codex-skills/` 和 `project-agent-skills/` 下。
 
 ## 本次新增的 GitHub 仓库分析技能
 
@@ -122,6 +140,7 @@ English version: [README.md](README.md)
 用 taste-skill-frontend-direction 帮我重设计这个 landing page
 用 ppf-contact-solver-workflows 帮我跑一个 Docker/Jupyter 接触仿真实验
 用 pixelle-video-workflows 帮我安装 Pixelle-Video 并生成一个 5 分镜短视频
+用 gsap-scrolltrigger 和 gsap-react 帮我在 Next.js 里做一个 pinned scroll 动画
 ```
 
 ## 如何在 Codex 中使用

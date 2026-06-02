@@ -46,7 +46,7 @@ English version: [README.md](README.md)
 
 ## 本次新增的 GitHub 仓库分析技能
 
-这次新增了 6 个从公开 GitHub 仓库提炼出来的项目级 skills：
+最近更新新增了 7 个从公开 GitHub 仓库提炼出来的项目级 skills：
 
 | 技能 | 来源仓库 | 主要用途 |
 | --- | --- | --- |
@@ -56,6 +56,7 @@ English version: [README.md](README.md)
 | `understand-anything-knowledge-graph` | `Lum1104/Understand-Anything` | 代码库/知识库图谱分析、Dashboard 图谱 UX、语义分批、diff 影响分析、解释和新人 onboarding |
 | `taste-skill-frontend-direction` | `leonxlnx/taste-skill` | 前端审美与反模板化设计、重设计审计、image-to-code、品牌套件、极简/粗野主义变体和设计技能打包 |
 | `ppf-contact-solver-workflows` | `st-tech/ppf-contact-solver` | GPU/CUDA 接触物理仿真、Docker、JupyterLab、Blender 插件工作流、MCP 控制、Python API 和 Windows 原生构建 |
+| `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI 全自动短视频引擎安装配置、Streamlit WebUI、FastAPI REST API、Docker 部署、ComfyUI/RunningHub 工作流、直连媒体模型 API、TTS、模板和排障 |
 
 这些技能放在 `project-agent-skills/` 目录下。
 
@@ -109,7 +110,7 @@ English version: [README.md](README.md)
 - 生成图片、视频、音频素材；
 - 把媒体生成 API 集成进项目。
 
-### 使用这次新增的 6 个仓库技能
+### 使用这些 GitHub 仓库分析技能
 
 可以直接点名技能，也可以描述任务：
 
@@ -120,6 +121,7 @@ English version: [README.md](README.md)
 用 understand-anything-knowledge-graph 帮我给这个仓库做新人 onboarding 图谱
 用 taste-skill-frontend-direction 帮我重设计这个 landing page
 用 ppf-contact-solver-workflows 帮我跑一个 Docker/Jupyter 接触仿真实验
+用 pixelle-video-workflows 帮我安装 Pixelle-Video 并生成一个 5 分镜短视频
 ```
 
 ## 如何在 Codex 中使用
@@ -150,5 +152,4 @@ cp -R project-agent-skills/<skill-name> .agents/skills/
 - 本仓库是本地 skills 的导出集合，包含多个来源的 skill。
 - 部分 skill 可能依赖第三方工具、API Key、GPU 环境或外部服务。
 - 如果要公开发布，请根据每个 skill 的来源检查对应许可证和引用要求。
-- 这次新增的 6 个仓库分析技能是紧凑的工作流总结，没有把原仓库源码打包进来。
-
+- 这些仓库分析技能是紧凑的工作流总结，没有把原仓库源码打包进来。

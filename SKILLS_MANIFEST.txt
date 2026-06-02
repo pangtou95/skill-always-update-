@@ -530,6 +530,7 @@ project-agent-skills/claude-mem-operations/SKILL.md
 project-agent-skills/freedomain-dns-ops/SKILL.md
 project-agent-skills/gpt-image-2-style-library/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
+project-agent-skills/pixelle-video-workflows/SKILL.md
 project-agent-skills/ppf-contact-solver-workflows/SKILL.md
 project-agent-skills/rw-api-reference/SKILL.md
 project-agent-skills/rw-check-compatibility/SKILL.md

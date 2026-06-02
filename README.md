@@ -46,7 +46,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 
 ## Newly Added Repository-Derived Skills
 
-The latest update adds six project-level skills distilled from public GitHub repositories:
+The latest updates add seven project-level skills distilled from public GitHub repositories:
 
 | Skill | Source repository | Main use |
 | --- | --- | --- |
@@ -56,6 +56,7 @@ The latest update adds six project-level skills distilled from public GitHub rep
 | `understand-anything-knowledge-graph` | `Lum1104/Understand-Anything` | Codebase and knowledge-base graph analysis, dashboard graph UX, semantic batching, diff impact, explain, and onboarding flows |
 | `taste-skill-frontend-direction` | `leonxlnx/taste-skill` | Anti-generic frontend direction, redesign audits, image-to-code workflows, brand kits, minimalist/brutalist variants, and design skill packaging |
 | `ppf-contact-solver-workflows` | `st-tech/ppf-contact-solver` | GPU/CUDA contact simulation, Docker, JupyterLab, Blender add-on workflows, MCP control, Python API usage, and Windows native builds |
+| `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI short-video engine setup, Streamlit WebUI, FastAPI REST API, Docker deployment, ComfyUI/RunningHub workflows, direct media model APIs, TTS, templates, and troubleshooting |
 
 These are stored under `project-agent-skills/`.
 
@@ -109,7 +110,7 @@ Combine `open-design`, `frontend-design`, `web-design-engineer`, `taste-skill-fr
 - generate images, video, and audio;
 - integrate media generation APIs into products.
 
-### Work With The Six New GitHub-Derived Skills
+### Work With The GitHub-Derived Skills
 
 Ask directly for the skill by name or describe the task:
 
@@ -120,6 +121,7 @@ Use freedomain-dns-ops to walk me through Cloudflare nameserver setup.
 Use understand-anything-knowledge-graph to map this repository for onboarding.
 Use taste-skill-frontend-direction to redesign this landing page.
 Use ppf-contact-solver-workflows to run a Docker/Jupyter contact simulation.
+Use pixelle-video-workflows to install Pixelle-Video and generate a 5-scene short video.
 ```
 
 ## How To Use In Codex
@@ -150,5 +152,4 @@ Restart Codex or reload the agent session so the skill list is refreshed.
 - This repository is an export of local skills from multiple sources.
 - Some skills may depend on third-party tools, API keys, GPUs, or external services.
 - Some skills originate from third-party repositories or installed packages; check upstream licenses and attribution requirements before public redistribution.
-- The six repository-derived skills are compact workflow summaries and do not vendor the original repositories.
-
+- The repository-derived skills are compact workflow summaries and do not vendor the original repositories.

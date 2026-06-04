@@ -44,6 +44,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 prompts, use Runway APIs, generate media, and integrate generation into projects |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
+| Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
 
 ## Official GSAP Skills
 
@@ -64,7 +65,7 @@ These official copies are available under both `codex-skills/` and `project-agen
 
 ## Newly Added Repository-Derived Skills
 
-The latest updates add seven project-level skills distilled from public GitHub repositories:
+The latest updates add eight project-level skills sourced from or distilled from public GitHub repositories:
 
 | Skill | Source repository | Main use |
 | --- | --- | --- |
@@ -75,8 +76,9 @@ The latest updates add seven project-level skills distilled from public GitHub r
 | `taste-skill-frontend-direction` | `leonxlnx/taste-skill` | Anti-generic frontend direction, redesign audits, image-to-code workflows, brand kits, minimalist/brutalist variants, and design skill packaging |
 | `ppf-contact-solver-workflows` | `st-tech/ppf-contact-solver` | GPU/CUDA contact simulation, Docker, JupyterLab, Blender add-on workflows, MCP control, Python API usage, and Windows native builds |
 | `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI short-video engine setup, Streamlit WebUI, FastAPI REST API, Docker deployment, ComfyUI/RunningHub workflows, direct media model APIs, TTS, templates, and troubleshooting |
+| `agent-reach` | `Panniantong/Agent-Reach` | Cross-platform internet research routing, channel health checks, safe installation guidance, web/RSS/video/code/social search, and optional authenticated platform setup |
 
-These are stored under `project-agent-skills/`.
+These are stored under `project-agent-skills/`; `agent-reach` is also exported under `codex-skills/` for direct Codex installation.
 
 ## Example Use Cases
 

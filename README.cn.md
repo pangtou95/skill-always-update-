@@ -44,6 +44,7 @@ English version: [README.md](README.md)
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，对接 Runway API，生成图片、视频、音频，并把生成能力集成到项目里 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
+| 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 
 ## 官方 GSAP Skills
 
@@ -64,7 +65,7 @@ English version: [README.md](README.md)
 
 ## 本次新增的 GitHub 仓库分析技能
 
-最近更新新增了 7 个从公开 GitHub 仓库提炼出来的项目级 skills：
+最近更新新增了 8 个直接来自或从公开 GitHub 仓库提炼出来的项目级 skills：
 
 | 技能 | 来源仓库 | 主要用途 |
 | --- | --- | --- |
@@ -75,8 +76,9 @@ English version: [README.md](README.md)
 | `taste-skill-frontend-direction` | `leonxlnx/taste-skill` | 前端审美与反模板化设计、重设计审计、image-to-code、品牌套件、极简/粗野主义变体和设计技能打包 |
 | `ppf-contact-solver-workflows` | `st-tech/ppf-contact-solver` | GPU/CUDA 接触物理仿真、Docker、JupyterLab、Blender 插件工作流、MCP 控制、Python API 和 Windows 原生构建 |
 | `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI 全自动短视频引擎安装配置、Streamlit WebUI、FastAPI REST API、Docker 部署、ComfyUI/RunningHub 工作流、直连媒体模型 API、TTS、模板和排障 |
+| `agent-reach` | `Panniantong/Agent-Reach` | 跨平台互联网研究路由、渠道健康检查、安全安装指导、网页/RSS/视频/代码/社交搜索，以及可选登录态平台配置 |
 
-这些技能放在 `project-agent-skills/` 目录下。
+这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 
 ## 重点能力示例
 

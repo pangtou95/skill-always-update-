@@ -42,9 +42,19 @@ English version: [README.md](README.md)
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
-| 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，对接 Runway API，生成图片、视频、音频，并把生成能力集成到项目里 |
+| 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，对接 Runway API，生成媒体内容，并把生成能力集成到项目里 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
+
+## Seedance 2.0 Skill 更新
+
+本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
+
+| Skill | 位置 | 主要用途 |
+| --- | --- | --- |
+| `seedance2-skill` | `codex-skills/seedance2-skill` | 完整双语 Seedance 2.0 提示词包，根目录为英文说明，`zh/` 下为中文说明，并保留上游 README |
+| `seedance-prompt-en` | `project-agent-skills/seedance-prompt-en` | 英文 Seedance 2.0 提示词流程，覆盖多模态引用、运镜语言、分镜节奏、特效、广告、短剧和科普视频 |
+| `seedance-prompt-zh` | `project-agent-skills/seedance-prompt-zh` | 中文 Seedance 2.0 提示词流程，已对齐上游 `zh/SKILL.md` |
 
 ## 官方 GSAP Skills
 

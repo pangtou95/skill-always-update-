@@ -42,9 +42,19 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
 | Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
-| Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 prompts, use Runway APIs, generate media, and integrate generation into projects |
+| Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, use Runway APIs, generate media, and integrate generation into projects |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
+
+## Seedance 2.0 Skill Update
+
+This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
+
+| Skill | Location | Main use |
+| --- | --- | --- |
+| `seedance2-skill` | `codex-skills/seedance2-skill` | Full bilingual Seedance 2.0 prompt package with English root instructions, Chinese instructions under `zh/`, and upstream README files |
+| `seedance-prompt-en` | `project-agent-skills/seedance-prompt-en` | English Seedance 2.0 prompt workflow for multimodal references, camera language, timing, effects, ads, short dramas, and education clips |
+| `seedance-prompt-zh` | `project-agent-skills/seedance-prompt-zh` | Chinese Seedance 2.0 prompt workflow aligned with the upstream `zh/SKILL.md` |
 
 ## Official GSAP Skills
 

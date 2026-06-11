@@ -42,9 +42,19 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
 | Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
-| Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, use Runway APIs, generate media, and integrate generation into projects |
+| Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
+
+## Narrator AI CLI Skill
+
+This export includes [NarratorAI-Studio/narrator-ai-cli-skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill), a full AI movie and short-drama narration production workflow:
+
+| Skill | Locations | Main use |
+| --- | --- | --- |
+| `narrator-ai-cli-skill` | `codex-skills/`, `project-agent-skills/`, `user-agent-skills/` | Search built-in movie materials, choose BGM/dubbing/templates, generate narration scripts, compose videos, optionally run Magic Video templates, and manage task polling with `narrator-ai-cli` |
+
+Runtime note: the skill requires the `narrator-ai-cli` command plus a valid `NARRATOR_APP_KEY` or configured app key.
 
 ## Seedance 2.0 Skill Update
 
@@ -75,7 +85,7 @@ These official copies are available under both `codex-skills/` and `project-agen
 
 ## Newly Added Repository-Derived Skills
 
-The latest updates add eight project-level skills sourced from or distilled from public GitHub repositories:
+The latest updates add nine project-level skills sourced from or distilled from public GitHub repositories:
 
 | Skill | Source repository | Main use |
 | --- | --- | --- |
@@ -87,6 +97,7 @@ The latest updates add eight project-level skills sourced from or distilled from
 | `ppf-contact-solver-workflows` | `st-tech/ppf-contact-solver` | GPU/CUDA contact simulation, Docker, JupyterLab, Blender add-on workflows, MCP control, Python API usage, and Windows native builds |
 | `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI short-video engine setup, Streamlit WebUI, FastAPI REST API, Docker deployment, ComfyUI/RunningHub workflows, direct media model APIs, TTS, templates, and troubleshooting |
 | `agent-reach` | `Panniantong/Agent-Reach` | Cross-platform internet research routing, channel health checks, safe installation guidance, web/RSS/video/code/social search, and optional authenticated platform setup |
+| `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI movie and short-drama narration production with built-in materials, BGM, dubbing voices, narration templates, script generation, video composition, task polling, and Magic Video rules |
 
 These are stored under `project-agent-skills/`; `agent-reach` is also exported under `codex-skills/` for direct Codex installation.
 

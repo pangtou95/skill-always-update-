@@ -66,6 +66,7 @@ codex-skills/model-merging/SKILL.md
 codex-skills/model-pruning/SKILL.md
 codex-skills/moe-training/SKILL.md
 codex-skills/nanogpt/SKILL.md
+codex-skills/narrator-ai-cli-skill/SKILL.md
 codex-skills/nemo-curator/SKILL.md
 codex-skills/nemo-evaluator/SKILL.md
 codex-skills/nemo-guardrails/SKILL.md
@@ -548,6 +549,7 @@ project-agent-skills/gsap-scrolltrigger/SKILL.md
 project-agent-skills/gsap-timeline/SKILL.md
 project-agent-skills/gsap-utils/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
+project-agent-skills/narrator-ai-cli-skill/SKILL.md
 project-agent-skills/pixelle-video-workflows/SKILL.md
 project-agent-skills/ppf-contact-solver-workflows/SKILL.md
 project-agent-skills/rw-api-reference/SKILL.md
@@ -574,4 +576,5 @@ project-agent-skills/twenty-crm-development/SKILL.md
 project-agent-skills/understand-anything-knowledge-graph/SKILL.md
 project-agent-skills/use-runway-api/SKILL.md
 user-agent-skills/agent-reach/SKILL.md
+user-agent-skills/narrator-ai-cli-skill/SKILL.md
 user-agent-skills/youtube-clipper/SKILL.md

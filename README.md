@@ -42,9 +42,27 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
 | Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
+| Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, and prepare publish metadata |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
+
+## Content Creator Top 10 Skills
+
+The latest update installs the 10 content-creator skills from the shared screenshot. Each skill keeps the screenshot name as the public entry point and stores upstream material under `references/upstream/`.
+
+| Skill | Source | Status |
+| --- | --- | --- |
+| `content-research-brief` | `Affitor/affiliate-skills` | Installed |
+| `seo-aeo-outline` | `rampstackco/claude-skills` (`seo-aeo-geo`) | Installed as a focused wrapper |
+| `viral-hook-title` | `EvolutionAPI/evo-nexus` (`social-hook-writer`) | Installed as a focused wrapper |
+| `script-writer` | `Affitor/affiliate-skills` (`tiktok-script-writer`) | Installed as a focused wrapper |
+| `platform-repurpose` | `Affitor/affiliate-skills` (`content-repurposer`) | Installed as a focused wrapper |
+| `brand-voice-guard` | `anthropics/knowledge-work-plugins` (`brand-voice-enforcement`) | Installed as a focused wrapper |
+| `fact-check-citation` | `petar-nauka/fact-check-skill` | Installed as a focused wrapper |
+| `content-calendar-planner` | `rampstackco/claude-skills` (`content-strategy`) | Installed as a focused wrapper |
+| `asset-prompt-pack` | `Affitor/affiliate-skills` (`infographic-generator`) | Installed as a focused wrapper |
+| `publish-metadata-ops` | screenshot source was not publicly accessible | Installed as a local derived skill |
 
 ## Narrator AI CLI Skill
 
@@ -85,7 +103,7 @@ These official copies are available under both `codex-skills/` and `project-agen
 
 ## Newly Added Repository-Derived Skills
 
-The latest updates add nine project-level skills sourced from or distilled from public GitHub repositories:
+The latest updates add nineteen project-level skills sourced from or distilled from public GitHub repositories:
 
 | Skill | Source repository | Main use |
 | --- | --- | --- |

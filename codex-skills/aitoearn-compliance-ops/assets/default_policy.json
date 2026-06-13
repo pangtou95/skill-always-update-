@@ -1,0 +1,109 @@
+{
+  "version": "2026-06-14",
+  "default_mode": "draft-only",
+  "decisions": {
+    "allow": "Proceed through official API/OAuth/Relay only.",
+    "approve": "Require explicit human approval before any external write.",
+    "delay": "Queue the action after cooldown and re-check before execution.",
+    "block": "Do not execute; provide a safer compliant alternative."
+  },
+  "action_risk": {
+    "read": "low",
+    "monitor": "low",
+    "create": "low",
+    "schedule": "medium",
+    "publish": "high",
+    "reply": "high",
+    "comment": "high",
+    "dm": "critical",
+    "like": "high",
+    "follow": "critical",
+    "collect": "medium",
+    "monetize": "medium"
+  },
+  "write_actions": [
+    "schedule",
+    "publish",
+    "reply",
+    "comment",
+    "dm",
+    "like",
+    "follow",
+    "collect"
+  ],
+  "blocked_methods": [
+    "captcha_bypass",
+    "verification_bypass",
+    "fingerprint_spoofing",
+    "proxy_rotation_evasion",
+    "cookie_theft",
+    "credential_sharing",
+    "account_farming",
+    "mass_registration",
+    "ban_evasion",
+    "stealth_headless_clicking"
+  ],
+  "platform_defaults": {
+    "unknown": {
+      "max_publish_per_day": 1,
+      "max_engagement_per_day": 0,
+      "min_minutes_between_writes": 240,
+      "requires_approval": true
+    },
+    "x": {
+      "max_publish_per_day": 3,
+      "max_engagement_per_day": 10,
+      "min_minutes_between_writes": 60,
+      "requires_approval": true
+    },
+    "youtube": {
+      "max_publish_per_day": 2,
+      "max_engagement_per_day": 5,
+      "min_minutes_between_writes": 180,
+      "requires_approval": true
+    },
+    "tiktok": {
+      "max_publish_per_day": 2,
+      "max_engagement_per_day": 0,
+      "min_minutes_between_writes": 240,
+      "requires_approval": true
+    },
+    "xiaohongshu": {
+      "max_publish_per_day": 2,
+      "max_engagement_per_day": 0,
+      "min_minutes_between_writes": 240,
+      "requires_approval": true
+    },
+    "instagram": {
+      "max_publish_per_day": 2,
+      "max_engagement_per_day": 5,
+      "min_minutes_between_writes": 180,
+      "requires_approval": true
+    },
+    "linkedin": {
+      "max_publish_per_day": 2,
+      "max_engagement_per_day": 5,
+      "min_minutes_between_writes": 240,
+      "requires_approval": true
+    }
+  },
+  "new_account_days": 30,
+  "max_recent_warning_count": 0,
+  "max_recent_failure_rate": 0.15,
+  "max_duplicate_similarity": 0.86,
+  "max_links_per_post": 2,
+  "cooldowns": {
+    "rate_limit_minutes": 1440,
+    "login_challenge_minutes": 10080,
+    "warning_minutes": 10080,
+    "unknown_policy_minutes": 1440
+  },
+  "sensitive_terms": [
+    "guaranteed income",
+    "risk free",
+    "official partnership",
+    "limited investment",
+    "medical cure",
+    "100% result"
+  ]
+}

@@ -42,7 +42,7 @@ English version: [README.md](README.md)
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
-| 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包和发布元数据 |
+| 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`narrator-ai-cli-skill`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，制作 AI 电影/短剧解说视频，对接 Runway API，生成媒体内容，并把生成能力集成到项目里 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
@@ -74,6 +74,16 @@ English version: [README.md](README.md)
 
 运行说明：该 skill 需要 `narrator-ai-cli` 命令，以及有效的 `NARRATOR_APP_KEY` 或已配置的 app key。
 
+## AiToEarn 合规运营 Skill
+
+本次导出加入了 [yikart/AiToEarn](https://github.com/yikart/AiToEarn) 的合规运营自动化 skill。上游项目提供 Create、Publish、Engage、Monetize、MCP/API、Docker 和 Relay 等多平台内容运营能力；这个本地 skill 在外部平台写操作前增加保守风控层。
+
+| Skill | 位置 | 主要用途 |
+| --- | --- | --- |
+| `aitoearn-compliance-ops` | `codex-skills/`、`project-agent-skills/` | 为 AiToEarn 发布、回复、互动、变现和排期流程增加官方 API/OAuth 优先、人工审批、账号健康检查、冷却、审计日志和拒绝绕风控策略 |
+
+内置辅助脚本：`scripts/risk_check.py` 会把结构化 action JSON 与 `assets/default_policy.json` 对比，并返回 `allow`、`approve`、`delay` 或 `block`。
+
 ## Seedance 2.0 Skill 更新
 
 本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
@@ -103,7 +113,7 @@ English version: [README.md](README.md)
 
 ## 本次新增的 GitHub 仓库分析技能
 
-最近更新新增了 19 个直接来自或从公开 GitHub 仓库提炼出来的项目级 skills：
+最近更新新增了一批直接来自或从公开 GitHub 仓库提炼出来的 skills：
 
 | 技能 | 来源仓库 | 主要用途 |
 | --- | --- | --- |
@@ -116,6 +126,7 @@ English version: [README.md](README.md)
 | `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI 全自动短视频引擎安装配置、Streamlit WebUI、FastAPI REST API、Docker 部署、ComfyUI/RunningHub 工作流、直连媒体模型 API、TTS、模板和排障 |
 | `agent-reach` | `Panniantong/Agent-Reach` | 跨平台互联网研究路由、渠道健康检查、安全安装指导、网页/RSS/视频/代码/社交搜索，以及可选登录态平台配置 |
 | `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI 电影/短剧解说视频制作，覆盖内置素材、BGM、配音角色、解说模板、文案生成、视频合成、任务轮询和 Magic Video 规则 |
+| `aitoearn-compliance-ops` | `yikart/AiToEarn` | AiToEarn 内容运营合规自动化，覆盖发布、互动、账号健康、审批门禁、冷却、审计日志、MCP/API、Docker/Relay 和拒绝绕风控 |
 
 这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 
@@ -181,6 +192,7 @@ English version: [README.md](README.md)
 用 taste-skill-frontend-direction 帮我重设计这个 landing page
 用 ppf-contact-solver-workflows 帮我跑一个 Docker/Jupyter 接触仿真实验
 用 pixelle-video-workflows 帮我安装 Pixelle-Video 并生成一个 5 分镜短视频
+用 aitoearn-compliance-ops 帮我设计一个带风控门禁的 AiToEarn 合规发布流程
 用 gsap-scrolltrigger 和 gsap-react 帮我在 Next.js 里做一个 pinned scroll 动画
 ```
 

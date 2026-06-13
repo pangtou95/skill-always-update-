@@ -8,6 +8,7 @@ codex-skills/a-evolve/SKILL.md
 codex-skills/academic-plotting/SKILL.md
 codex-skills/accelerate/SKILL.md
 codex-skills/agent-reach/SKILL.md
+codex-skills/aitoearn-compliance-ops/SKILL.md
 codex-skills/asset-prompt-pack/SKILL.md
 codex-skills/audiocraft/SKILL.md
 codex-skills/autogpt/SKILL.md
@@ -546,6 +547,7 @@ codex-skills/web-design-engineer/SKILL.md
 codex-skills/weights-and-biases/SKILL.md
 codex-skills/whisper/SKILL.md
 project-agent-skills/agent-reach/SKILL.md
+project-agent-skills/aitoearn-compliance-ops/SKILL.md
 project-agent-skills/asset-prompt-pack/SKILL.md
 project-agent-skills/brand-voice-guard/SKILL.md
 project-agent-skills/career-ops/SKILL.md

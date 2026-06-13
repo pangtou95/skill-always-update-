@@ -42,7 +42,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
 | Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
-| Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, and prepare publish metadata |
+| Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
@@ -74,6 +74,16 @@ This export includes [NarratorAI-Studio/narrator-ai-cli-skill](https://github.co
 
 Runtime note: the skill requires the `narrator-ai-cli` command plus a valid `NARRATOR_APP_KEY` or configured app key.
 
+## AiToEarn Compliance Ops Skill
+
+This export adds [yikart/AiToEarn](https://github.com/yikart/AiToEarn) as a compliant operations automation skill. The upstream project provides Create, Publish, Engage, Monetize, MCP/API, Docker, and Relay workflows for multi-platform creator operations; this local skill adds a conservative risk-control layer before external platform writes.
+
+| Skill | Locations | Main use |
+| --- | --- | --- |
+| `aitoearn-compliance-ops` | `codex-skills/`, `project-agent-skills/` | Plan and gate AiToEarn publishing, reply, engagement, monetization, and scheduling workflows with official API/OAuth preference, approval gates, account health checks, cooldowns, audit logs, and refusal of ban-evasion tactics |
+
+Bundled helper: `scripts/risk_check.py` evaluates structured action JSON against `assets/default_policy.json` and returns `allow`, `approve`, `delay`, or `block`.
+
 ## Seedance 2.0 Skill Update
 
 This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
@@ -103,7 +113,7 @@ These official copies are available under both `codex-skills/` and `project-agen
 
 ## Newly Added Repository-Derived Skills
 
-The latest updates add nineteen project-level skills sourced from or distilled from public GitHub repositories:
+The latest updates add repository-derived skills sourced from or distilled from public GitHub repositories:
 
 | Skill | Source repository | Main use |
 | --- | --- | --- |
@@ -116,6 +126,7 @@ The latest updates add nineteen project-level skills sourced from or distilled f
 | `pixelle-video-workflows` | `AIDC-AI/Pixelle-Video` | AI short-video engine setup, Streamlit WebUI, FastAPI REST API, Docker deployment, ComfyUI/RunningHub workflows, direct media model APIs, TTS, templates, and troubleshooting |
 | `agent-reach` | `Panniantong/Agent-Reach` | Cross-platform internet research routing, channel health checks, safe installation guidance, web/RSS/video/code/social search, and optional authenticated platform setup |
 | `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI movie and short-drama narration production with built-in materials, BGM, dubbing voices, narration templates, script generation, video composition, task polling, and Magic Video rules |
+| `aitoearn-compliance-ops` | `yikart/AiToEarn` | Compliant AiToEarn creator-operations automation with risk checks for publishing, engagement, account health, approval gates, cooldowns, audit logs, MCP/API setup, Docker/Relay usage, and ban-evasion refusal |
 
 These are stored under `project-agent-skills/`; `agent-reach` is also exported under `codex-skills/` for direct Codex installation.
 
@@ -181,6 +192,7 @@ Use understand-anything-knowledge-graph to map this repository for onboarding.
 Use taste-skill-frontend-direction to redesign this landing page.
 Use ppf-contact-solver-workflows to run a Docker/Jupyter contact simulation.
 Use pixelle-video-workflows to install Pixelle-Video and generate a 5-scene short video.
+Use aitoearn-compliance-ops to design a compliant AiToEarn publishing workflow with risk gates.
 Use gsap-scrolltrigger and gsap-react to build a pinned scroll animation in Next.js.
 ```
 

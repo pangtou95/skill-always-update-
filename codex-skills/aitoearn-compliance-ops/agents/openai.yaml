@@ -1,0 +1,8 @@
+interface:
+  display_name: "AiToEarn Compliance Ops"
+  short_description: "Guardrailed AiToEarn publishing and engagement ops"
+  brand_color: "#2563EB"
+  default_prompt: "Use $aitoearn-compliance-ops to plan a compliant AiToEarn publishing workflow with risk checks."
+
+policy:
+  allow_implicit_invocation: true

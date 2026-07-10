@@ -44,6 +44,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
 | Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
+| Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
 | Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
 
@@ -83,6 +84,16 @@ This export adds [yikart/AiToEarn](https://github.com/yikart/AiToEarn) as a comp
 | `aitoearn-compliance-ops` | `codex-skills/`, `project-agent-skills/` | Plan and gate AiToEarn publishing, reply, engagement, monetization, and scheduling workflows with official API/OAuth preference, approval gates, account health checks, cooldowns, audit logs, and refusal of ban-evasion tactics |
 
 Bundled helper: `scripts/risk_check.py` evaluates structured action JSON against `assets/default_policy.json` and returns `allow`, `approve`, `delay`, or `block`.
+
+## ChatCut Agent Plugin Skills
+
+This export adds [ChatCut-Inc/agent-plugin](https://github.com/ChatCut-Inc/agent-plugin.git) as a namespaced ChatCut skill bundle. The upstream package is a Codex plugin for editable video workflows; this repository exports its workflow skills as `chatcut-*` skills and keeps the helper script while omitting the large bundled FFmpeg archives for a lighter GitHub package.
+
+| Skill group | Locations | Main use |
+| --- | --- | --- |
+| `chatcut-*` | `codex-skills/`, `project-agent-skills/` | ChatCut MCP setup, project targeting, media import, timeline editing guidance, transcription, captions, talking-head cleanup, Motion Graphic JSX authoring, image/video/voice/music generation, shader effects, export, and verification |
+
+Runtime note: real project edits require the ChatCut MCP server and ChatCut authentication. Start with `chatcut-plugin-basics`; if the MCP server is missing, read its `references/plugin-setup.md`.
 
 ## Seedance 2.0 Skill Update
 
@@ -127,6 +138,7 @@ The latest updates add repository-derived skills sourced from or distilled from 
 | `agent-reach` | `Panniantong/Agent-Reach` | Cross-platform internet research routing, channel health checks, safe installation guidance, web/RSS/video/code/social search, and optional authenticated platform setup |
 | `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI movie and short-drama narration production with built-in materials, BGM, dubbing voices, narration templates, script generation, video composition, task polling, and Magic Video rules |
 | `aitoearn-compliance-ops` | `yikart/AiToEarn` | Compliant AiToEarn creator-operations automation with risk checks for publishing, engagement, account health, approval gates, cooldowns, audit logs, MCP/API setup, Docker/Relay usage, and ban-evasion refusal |
+| `chatcut-*` | `ChatCut-Inc/agent-plugin` | Editable ChatCut video production through MCP: media import, timeline editing, captions/transcription, talking-head cleanup, Motion Graphics, image/video/voice/music generation, shader effects, export, and verification |
 
 These are stored under `project-agent-skills/`; `agent-reach` is also exported under `codex-skills/` for direct Codex installation.
 
@@ -193,6 +205,8 @@ Use taste-skill-frontend-direction to redesign this landing page.
 Use ppf-contact-solver-workflows to run a Docker/Jupyter contact simulation.
 Use pixelle-video-workflows to install Pixelle-Video and generate a 5-scene short video.
 Use aitoearn-compliance-ops to design a compliant AiToEarn publishing workflow with risk gates.
+Use chatcut-plugin-basics and chatcut-asset-import to edit this local video in ChatCut.
+Use chatcut-transcription and chatcut-export to add captions and render the final cut.
 Use gsap-scrolltrigger and gsap-react to build a pinned scroll animation in Next.js.
 ```
 

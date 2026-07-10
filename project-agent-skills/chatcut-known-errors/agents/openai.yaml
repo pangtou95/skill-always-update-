@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Known Errors"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-known-errors to help me with this ChatCut video project task."

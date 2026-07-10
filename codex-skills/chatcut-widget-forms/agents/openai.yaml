@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Widget Forms"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-widget-forms to help me with this ChatCut video project task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Voice"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-voice to help me with this ChatCut video project task."

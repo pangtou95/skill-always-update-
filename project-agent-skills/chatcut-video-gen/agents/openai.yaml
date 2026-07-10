@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Video Gen"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-video-gen to help me with this ChatCut video project task."

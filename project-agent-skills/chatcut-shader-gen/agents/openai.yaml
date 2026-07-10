@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Shader Gen"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-shader-gen to help me with this ChatCut video project task."

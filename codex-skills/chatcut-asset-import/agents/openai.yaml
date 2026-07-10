@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Asset Import"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-asset-import to help me with this ChatCut video project task."

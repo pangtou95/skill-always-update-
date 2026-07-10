@@ -44,6 +44,7 @@ English version: [README.md](README.md)
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`narrator-ai-cli-skill`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，制作 AI 电影/短剧解说视频，对接 Runway API，生成媒体内容，并把生成能力集成到项目里 |
+| 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 
@@ -83,6 +84,16 @@ English version: [README.md](README.md)
 | `aitoearn-compliance-ops` | `codex-skills/`、`project-agent-skills/` | 为 AiToEarn 发布、回复、互动、变现和排期流程增加官方 API/OAuth 优先、人工审批、账号健康检查、冷却、审计日志和拒绝绕风控策略 |
 
 内置辅助脚本：`scripts/risk_check.py` 会把结构化 action JSON 与 `assets/default_policy.json` 对比，并返回 `allow`、`approve`、`delay` 或 `block`。
+
+## ChatCut Agent Plugin Skills
+
+本次导出加入了 [ChatCut-Inc/agent-plugin](https://github.com/ChatCut-Inc/agent-plugin.git) 的 ChatCut 技能包。上游项目是面向 Codex 的可编辑视频制作插件；本仓库将其中的工作流 skills 以 `chatcut-*` 命名空间导出，并保留必要 helper 脚本，同时去掉体积较大的 FFmpeg 压缩二进制，方便上传 GitHub。
+
+| 技能组 | 位置 | 主要用途 |
+| --- | --- | --- |
+| `chatcut-*` | `codex-skills/`、`project-agent-skills/` | ChatCut MCP 设置、项目定位、素材导入、时间线编辑、转写字幕、口播视频清理、Motion Graphic JSX 编写、图像/视频/配音/音乐生成、shader 效果、导出和可见结果验证 |
+
+运行提示：真正编辑 ChatCut 项目需要配置 ChatCut MCP server 并完成 ChatCut 登录。优先从 `chatcut-plugin-basics` 开始；如果 MCP 没有配置，先看它的 `references/plugin-setup.md`。
 
 ## Seedance 2.0 Skill 更新
 
@@ -127,6 +138,7 @@ English version: [README.md](README.md)
 | `agent-reach` | `Panniantong/Agent-Reach` | 跨平台互联网研究路由、渠道健康检查、安全安装指导、网页/RSS/视频/代码/社交搜索，以及可选登录态平台配置 |
 | `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI 电影/短剧解说视频制作，覆盖内置素材、BGM、配音角色、解说模板、文案生成、视频合成、任务轮询和 Magic Video 规则 |
 | `aitoearn-compliance-ops` | `yikart/AiToEarn` | AiToEarn 内容运营合规自动化，覆盖发布、互动、账号健康、审批门禁、冷却、审计日志、MCP/API、Docker/Relay 和拒绝绕风控 |
+| `chatcut-*` | `ChatCut-Inc/agent-plugin` | 通过 ChatCut MCP 做可编辑视频制作：素材导入、时间线编辑、字幕转写、口播清理、MG 动效、图像/视频/配音/音乐生成、shader 效果、导出和验证 |
 
 这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 
@@ -193,6 +205,8 @@ English version: [README.md](README.md)
 用 ppf-contact-solver-workflows 帮我跑一个 Docker/Jupyter 接触仿真实验
 用 pixelle-video-workflows 帮我安装 Pixelle-Video 并生成一个 5 分镜短视频
 用 aitoearn-compliance-ops 帮我设计一个带风控门禁的 AiToEarn 合规发布流程
+用 chatcut-plugin-basics 和 chatcut-asset-import 帮我在 ChatCut 里编辑这个本地视频
+用 chatcut-transcription 和 chatcut-export 帮我加字幕并导出成片
 用 gsap-scrolltrigger 和 gsap-react 帮我在 Next.js 里做一个 pinned scroll 动画
 ```
 

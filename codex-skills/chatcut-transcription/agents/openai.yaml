@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Transcription"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-transcription to help me with this ChatCut video project task."

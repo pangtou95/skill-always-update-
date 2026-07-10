@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Talking Head Guide"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-talking-head-guide to help me with this ChatCut video project task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Create Motion Graphics"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-create-motion-graphics to help me with this ChatCut video project task."

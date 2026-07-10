@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Export"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-export to help me with this ChatCut video project task."

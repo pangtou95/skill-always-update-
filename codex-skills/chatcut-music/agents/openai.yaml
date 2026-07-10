@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Music"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-music to help me with this ChatCut video project task."

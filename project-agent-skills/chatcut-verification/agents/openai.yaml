@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Verification"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-verification to help me with this ChatCut video project task."

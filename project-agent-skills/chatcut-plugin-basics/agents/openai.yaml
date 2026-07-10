@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chatcut Plugin Basics"
+  short_description: "ChatCut video workflow guidance"
+  default_prompt: "Use $chatcut-plugin-basics to help me with this ChatCut video project task."

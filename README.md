@@ -13,7 +13,7 @@ Symlinks were dereferenced during export, so linked skills such as Orchestra AI 
 
 ## Counts
 
-- Total `SKILL.md` files found after export: 551
+- Total `SKILL.md` files found after export: 552
 - Export size before compression: about 234 MB
 
 ## Notes Before Publishing
@@ -27,3 +27,7 @@ To install a skill manually into Codex, copy a skill directory into:
 ```
 
 Then restart Codex so the new skill list is refreshed.
+
+## Curated additions
+
+- `codex-skills/seedance-director-compat` — first-frame-first directing, reference-role mapping, audio sidecars, sequence continuity, and prompt-only Seedance compatibility with WAN/LTX fallbacks. This is a reduced MIT-compatible integration informed by `Emily2040/seedance-2.0`; it does not require a connected Seedance model.

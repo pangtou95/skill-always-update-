@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance Director Compatibility"
+  short_description: "First-frame directing with WAN/LTX fallback"
+  default_prompt: "Use $seedance-director-compat to turn this scene into a first-frame-first video prompt pack with a safe WAN/LTX fallback."

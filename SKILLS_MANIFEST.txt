@@ -500,6 +500,7 @@ codex-skills/ray-data/SKILL.md
 codex-skills/ray-train/SKILL.md
 codex-skills/rwkv/SKILL.md
 codex-skills/saelens/SKILL.md
+codex-skills/seedance-director-compat/SKILL.md
 codex-skills/seedance2-skill/SKILL.md
 codex-skills/seedance2-skill/zh/SKILL.md
 codex-skills/segment-anything/SKILL.md

@@ -9,8 +9,9 @@ from pathlib import Path
 
 REQUIRED = {
     "availability", "model_connected", "model_profile", "mode", "reference_roles",
-    "clip_contract", "continuity_anchors", "positive_prompt", "negative_prompt",
-    "audio_prompt", "audio_negative", "fallbacks", "source_refs",
+    "clip_contract", "continuity_anchors", "scene_type", "physics_contract_zh", "physics_contract_en",
+    "script_zh", "script_en", "positive_prompt_zh", "positive_prompt_en", "negative_prompt_zh", "negative_prompt_en",
+    "audio_prompt_zh", "audio_prompt_en", "audio_negative_zh", "audio_negative_en", "fallbacks", "source_refs",
 }
 MODES = {"t2v", "i2v", "v2v", "r2v", "flf2v", "edit", "extend"}
 CAMERA_TERMS = ("push", "pull", "dolly", "track", "orbit", "pan", "tilt", "handheld", "推进", "拉远", "跟随", "环绕", "横摇", "上摇", "手持")
@@ -34,7 +35,7 @@ def validate(payload):
         errors.append("mode must be one of: " + ", ".join(sorted(MODES)))
     if payload.get("availability") == "prompt-only" and payload.get("model_connected") is not False:
         errors.append("prompt-only packs must set model_connected to false")
-    for field in ("positive_prompt", "negative_prompt", "audio_prompt", "audio_negative"):
+    for field in ("script_zh", "script_en", "positive_prompt_zh", "positive_prompt_en", "negative_prompt_zh", "negative_prompt_en", "audio_prompt_zh", "audio_prompt_en", "audio_negative_zh", "audio_negative_en"):
         if field in payload and not isinstance(payload[field], str):
             errors.append(f"{field} must be a string")
     roles = payload.get("reference_roles", [])
@@ -57,8 +58,11 @@ def validate(payload):
             warnings.append("camera may contain several competing moves: " + ", ".join(moves))
     if payload.get("mode") == "i2v":
         has_first = any(isinstance(role, dict) and role.get("role") == "first_frame" for role in roles if isinstance(roles, list))
-        if not has_first and "@Image1" not in str(payload.get("positive_prompt", "")) and "@图片1" not in str(payload.get("positive_prompt", "")):
+        if not has_first and "@Image1" not in str(payload.get("positive_prompt_en", "")) and "@图片1" not in str(payload.get("positive_prompt_zh", "")):
             errors.append("i2v packs require a first-frame reference role or literal first-frame tag")
+    for field in ("script_en", "physics_contract_en", "positive_prompt_en", "negative_prompt_en", "audio_prompt_en", "audio_negative_en"):
+        if any("\u3400" <= char <= "\u9fff" for char in str(payload.get(field, ""))):
+            errors.append(f"{field} must be English-only")
     compatibility = str(payload.get("model_profile", "")).lower().startswith("seedance")
     if compatibility and not payload.get("source_refs"):
         warnings.append("Seedance compatibility pack should retain an upstream/source reference")

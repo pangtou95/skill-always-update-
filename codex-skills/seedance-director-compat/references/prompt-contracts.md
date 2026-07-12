@@ -7,7 +7,12 @@
   "availability": "prompt-only",
   "model_connected": false,
   "model_profile": "Seedance 2.0 Compatibility",
+  "preferred_language": "zh",
+  "translation": {"status": "complete | lexical-baseline | local-template", "method": "qwen-supplied | local-cinematic-compiler", "warning": ""},
   "mode": "i2v",
+  "scene_type": "action",
+  "physics_contract_zh": "",
+  "physics_contract_en": "",
   "reference_roles": [
     {"tag": "@Image1", "role": "first_frame", "preserve": ["identity", "wardrobe", "composition"], "exclude": ["unseen motion"]}
   ],
@@ -21,10 +26,16 @@
     "reserved_beats": []
   },
   "continuity_anchors": [],
-  "positive_prompt": "",
-  "negative_prompt": "",
-  "audio_prompt": "",
-  "audio_negative": "",
+  "script_zh": "",
+  "script_en": "",
+  "positive_prompt_zh": "",
+  "positive_prompt_en": "",
+  "negative_prompt_zh": "",
+  "negative_prompt_en": "",
+  "audio_prompt_zh": "",
+  "audio_prompt_en": "",
+  "audio_negative_zh": "",
+  "audio_negative_en": "",
   "fallbacks": {
     "wan": "",
     "ltx": ""

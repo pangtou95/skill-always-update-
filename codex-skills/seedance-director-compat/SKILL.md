@@ -1,6 +1,6 @@
 ---
 name: seedance-director-compat
-description: Create, normalize, or review director-led video prompt packs using Seedance 2.0-compatible principles even when Seedance is unavailable. Use for first-frame I2V, first/last-frame transitions, multimodal reference roles, connected clips, camera/motion/VFX/audio direction, or WAN/LTX fallback compilation without claiming that a Seedance model or API is connected.
+description: Create, normalize, or review bilingual Chinese-English director-led video prompt packs using Seedance 2.0-compatible principles even when Seedance is unavailable. Use for first-frame I2V, first/last-frame transitions, multimodal reference roles, physically stable dialogue/action/product/VFX/environment/multi-character scenes, connected clips, separate video/audio positive and negative prompts, or WAN/LTX fallback compilation without claiming that a Seedance model or API is connected.
 ---
 
 # Seedance Director Compatibility
@@ -18,18 +18,19 @@ Turn a scene into a compact production object and model-ready prompt while keepi
    - Use `sequence_project` for connected clips, long stories, continuations, dense dialogue, or several narrative turns. Plan the whole arc but compile only the next unresolved clip.
 3. Choose the input mode before writing prose: `t2v`, `i2v`, `v2v`, `r2v`, or `flf2v`.
 4. Assign every reference one primary role: identity, first frame, last frame, environment, motion, camera, timing, audio, or style. State what must not transfer.
-5. Name one internal directorial intention. Translate it into visible blocking, one camera choice, motivated light, performance, and sound; do not ship an abstract emotion label as the final prompt.
-6. Build one clip contract:
+5. Classify the scene and load its physical contract from [references/scenario-physics.md](references/scenario-physics.md): dialogue, subtle performance, action, product, VFX/transformation, environment/weather, multi-character interaction, transition, or general narrative.
+6. Name one internal directorial intention. Translate it into visible blocking, one camera choice, motivated light, performance, and sound; do not ship an abstract emotion label as the final prompt.
+7. Build one clip contract:
    - actual opening state;
    - one visible action and physical consequence;
    - one primary camera move with endpoint;
    - one stable end state;
    - continuity locks and reserved future beats;
    - audio layers and negative constraints.
-7. Compile the current clip only. For I2V, let the source carry static state and let text carry only motion, camera, timing, light change, sound, endpoint, and preservation constraints.
-8. Emit separate visual positive, visual negative, audio positive, and audio negative prompts. Preserve numbered adult placeholders exactly and never fill them.
-9. If Seedance is unavailable, compile the same clip contract for WAN or LTX using the fallback table in [references/compatibility.md](references/compatibility.md).
-10. Validate structured output with `python3 scripts/validate_prompt_pack.py PACK.json`.
+8. Compile the current clip only. For I2V, let the source carry static state and let text carry only motion, camera, timing, light change, sound, endpoint, and preservation constraints.
+9. Compile Chinese and English independently from the same contract. Do not merely place untranslated Chinese variables inside an English wrapper. Emit separate bilingual visual positive, visual negative, audio positive, and audio negative prompts. Preserve numbered adult placeholders exactly in both languages and never fill them.
+10. If Seedance is unavailable, compile the same clip contract for WAN or LTX using the fallback table in [references/compatibility.md](references/compatibility.md). Default LTX to English and WAN/Seedance compatibility to Chinese while always returning both languages.
+11. Validate structured output with `python3 scripts/validate_prompt_pack.py PACK.json`.
 
 ## Prompt Discipline
 
@@ -57,9 +58,11 @@ Return the production object before the final prompt:
 1. availability and model profile;
 2. mode and reference-role map;
 3. clip contract and continuity anchors;
-4. visual positive/negative prompts;
-5. audio positive/negative prompts;
-6. WAN/LTX fallback when requested or when Seedance is unavailable;
-7. source references and compatibility caveats.
+4. Chinese and English shot scripts;
+5. Chinese and English visual positive/negative prompts;
+6. Chinese and English audio positive/negative prompts;
+7. scene type, physical contracts, translation status, and model-preferred language;
+8. WAN/LTX fallback when requested or when Seedance is unavailable;
+9. source references and compatibility caveats.
 
 Use the stable JSON contract and templates in [references/prompt-contracts.md](references/prompt-contracts.md). Read [references/upstream-attribution.md](references/upstream-attribution.md) when redistributing or extending this skill.

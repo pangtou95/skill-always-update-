@@ -25,7 +25,7 @@
 | 论文与科研写作 | `ml-paper-writing`、`systems-paper-writing`、`academic-plotting`、`presenting-conference-talks` | 写 ML/系统论文、实验图表、会议演讲稿、研究叙事和投稿材料 |
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
-| 视频提示词与媒体生成 | `seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 用首帧优先、导演意图、参考职责和音频侧车编译 Seedance 兼容提示词；没有 Seedance 时可回退到 WAN/LTX，同时保留现有媒体生成与集成能力 |
+| 视频提示词与媒体生成 | `seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 用首帧优先、场景物理契约和导演意图生成中英对照脚本、画面正负向及音频正负向；没有 Seedance 时可回退到 WAN/LTX，同时保留现有媒体生成与集成能力 |
 | 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
 
 ## 适合哪些场景

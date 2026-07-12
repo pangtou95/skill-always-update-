@@ -30,4 +30,4 @@ Then restart Codex so the new skill list is refreshed.
 
 ## Curated additions
 
-- `codex-skills/seedance-director-compat` — first-frame-first directing, reference-role mapping, audio sidecars, sequence continuity, and prompt-only Seedance compatibility with WAN/LTX fallbacks. This is a reduced MIT-compatible integration informed by `Emily2040/seedance-2.0`; it does not require a connected Seedance model.
+- `codex-skills/seedance-director-compat` — bilingual Chinese-English first-frame directing, scenario-specific physical contracts, reference-role mapping, separate video/audio positive and negative prompts, sequence continuity, and prompt-only Seedance compatibility with WAN/LTX fallbacks. This is a reduced MIT-compatible integration informed by `Emily2040/seedance-2.0`; it does not require a connected Seedance model.

@@ -1,0 +1,77 @@
+{
+  "target": {
+    "company": "",
+    "role": "",
+    "stage": "",
+    "language": ""
+  },
+  "profile_risks": {
+    "short_tenure": false,
+    "career_changes": false,
+    "foreign_candidate": false,
+    "lesser_known_certification": false,
+    "ai_assisted_work": false
+  },
+  "coverage": {
+    "self_intro": false,
+    "career_summary": false,
+    "each_job_join_leave": false,
+    "why_company_role_now": false,
+    "strength_with_evidence": false,
+    "hardest_project": false,
+    "failure_learning": false,
+    "teamwork_conflict": false,
+    "leadership_boundary": false,
+    "technical_or_role_depth": false,
+    "career_plan": false,
+    "reverse_questions": false,
+    "short_tenure_explanation": false,
+    "career_consistency": false,
+    "why_japan": false,
+    "work_language_examples": false,
+    "residence_status_logistics": false,
+    "certification_explanation": false
+  },
+  "claim_boundaries": {
+    "formal_people_management": {
+      "claimed": false,
+      "direct_reports": 0,
+      "evidence_refs": []
+    },
+    "project_leadership": {
+      "level": "none",
+      "evidence_refs": []
+    },
+    "delivery": {
+      "level": "study",
+      "actual_users": "",
+      "operations_owner": "",
+      "failure_handling": "",
+      "evidence_refs": []
+    },
+    "ai_use": {
+      "used": false,
+      "human_owned_steps": [],
+      "ai_assisted_steps": [],
+      "verification": ""
+    },
+    "certification_comparison": {
+      "equivalence_status": "not_claimed",
+      "official_mapping_source": ""
+    }
+  },
+  "answers": [
+    {
+      "question_id": "CORE-01",
+      "facts_verified": false,
+      "evidence_refs": [],
+      "spoken_versions": {
+        "20s": "",
+        "60s": "",
+        "120s": ""
+      },
+      "follow_ups": []
+    }
+  ],
+  "sources": []
+}

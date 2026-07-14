@@ -113,9 +113,9 @@ This export upgrades [yanliudesign/offer-toolkit-skill](https://github.com/yanli
 
 | Skill | Locations | Main use |
 | --- | --- | --- |
-| `offer-toolkit-japan` | `codex-skills/`, `project-agent-skills/` | Route new-graduate, second-new-graduate, mid-career, foreign-company, and international-team searches; analyze JDs and employers; create 履歴書, 職務経歴書, Entry Sheets, and English resumes; prepare Japanese/English interviews; and review offer terms, fixed overtime, transfers, and residence-status support |
+| `offer-toolkit-japan` | `codex-skills/`, `project-agent-skills/` | Route new-graduate, second-new-graduate, mid-career, foreign-company, and international-team searches; analyze JDs and employers; create 履歴書, 職務経歴書, Entry Sheets, and English resumes; prepare evidence-based Japanese/English interviews with follow-up trees; and review offer terms, fixed overtime, transfers, and residence-status support |
 
-The skill includes Japan-specific document templates, 13 reusable English resume layouts from the MIT-licensed upstream project, current-source rules for JASSO, Hello Work, MHLW, JETRO, and the Immigration Services Agency, plus `scripts/japan_offer_audit.py` for structured employment-term completeness checks. Use `career-ops` alongside it for bulk scanning, tracking, and pipeline management.
+The skill includes Japan-specific document templates, 13 reusable English resume layouts from the MIT-licensed upstream project, a 130+ prompt interview bank, stage and role overlays, short-tenure and career-consistency drills, leadership/delivery/AI claim boundaries, and a current-intelligence workflow using 2025-2026 hiring-side research and candidate reports. `scripts/interview_pack_audit.py` checks interview coverage and claim boundaries, while `scripts/japan_offer_audit.py` checks structured employment terms. Use `career-ops` alongside it for bulk scanning, tracking, and pipeline management.
 
 ## Seedance 2.0 Skill Update
 
@@ -163,7 +163,7 @@ The latest updates add repository-derived skills sourced from or distilled from 
 | `chatcut-*` | `ChatCut-Inc/agent-plugin` | Editable ChatCut video production through MCP: media import, timeline editing, captions/transcription, talking-head cleanup, Motion Graphics, image/video/voice/music generation, shader effects, export, and verification |
 | `video-downloader` | `davila7/claude-code-templates` | Permission-aware video/audio downloading with quality and format selection, subtitle/metadata preservation, playlist controls, dry runs, output verification, and anti-bypass boundaries |
 | `cangjie-skill` | `kangarooking/cangjie-skill` | RIA-TV++ long-form content distillation into traceable, linked, pressure-tested agent skills with checkpointed execution and reusable templates |
-| `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` plus official Japan sources | Japan-focused job-market routing, evidence-based JD matching, 履歴書・職務経歴書・Entry Sheet and English resume preparation, bilingual interview practice, and offer, labor-term, fixed-overtime, transfer, and residence-status review |
+| `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` plus official and current market sources | Japan-focused job-market routing, evidence-based JD matching, 履歴書・職務経歴書・Entry Sheet and English resume preparation, a current 130+ prompt interview bank with follow-up and truth-boundary checks, and offer, labor-term, fixed-overtime, transfer, and residence-status review |
 
 These are stored under `project-agent-skills/`; `agent-reach` and `offer-toolkit-japan` are also exported under `codex-skills/` for direct Codex installation.
 

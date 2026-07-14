@@ -113,9 +113,9 @@ English version: [README.md](README.md)
 
 | Skill | 安装位置 | 主要用途 |
 | --- | --- | --- |
-| `offer-toolkit-japan` | `codex-skills/`、`project-agent-skills/` | 分流新卒、第二新卒、中途、外资和国际团队岗位；分析 JD 与公司；制作履歴書、職務経歴書、Entry Sheet 和英文 resume；准备日英双语面试；审查内定、固定残业、転勤和在留资格支持 |
+| `offer-toolkit-japan` | `codex-skills/`、`project-agent-skills/` | 分流新卒、第二新卒、中途、外资和国际团队岗位；分析 JD 与公司；制作履歴書、職務経歴書、Entry Sheet 和英文 resume；用证据卡和追问树准备日英双语面试；审查内定、固定残业、転勤和在留资格支持 |
 
-该 skill 内置日本求职文档模板、上游 MIT 许可的 13 套英文简历版式、JASSO、Hello Work、厚生劳动省、JETRO 和出入国在留管理厅的动态查证规则，并提供 `scripts/japan_offer_audit.py` 检查劳动条件是否完整。批量岗位扫描、申请跟踪和 pipeline 管理继续配合 `career-ops` 使用。
+该 skill 内置日本求职文档模板、上游 MIT 许可的 13 套英文简历版式、130+ 面试问题、面试阶段/岗位分层、短期离职与职业一贯性深挖、领导/系统交付/AI 辅助事实边界，以及基于 2025-2026 招聘方资料和候选人案例的动态情报流程。`scripts/interview_pack_audit.py` 检查题库覆盖和表述边界，`scripts/japan_offer_audit.py` 检查劳动条件。批量岗位扫描、申请跟踪和 pipeline 管理继续配合 `career-ops` 使用。
 
 ## Seedance 2.0 Skill 更新
 
@@ -163,7 +163,7 @@ English version: [README.md](README.md)
 | `chatcut-*` | `ChatCut-Inc/agent-plugin` | 通过 ChatCut MCP 做可编辑视频制作：素材导入、时间线编辑、字幕转写、口播清理、MG 动效、图像/视频/配音/音乐生成、shader 效果、导出和验证 |
 | `video-downloader` | `davila7/claude-code-templates` | 面向授权素材的视频/音频下载，支持清晰度与格式选择、字幕/元数据保存、播放列表控制、dry-run、输出验证和禁止绕过限制 |
 | `cangjie-skill` | `kangarooking/cangjie-skill` | 用 RIA-TV++ 把长内容蒸馏成可追溯、有关联、经过压力测试的 agent skills，并支持状态断点续跑和模板化交付 |
-| `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` + 日本官方来源 | 面向日本市场的岗位分流、证据化 JD 匹配、履歴書/職務経歴書/Entry Sheet/英文简历、双语面试，以及内定、劳动条件、固定残业、転勤和在留资格审查 |
+| `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` + 日本官方及近期市场资料 | 面向日本市场的岗位分流、证据化 JD 匹配、履歴書/職務経歴書/Entry Sheet/英文简历、带追问树与事实边界的 130+ 面试题库，以及内定、劳动条件、固定残业、転勤和在留资格审查 |
 
 这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 和 `offer-toolkit-japan` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 

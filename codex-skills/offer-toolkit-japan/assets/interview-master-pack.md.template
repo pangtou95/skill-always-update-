@@ -1,0 +1,193 @@
+# Interview Master Pack
+
+## Target Snapshot
+
+- Company:
+- Role / level:
+- Lane: new grad / second new grad / mid-career / manager
+- Interview stage:
+- Interviewer role:
+- Language:
+- Format: casual / HR / manager / technical / case / final / AI-video
+- JD URL:
+- Researched at:
+
+## Candidate Facts
+
+- Current role:
+- Career axis:
+- Languages used at work:
+- Residence status / expiry / support needed:
+- Expected compensation:
+- Earliest start date:
+- Non-negotiables:
+
+## Evidence Ledger
+
+| Evidence ID | Fact | Candidate's exact role | Artifact/source | Verified | Limitation |
+| --- | --- | --- | --- | --- | --- |
+| EV-01 |  |  |  | no |  |
+
+## Risk Map
+
+| Risk | Applies | What the interviewer may test | Evidence-backed response |
+| --- | --- | --- | --- |
+| short tenure |  | judgment, learning, recurrence |  |
+| career changes |  | consistency and direction |  |
+| leadership ambiguity |  | direct reports and authority |  |
+| customer-contact ambiguity |  | direct vs mediated contact |  |
+| delivery ambiguity |  | production vs internal tool vs PoC |  |
+| AI-assisted work |  | personal competence and verification |  |
+| lesser-known certification |  | domain and official level |  |
+| language gap |  | practical work communication |  |
+| residence status |  | start and support logistics |  |
+
+## Current Intelligence
+
+| Source | Tier | Event date | Role/stage match | Question or evaluation intent | Confidence |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+## Core Coverage
+
+- [ ] `CORE`: self-introduction and career summary
+- [ ] `MOTIVE`: why change, role, company and now
+- [ ] `HISTORY`: why join and leave every employer
+- [ ] `EVIDENCE`: hardest project, role, artifact and result
+- [ ] `LEAD`: formal leadership and coordination boundaries
+- [ ] `BEHAVIOR`: failure, conflict, feedback and deadlines
+- [ ] role overlay: technical / consulting / another role
+- [ ] `FOREIGN` when relevant
+- [ ] `FINAL`: compensation, start, location and commitment
+- [ ] reverse questions
+
+## Career Chronology
+
+For every employer:
+
+### Employer / period
+
+- Why joined:
+- What expected:
+- What actually did:
+- Why left or why considering leaving:
+- Improvement/consultation attempted:
+- Reflection:
+- What changed in next decision:
+- Likely follow-ups:
+
+## Career Consistency
+
+- One-sentence axis:
+- Step 1:
+- Step 2:
+- Step 3:
+- Why the target role is the next step:
+- What appears inconsistent:
+- Evidence that resolves the concern:
+
+## Project Cards
+
+### Project 1
+
+- Goal:
+- Period:
+- Total program / immediate team / direct reports:
+- Decision-maker:
+- Candidate role level:
+- Candidate deliverables:
+- Situation and constraint:
+- Action and reasoning:
+- Result:
+- Evidence:
+- Failure or limitation:
+- What would change next time:
+- Target-role transfer:
+
+## Claim Boundary
+
+- Leadership level: observed / assisted / task owner / main implementer / workstream coordinator / formal PL-PM / people manager
+- Direct reports:
+- Decision rights:
+- Customer contact: direct / manager-mediated / vendor-regulator / internal only
+- Delivery: study / prototype / PoC / internal tool / production workflow / customer production system
+- AI-assisted steps:
+- Human-owned steps:
+- Verification and accountability:
+- Certification equivalence: not claimed / official mapping available
+
+## Answer Cards
+
+Copy one card per high-priority question.
+
+### `<question-id>` Question
+
+- Evaluation intent:
+- One-sentence conclusion:
+- Facts/timeline:
+- Candidate's exact role:
+- Evidence IDs:
+- Result and limitation:
+- Target connection:
+- 20-second version:
+- 60-second version:
+- 120-second version:
+- Follow-up `why`:
+- Follow-up `scope`:
+- Follow-up `scale`:
+- Follow-up `method`:
+- Follow-up `conflict`:
+- Follow-up `result`:
+- Follow-up `failure`:
+- Follow-up `learning`:
+- Follow-up `transfer`:
+- Unknowns to confirm:
+
+## Stage Sets
+
+### Casual / recruiter
+
+1.
+2.
+3.
+
+### Hiring manager
+
+1.
+2.
+3.
+
+### Technical or case
+
+1.
+2.
+3.
+
+### Final
+
+1.
+2.
+3.
+
+## Reverse Questions
+
+| Question | Why it matters | Ask whom | Already answered publicly? |
+| --- | --- | --- | --- |
+|  |  |  | no |
+
+## Mock Interview Log
+
+| Date | Stage simulation | Question | Time | Observable issue | One change | Retest result |
+| --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |
+
+## Final Consistency Check
+
+- [ ] dates, titles and employer names match submitted documents
+- [ ] every number has an evidence ID
+- [ ] every project distinguishes own role from team result
+- [ ] no level inflation in leadership or system-delivery claims
+- [ ] AI usage and human verification are separated
+- [ ] lesser-known certificates are not declared equivalent without an official mapping
+- [ ] answers sound natural when spoken and are not memorized word-for-word
+- [ ] current company and role research is dated and linked

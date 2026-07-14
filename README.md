@@ -43,7 +43,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
 | Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
-| Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
+| Video direction, prompts, and media APIs | `video-director-studio`, `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `pixelle-video-workflows`, `narrator-ai-cli-skill`, `rw-generate-video`, `rw-integrate-*` | Turn ideas and assets into director treatments, format blueprints, shot/continuity/sound packs, provider-specific prompts, automated short videos, and integrated media generation |
 | Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
 | Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, and clip YouTube content |
 | Career and Japan job search | `career-ops`, `offer-toolkit-japan` | Scan and track applications, decode Japanese or English JDs, prepare 履歴書・職務経歴書・English resumes, practice bilingual interviews, and review offers, labor terms, and residence-status questions |
@@ -117,6 +117,16 @@ This export upgrades [yanliudesign/offer-toolkit-skill](https://github.com/yanli
 
 The skill includes Japan-specific document templates, 13 reusable English resume layouts from the MIT-licensed upstream project, a 130+ prompt interview bank, stage and role overlays, short-tenure and career-consistency drills, leadership/delivery/AI claim boundaries, and a current-intelligence workflow using 2025-2026 hiring-side research and candidate reports. `scripts/interview_pack_audit.py` checks interview coverage and claim boundaries, while `scripts/japan_offer_audit.py` checks structured employment terms. Use `career-ops` alongside it for bulk scanning, tracking, and pipeline management.
 
+## Video Director Studio
+
+This export adds a model-agnostic director layer distilled from the public metadata of [Liblib/LibTV's Skill catalog](https://www.liblib.tv/skill). The catalog returned 103 entries on 2026-07-14 across professional film, advertising, animation/games, creator media, short drama, utilities, and music video. The package does not copy hidden creator prompts or example media; it converts recurring production patterns into original, composable craft systems.
+
+| Skill | Locations | Main use |
+| --- | --- | --- |
+| `video-director-studio` | `codex-skills/`, `project-agent-skills/` | Select a format blueprint and trait-based director grammar; plan assets, characters, world, product locks, beats, shots, continuity, performance, light, edit, and sound; then compile the pack for Seedance, Runway, WAN/LTX, Pixelle, LibTV, or ChatCut |
+
+The skill includes 37 reusable director grammars, 20 format blueprints, 18 production modules, a structured director-pack template, `scripts/director_pack_audit.py`, and a public-metadata refresh tool, `scripts/liblib_catalog.py`. Existing Seedance, Runway, and Pixelle project Skills now route complex multi-shot work through this director layer first.
+
 ## Seedance 2.0 Skill Update
 
 This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
@@ -164,8 +174,9 @@ The latest updates add repository-derived skills sourced from or distilled from 
 | `video-downloader` | `davila7/claude-code-templates` | Permission-aware video/audio downloading with quality and format selection, subtitle/metadata preservation, playlist controls, dry runs, output verification, and anti-bypass boundaries |
 | `cangjie-skill` | `kangarooking/cangjie-skill` | RIA-TV++ long-form content distillation into traceable, linked, pressure-tested agent skills with checkpointed execution and reusable templates |
 | `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` plus official and current market sources | Japan-focused job-market routing, evidence-based JD matching, 履歴書・職務経歴書・Entry Sheet and English resume preparation, a current 130+ prompt interview bank with follow-up and truth-boundary checks, and offer, labor-term, fixed-overtime, transfer, and residence-status review |
+| `video-director-studio` | Public metadata synthesis of `liblib.tv/skill` | Model-agnostic AI video direction with trait-based grammars, TVC/drama/MV/animation/UGC blueprints, production modules, shot and continuity contracts, provider adapters, and structured QC |
 
-These are stored under `project-agent-skills/`; `agent-reach` and `offer-toolkit-japan` are also exported under `codex-skills/` for direct Codex installation.
+These are stored under `project-agent-skills/`; `agent-reach`, `offer-toolkit-japan`, and `video-director-studio` are also exported under `codex-skills/` for direct Codex installation.
 
 ## Example Use Cases
 
@@ -209,10 +220,11 @@ Combine `ml-paper-writing`, `systems-paper-writing`, `academic-plotting`, and `p
 
 ### Design Frontends And Generate Media
 
-Combine `open-design`, `frontend-design`, `web-design-engineer`, `taste-skill-frontend-direction`, `seedance2-skill`, `seedance-prompt-zh`, and Runway skills to help an agent:
+Combine `open-design`, `frontend-design`, `web-design-engineer`, `taste-skill-frontend-direction`, `video-director-studio`, `seedance2-skill`, `seedance-prompt-zh`, and Runway skills to help an agent:
 
 - build web apps, prototypes, dashboards, and landing pages;
 - create slide decks, posters, reports, and social assets;
+- turn a rough video idea into a director treatment, storyboard, shot/continuity/sound pack, and generator-specific prompts;
 - write Seedance 2.0 multimodal video prompts;
 - generate images, video, and audio;
 - integrate media generation APIs into products.

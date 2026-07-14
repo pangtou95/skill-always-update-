@@ -9,6 +9,8 @@ Source analyzed: https://github.com/AIDC-AI/Pixelle-Video
 
 Use this skill for Pixelle-Video setup, WebUI/API operation, Docker deployment, provider configuration, video generation, template/workflow customization, and troubleshooting.
 
+For creative direction beyond a basic topic or fixed script, first use `video-director-studio` to create the format blueprint, look grammar, beat sheet, scene boundaries, sound plan, and shot prompts. Map approved narration to Pixelle `fixed` mode, meaningful beat groups to `n_scenes`, the look grammar to `prompt_prefix`, and shot-specific action to scene prompts.
+
 ## What This Skill Can And Cannot Do
 
 This skill can guide Codex to install and operate Pixelle-Video, edit its configuration, add templates/workflows, call its API, and debug failures.
@@ -321,4 +323,3 @@ If API returns a local file path instead of a usable URL:
 - Warn users that OpenAI, DashScope, ARK, Kling, RunningHub, and similar providers may incur costs.
 - For free/local operation, prefer Ollama for LLM and local ComfyUI for media generation when the machine can support it.
 - Respect provider content policies, copyright, likeness, and voice-cloning consent requirements.
-

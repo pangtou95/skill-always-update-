@@ -43,7 +43,7 @@ English version: [README.md](README.md)
 | 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
-| 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`narrator-ai-cli-skill`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，制作 AI 电影/短剧解说视频，对接 Runway API，生成媒体内容，并把生成能力集成到项目里 |
+| 视频导演、提示词与媒体生成 | `video-director-studio`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`narrator-ai-cli-skill`、`rw-generate-video`、`rw-integrate-*` | 把想法和素材整理成导演方案、类型蓝图、镜头/连续性/声音包，再编译为各模型提示词、自动短视频或媒体生成集成 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
@@ -117,6 +117,16 @@ English version: [README.md](README.md)
 
 该 skill 内置日本求职文档模板、上游 MIT 许可的 13 套英文简历版式、130+ 面试问题、面试阶段/岗位分层、短期离职与职业一贯性深挖、领导/系统交付/AI 辅助事实边界，以及基于 2025-2026 招聘方资料和候选人案例的动态情报流程。`scripts/interview_pack_audit.py` 检查题库覆盖和表述边界，`scripts/japan_offer_audit.py` 检查劳动条件。批量岗位扫描、申请跟踪和 pipeline 管理继续配合 `career-ops` 使用。
 
+## Video Director Studio 视频导演工作台
+
+本次导出新增了一个模型无关的视频导演层，来源是对 [Liblib/LibTV Skill 页面](https://www.liblib.tv/skill)公开元数据的综合分析。2026-07-14 页面共返回 103 个条目，覆盖专业影视、商业广告、动漫游戏、自媒体、短剧漫剧、通用工具和音乐 MV。仓库没有复制创作者未公开的 Skill 正文或案例素材，而是把反复出现的方法提炼成可组合的原创制作系统。
+
+| Skill | 位置 | 主要用途 |
+| --- | --- | --- |
+| `video-director-studio` | `codex-skills/`、`project-agent-skills/` | 选择成片类型和特征化导演语法；规划素材、角色、世界观、产品锁定、节拍、镜头、连续性、表演、光线、剪辑和声音；再编译给 Seedance、Runway、WAN/LTX、Pixelle、LibTV 或 ChatCut |
+
+该 Skill 包含 37 套导演语法、20 种成片蓝图、18 个制作模块、结构化导演包模板、`scripts/director_pack_audit.py` 审计器和 `scripts/liblib_catalog.py` 公开目录刷新工具。现有 Seedance、Runway 和 Pixelle 项目 Skill 已接入该导演层，复杂多镜头任务会先完成导演包再生成。
+
 ## Seedance 2.0 Skill 更新
 
 本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
@@ -164,8 +174,9 @@ English version: [README.md](README.md)
 | `video-downloader` | `davila7/claude-code-templates` | 面向授权素材的视频/音频下载，支持清晰度与格式选择、字幕/元数据保存、播放列表控制、dry-run、输出验证和禁止绕过限制 |
 | `cangjie-skill` | `kangarooking/cangjie-skill` | 用 RIA-TV++ 把长内容蒸馏成可追溯、有关联、经过压力测试的 agent skills，并支持状态断点续跑和模板化交付 |
 | `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` + 日本官方及近期市场资料 | 面向日本市场的岗位分流、证据化 JD 匹配、履歴書/職務経歴書/Entry Sheet/英文简历、带追问树与事实边界的 130+ 面试题库，以及内定、劳动条件、固定残业、転勤和在留资格审查 |
+| `video-director-studio` | `liblib.tv/skill` 公开元数据综合分析 | 模型无关的 AI 视频导演编排，覆盖特征化导演语法、TVC/短剧/MV/动画/UGC 蓝图、制作模块、镜头与连续性合同、模型适配和结构化质检 |
 
-这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 和 `offer-toolkit-japan` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
+这些技能放在 `project-agent-skills/` 目录下；`agent-reach`、`offer-toolkit-japan` 和 `video-director-studio` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 
 ## 重点能力示例
 
@@ -213,6 +224,7 @@ English version: [README.md](README.md)
 
 - 生成网页、App 原型、仪表盘和落地页；
 - 制作 PPT、海报、社媒图、报告和视觉模板；
+- 把模糊视频想法整理成导演方案、分镜、镜头/连续性/声音包和模型专用提示词；
 - 撰写 Seedance 2.0 视频提示词，支持图片、视频、音频和文本的多模态引用；
 - 生成图片、视频、音频素材；
 - 把媒体生成 API 集成进项目。

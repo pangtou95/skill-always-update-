@@ -9,6 +9,8 @@ allowed-tools: Read, Grep, Glob, Edit, Write, Bash(uv run *), Bash(command -v uv
 
 Generate videos directly using the Runway API. This skill runs Python scripts that call the API, poll for completion, and download the result.
 
+For a complete ad, short drama, MV, animation, storyboard, or connected multi-shot piece, first use `video-director-studio` to create a director pack. Generate one approved shot contract at a time here, then return the observed result to the continuity state before compiling the next shot. A simple standalone clip can use this Skill directly.
+
 **IMPORTANT:** Run scripts from the user's working directory so output files are saved where the user expects.
 
 ## Usage

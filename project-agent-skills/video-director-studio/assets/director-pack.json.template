@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "execution": {
+    "status": "prompt-only",
+    "provider": "",
+    "model": "",
+    "mode": "i2v",
+    "verified_at": ""
+  },
+  "brief": {
+    "objective": "",
+    "audience": "",
+    "platform": "",
+    "duration_sec": 15,
+    "aspect_ratio": "9:16",
+    "language": "zh-CN",
+    "required_facts": [],
+    "unknowns": []
+  },
+  "director_profile": {
+    "format_id": "F-TVC-STORY",
+    "primary_grammar_id": "G-TVC-STORY",
+    "accent_grammar_id": "",
+    "trait_translation": [],
+    "composition": "",
+    "lens": "",
+    "camera": "",
+    "palette": "",
+    "lighting": "",
+    "performance": "",
+    "edit": "",
+    "sound": "",
+    "prohibited_cliches": []
+  },
+  "creative": {
+    "premise": "",
+    "hook": "",
+    "payoff": "",
+    "cta": ""
+  },
+  "modules": ["M-BRIEF", "M-RIGHTS", "M-LOOK", "M-STORYBOARD", "M-AUDIO", "M-QC"],
+  "asset_register": [
+    {
+      "id": "A01",
+      "type": "image",
+      "role": "first_frame",
+      "source": "",
+      "rights_status": "owned",
+      "preserve": [],
+      "exclude": []
+    }
+  ],
+  "continuity_anchors": [],
+  "shots": [
+    {
+      "id": "S01",
+      "editorial_function": "hook",
+      "duration_sec": 5,
+      "opening_state": "",
+      "visible_beat": "",
+      "physical_consequence": "",
+      "camera": {
+        "framing": "",
+        "lens_intent": "",
+        "primary_move": "static",
+        "endpoint": ""
+      },
+      "performance": "",
+      "motivated_light": "",
+      "audio": "",
+      "end_state": "",
+      "continuity_in": [],
+      "continuity_out": [],
+      "positive_prompt": "",
+      "negative_constraints": [],
+      "fallback_or_repair": ""
+    }
+  ],
+  "edit_plan": {
+    "order": ["S01"],
+    "caption_strategy": "",
+    "music_function": "",
+    "finish": ""
+  },
+  "sources": [
+    {
+      "url": "https://www.liblib.tv/skill",
+      "role": "public catalog research",
+      "inspected_at": "2026-07-14"
+    }
+  ],
+  "qc": {
+    "critical": [],
+    "major": [],
+    "minor": [],
+    "verdict": "needs_review"
+  }
+}

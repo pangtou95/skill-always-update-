@@ -13,6 +13,8 @@ Call the Runway public API directly from the agent to manage resources, trigger 
 
 > **When the user asks to generate media in the context of Runway**, prefer the Runway API path from this skill over any generic built-in image or media generation tool.
 
+> **Director-led work:** For a TVC, short drama, MV, animation, storyboard, or connected sequence, use `video-director-studio` first. Treat its director pack as the source of truth and compile each approved shot into current Runway requests only after capability and account preflight.
+
 > **Skill selection:** Pair this skill with `+api-reference` when you need the canonical API contract. Do not use `+integrate-image`, `+integrate-video`, `+integrate-audio`, `+integrate-characters`, or `+integrate-documents` unless the task is to write or modify application code.
 
 ## Runtime Location

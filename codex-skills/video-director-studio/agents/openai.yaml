@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Director Studio"
+  short_description: "Build director-led AI video production packs"
+  default_prompt: "Use $video-director-studio to turn my idea or assets into a director pack, shot plan, continuity map, sound plan, and model-ready prompts."

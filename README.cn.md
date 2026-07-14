@@ -45,7 +45,7 @@ English version: [README.md](README.md)
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`narrator-ai-cli-skill`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，制作 AI 电影/短剧解说视频，对接 Runway API，生成媒体内容，并把生成能力集成到项目里 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
-| 爬虫与内容工具 | `scrapling-official`、`youtube-clipper`、`career-ops` | 做网页抓取、YouTube 内容裁剪、职业材料整理、信息提取和自动化脚本 |
+| 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill`、`career-ops` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills、YouTube 内容裁剪和职业材料整理 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 
 ## 内容创作者 Top 10 Skills
@@ -95,6 +95,17 @@ English version: [README.md](README.md)
 
 运行提示：真正编辑 ChatCut 项目需要配置 ChatCut MCP server 并完成 ChatCut 登录。优先从 `chatcut-plugin-basics` 开始；如果 MCP 没有配置，先看它的 `references/plugin-setup.md`。
 
+## 视频下载与长内容蒸馏 Skills
+
+本次导出把 [davila7/claude-code-templates 的 video-downloader](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/media/video-downloader) 和 [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) 整合成一条连续工作流：
+
+| Skill | 位置 | 主要用途 |
+| --- | --- | --- |
+| `video-downloader` | `codex-skills/`、`project-agent-skills/` | 用 `yt-dlp` 下载用户有权使用的在线视频/音频，选择清晰度和格式，保留字幕、元数据和缩略图，检查播放列表，验证结果，并拒绝 DRM 或访问控制绕过 |
+| `cangjie-skill` | `codex-skills/`、`project-agent-skills/` | 用 RIA-TV++、五类提取、三重验证、知识链接和压力测试，把书籍、长视频转写、播客、课程、访谈和资料集蒸馏成原子化、可追溯、可续跑的 skills |
+
+`video-downloader` 带有可执行的 `scripts/download_media.py`，默认使用保守参数并支持 dry-run。`cangjie-skill` 保留上游方法论、提取器和输出模板，同时适配 Codex 安装路径与 frontmatter 规范。
+
 ## Seedance 2.0 Skill 更新
 
 本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
@@ -139,6 +150,8 @@ English version: [README.md](README.md)
 | `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI 电影/短剧解说视频制作，覆盖内置素材、BGM、配音角色、解说模板、文案生成、视频合成、任务轮询和 Magic Video 规则 |
 | `aitoearn-compliance-ops` | `yikart/AiToEarn` | AiToEarn 内容运营合规自动化，覆盖发布、互动、账号健康、审批门禁、冷却、审计日志、MCP/API、Docker/Relay 和拒绝绕风控 |
 | `chatcut-*` | `ChatCut-Inc/agent-plugin` | 通过 ChatCut MCP 做可编辑视频制作：素材导入、时间线编辑、字幕转写、口播清理、MG 动效、图像/视频/配音/音乐生成、shader 效果、导出和验证 |
+| `video-downloader` | `davila7/claude-code-templates` | 面向授权素材的视频/音频下载，支持清晰度与格式选择、字幕/元数据保存、播放列表控制、dry-run、输出验证和禁止绕过限制 |
+| `cangjie-skill` | `kangarooking/cangjie-skill` | 用 RIA-TV++ 把长内容蒸馏成可追溯、有关联、经过压力测试的 agent skills，并支持状态断点续跑和模板化交付 |
 
 这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 
@@ -207,6 +220,8 @@ English version: [README.md](README.md)
 用 aitoearn-compliance-ops 帮我设计一个带风控门禁的 AiToEarn 合规发布流程
 用 chatcut-plugin-basics 和 chatcut-asset-import 帮我在 ChatCut 里编辑这个本地视频
 用 chatcut-transcription 和 chatcut-export 帮我加字幕并导出成片
+用 video-downloader 帮我把我拥有版权的视频下载成 1080p MP4，并保留字幕和元数据
+用 cangjie-skill 把这份已授权课程转写稿蒸馏成可复用、经过测试的 skills
 用 gsap-scrolltrigger 和 gsap-react 帮我在 Next.js 里做一个 pinned scroll 动画
 ```
 

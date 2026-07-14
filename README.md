@@ -45,7 +45,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
 | Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
-| Scraping and content tools | `scrapling-official`, `youtube-clipper`, `career-ops` | Scrape websites, clip YouTube content, organize career materials, extract information, and automate content workflows |
+| Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill`, `career-ops` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, clip YouTube content, and organize career materials |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
 
 ## Content Creator Top 10 Skills
@@ -95,6 +95,17 @@ This export adds [ChatCut-Inc/agent-plugin](https://github.com/ChatCut-Inc/agent
 
 Runtime note: real project edits require the ChatCut MCP server and ChatCut authentication. Start with `chatcut-plugin-basics`; if the MCP server is missing, read its `references/plugin-setup.md`.
 
+## Video Download And Content Distillation Skills
+
+This export integrates [davila7/claude-code-templates video-downloader](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/media/video-downloader) and [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) as a connected workflow:
+
+| Skill | Locations | Main use |
+| --- | --- | --- |
+| `video-downloader` | `codex-skills/`, `project-agent-skills/` | Download authorized online video/audio with `yt-dlp`, select quality and format, preserve subtitles/metadata/thumbnails, inspect playlists, verify outputs, and refuse DRM or access-control bypasses |
+| `cangjie-skill` | `codex-skills/`, `project-agent-skills/` | Distill books, long-video transcripts, podcasts, courses, interviews, and source collections into atomic skills through RIA-TV++, five extraction passes, triple verification, cross-linking, pressure tests, and resumable audit artifacts |
+
+The video downloader includes an executable `scripts/download_media.py` with conservative defaults and dry-run support. Cangjie keeps the upstream methodology, extractor prompts, and output templates while adapting installation and generated frontmatter for Codex.
+
 ## Seedance 2.0 Skill Update
 
 This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
@@ -139,6 +150,8 @@ The latest updates add repository-derived skills sourced from or distilled from 
 | `narrator-ai-cli-skill` | `NarratorAI-Studio/narrator-ai-cli-skill` | AI movie and short-drama narration production with built-in materials, BGM, dubbing voices, narration templates, script generation, video composition, task polling, and Magic Video rules |
 | `aitoearn-compliance-ops` | `yikart/AiToEarn` | Compliant AiToEarn creator-operations automation with risk checks for publishing, engagement, account health, approval gates, cooldowns, audit logs, MCP/API setup, Docker/Relay usage, and ban-evasion refusal |
 | `chatcut-*` | `ChatCut-Inc/agent-plugin` | Editable ChatCut video production through MCP: media import, timeline editing, captions/transcription, talking-head cleanup, Motion Graphics, image/video/voice/music generation, shader effects, export, and verification |
+| `video-downloader` | `davila7/claude-code-templates` | Permission-aware video/audio downloading with quality and format selection, subtitle/metadata preservation, playlist controls, dry runs, output verification, and anti-bypass boundaries |
+| `cangjie-skill` | `kangarooking/cangjie-skill` | RIA-TV++ long-form content distillation into traceable, linked, pressure-tested agent skills with checkpointed execution and reusable templates |
 
 These are stored under `project-agent-skills/`; `agent-reach` is also exported under `codex-skills/` for direct Codex installation.
 
@@ -207,6 +220,8 @@ Use pixelle-video-workflows to install Pixelle-Video and generate a 5-scene shor
 Use aitoearn-compliance-ops to design a compliant AiToEarn publishing workflow with risk gates.
 Use chatcut-plugin-basics and chatcut-asset-import to edit this local video in ChatCut.
 Use chatcut-transcription and chatcut-export to add captions and render the final cut.
+Use video-downloader to save this video I own, including subtitles and metadata, in 1080p MP4.
+Use cangjie-skill to distill this authorized course transcript into reusable, tested skills.
 Use gsap-scrolltrigger and gsap-react to build a pinned scroll animation in Next.js.
 ```
 

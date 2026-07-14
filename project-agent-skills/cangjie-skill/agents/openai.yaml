@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cangjie Content Distiller"
+  short_description: "Distill long-form content into tested agent skills"
+  default_prompt: "Use $cangjie-skill to distill this long-form source into reusable, tested skills."

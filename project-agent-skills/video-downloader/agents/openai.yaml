@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Downloader"
+  short_description: "Download permitted online video and audio safely"
+  default_prompt: "Use $video-downloader to download this permitted video with the requested format and quality."

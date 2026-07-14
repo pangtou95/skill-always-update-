@@ -19,6 +19,7 @@ codex-skills/bitsandbytes/SKILL.md
 codex-skills/blip-2/SKILL.md
 codex-skills/brainstorming-research-ideas/SKILL.md
 codex-skills/brand-voice-guard/SKILL.md
+codex-skills/cangjie-skill/SKILL.md
 codex-skills/chatcut-asset-import/SKILL.md
 codex-skills/chatcut-create-motion-graphics/SKILL.md
 codex-skills/chatcut-export/SKILL.md
@@ -556,6 +557,7 @@ codex-skills/transformer-lens/SKILL.md
 codex-skills/trl-fine-tuning/SKILL.md
 codex-skills/unsloth/SKILL.md
 codex-skills/verl/SKILL.md
+codex-skills/video-downloader/SKILL.md
 codex-skills/viral-hook-title/SKILL.md
 codex-skills/vllm/SKILL.md
 codex-skills/web-design-engineer/SKILL.md
@@ -565,6 +567,7 @@ project-agent-skills/agent-reach/SKILL.md
 project-agent-skills/aitoearn-compliance-ops/SKILL.md
 project-agent-skills/asset-prompt-pack/SKILL.md
 project-agent-skills/brand-voice-guard/SKILL.md
+project-agent-skills/cangjie-skill/SKILL.md
 project-agent-skills/career-ops/SKILL.md
 project-agent-skills/chatcut-asset-import/SKILL.md
 project-agent-skills/chatcut-create-motion-graphics/SKILL.md
@@ -626,6 +629,7 @@ project-agent-skills/taste-skill-frontend-direction/SKILL.md
 project-agent-skills/twenty-crm-development/SKILL.md
 project-agent-skills/understand-anything-knowledge-graph/SKILL.md
 project-agent-skills/use-runway-api/SKILL.md
+project-agent-skills/video-downloader/SKILL.md
 project-agent-skills/viral-hook-title/SKILL.md
 user-agent-skills/agent-reach/SKILL.md
 user-agent-skills/asset-prompt-pack/SKILL.md

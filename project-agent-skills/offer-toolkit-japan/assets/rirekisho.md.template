@@ -1,0 +1,41 @@
+# 履歴書 Draft Schema
+
+> Transfer this reviewed content into the employer-requested form or current MHLW sample. Do not submit this Markdown schema unless requested.
+
+- 作成日:
+- 氏名:
+- フリガナ:
+- 生年月日: [only when requested]
+- 住所:
+- 電話:
+- メール:
+- 写真: [required by form / not requested / pending]
+
+## 学歴・職歴
+
+| 年 | 月 | 内容 |
+| --- | --- | --- |
+| | | 学歴 |
+| | | 職歴 |
+| | | 以上 |
+
+## 免許・資格
+
+| 年 | 月 | 正式名称・スコア |
+| --- | --- | --- |
+| | | |
+
+## 志望動機・自己PR
+
+[会社/事業への理由 + 職種への理由 + 自分の証拠 + 入社後の貢献]
+
+## 本人希望記入欄
+
+[真实条件，或按申请表规范填写]
+
+## Verification
+
+- [ ] Dates match every other submitted document
+- [ ] Names and qualifications use official wording
+- [ ] Every claim can be explained in interview
+- [ ] No sample data or `[待確認]` remains

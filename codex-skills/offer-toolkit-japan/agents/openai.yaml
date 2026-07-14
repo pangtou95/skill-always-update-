@@ -1,0 +1,4 @@
+interface:
+  display_name: "Japan Offer Toolkit"
+  short_description: "Japan job search, documents, interviews, and offers"
+  default_prompt: "Use $offer-toolkit-japan to build a Japan-focused job search strategy for this role and candidate profile."

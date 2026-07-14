@@ -45,7 +45,8 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
 | Video prompts and media APIs | `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `narrator-ai-cli-skill`, `rw-generate-image`, `rw-generate-video`, `rw-generate-audio`, `rw-integrate-*` | Write Seedance 2.0 multimodal video prompts, produce AI narration videos, use Runway APIs, generate media, and integrate generation into projects |
 | Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
-| Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill`, `career-ops` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, clip YouTube content, and organize career materials |
+| Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, and clip YouTube content |
+| Career and Japan job search | `career-ops`, `offer-toolkit-japan` | Scan and track applications, decode Japanese or English JDs, prepare 履歴書・職務経歴書・English resumes, practice bilingual interviews, and review offers, labor terms, and residence-status questions |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
 
 ## Content Creator Top 10 Skills
@@ -106,6 +107,16 @@ This export integrates [davila7/claude-code-templates video-downloader](https://
 
 The video downloader includes an executable `scripts/download_media.py` with conservative defaults and dry-run support. Cangjie keeps the upstream methodology, extractor prompts, and output templates while adapting installation and generated frontmatter for Codex.
 
+## Japan Offer Toolkit
+
+This export upgrades [yanliudesign/offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill) into a Japan-focused, evidence-based workflow. It keeps the upstream JD analysis, resume templating, and STAR/CAR interview methods, while removing hard-coded author paths, promotional output, and false interview-probability precision.
+
+| Skill | Locations | Main use |
+| --- | --- | --- |
+| `offer-toolkit-japan` | `codex-skills/`, `project-agent-skills/` | Route new-graduate, second-new-graduate, mid-career, foreign-company, and international-team searches; analyze JDs and employers; create 履歴書, 職務経歴書, Entry Sheets, and English resumes; prepare Japanese/English interviews; and review offer terms, fixed overtime, transfers, and residence-status support |
+
+The skill includes Japan-specific document templates, 13 reusable English resume layouts from the MIT-licensed upstream project, current-source rules for JASSO, Hello Work, MHLW, JETRO, and the Immigration Services Agency, plus `scripts/japan_offer_audit.py` for structured employment-term completeness checks. Use `career-ops` alongside it for bulk scanning, tracking, and pipeline management.
+
 ## Seedance 2.0 Skill Update
 
 This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
@@ -152,8 +163,9 @@ The latest updates add repository-derived skills sourced from or distilled from 
 | `chatcut-*` | `ChatCut-Inc/agent-plugin` | Editable ChatCut video production through MCP: media import, timeline editing, captions/transcription, talking-head cleanup, Motion Graphics, image/video/voice/music generation, shader effects, export, and verification |
 | `video-downloader` | `davila7/claude-code-templates` | Permission-aware video/audio downloading with quality and format selection, subtitle/metadata preservation, playlist controls, dry runs, output verification, and anti-bypass boundaries |
 | `cangjie-skill` | `kangarooking/cangjie-skill` | RIA-TV++ long-form content distillation into traceable, linked, pressure-tested agent skills with checkpointed execution and reusable templates |
+| `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` plus official Japan sources | Japan-focused job-market routing, evidence-based JD matching, 履歴書・職務経歴書・Entry Sheet and English resume preparation, bilingual interview practice, and offer, labor-term, fixed-overtime, transfer, and residence-status review |
 
-These are stored under `project-agent-skills/`; `agent-reach` is also exported under `codex-skills/` for direct Codex installation.
+These are stored under `project-agent-skills/`; `agent-reach` and `offer-toolkit-japan` are also exported under `codex-skills/` for direct Codex installation.
 
 ## Example Use Cases
 
@@ -222,6 +234,7 @@ Use chatcut-plugin-basics and chatcut-asset-import to edit this local video in C
 Use chatcut-transcription and chatcut-export to add captions and render the final cut.
 Use video-downloader to save this video I own, including subtitles and metadata, in 1080p MP4.
 Use cangjie-skill to distill this authorized course transcript into reusable, tested skills.
+Use offer-toolkit-japan to analyze this Tokyo role, prepare my 履歴書 and 職務経歴書, and build a bilingual interview pack without inventing experience.
 Use gsap-scrolltrigger and gsap-react to build a pinned scroll animation in Next.js.
 ```
 

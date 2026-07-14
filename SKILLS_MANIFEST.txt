@@ -93,6 +93,7 @@ codex-skills/nemo-curator/SKILL.md
 codex-skills/nemo-evaluator/SKILL.md
 codex-skills/nemo-guardrails/SKILL.md
 codex-skills/nnsight/SKILL.md
+codex-skills/offer-toolkit-japan/SKILL.md
 codex-skills/open-design/SKILL.md
 codex-skills/open-design/apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md
 codex-skills/open-design/design-templates/audio-jingle/SKILL.md
@@ -600,6 +601,7 @@ project-agent-skills/gsap-timeline/SKILL.md
 project-agent-skills/gsap-utils/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
 project-agent-skills/narrator-ai-cli-skill/SKILL.md
+project-agent-skills/offer-toolkit-japan/SKILL.md
 project-agent-skills/pixelle-video-workflows/SKILL.md
 project-agent-skills/platform-repurpose/SKILL.md
 project-agent-skills/ppf-contact-solver-workflows/SKILL.md

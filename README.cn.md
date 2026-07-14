@@ -45,7 +45,8 @@ English version: [README.md](README.md)
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频提示词与媒体生成 | `seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`narrator-ai-cli-skill`、`rw-generate-image`、`rw-generate-video`、`rw-generate-audio`、`rw-integrate-*` | 撰写 Seedance 2.0 多模态视频提示词，制作 AI 电影/短剧解说视频，对接 Runway API，生成媒体内容，并把生成能力集成到项目里 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
-| 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill`、`career-ops` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills、YouTube 内容裁剪和职业材料整理 |
+| 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
+| 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 
 ## 内容创作者 Top 10 Skills
@@ -106,6 +107,16 @@ English version: [README.md](README.md)
 
 `video-downloader` 带有可执行的 `scripts/download_media.py`，默认使用保守参数并支持 dry-run。`cangjie-skill` 保留上游方法论、提取器和输出模板，同时适配 Codex 安装路径与 frontmatter 规范。
 
+## 日本求职 Offer Toolkit
+
+本次导出把 [yanliudesign/offer-toolkit-skill](https://github.com/yanliudesign/offer-toolkit-skill) 升级为面向日本求职、以证据为基础的完整工作流。保留上游的 JD 分析、简历模板和 STAR/CAR 面试方法，同时去掉作者电脑固定路径、强制推广内容和没有依据的“面试概率”精确数字。
+
+| Skill | 安装位置 | 主要用途 |
+| --- | --- | --- |
+| `offer-toolkit-japan` | `codex-skills/`、`project-agent-skills/` | 分流新卒、第二新卒、中途、外资和国际团队岗位；分析 JD 与公司；制作履歴書、職務経歴書、Entry Sheet 和英文 resume；准备日英双语面试；审查内定、固定残业、転勤和在留资格支持 |
+
+该 skill 内置日本求职文档模板、上游 MIT 许可的 13 套英文简历版式、JASSO、Hello Work、厚生劳动省、JETRO 和出入国在留管理厅的动态查证规则，并提供 `scripts/japan_offer_audit.py` 检查劳动条件是否完整。批量岗位扫描、申请跟踪和 pipeline 管理继续配合 `career-ops` 使用。
+
 ## Seedance 2.0 Skill 更新
 
 本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
@@ -152,8 +163,9 @@ English version: [README.md](README.md)
 | `chatcut-*` | `ChatCut-Inc/agent-plugin` | 通过 ChatCut MCP 做可编辑视频制作：素材导入、时间线编辑、字幕转写、口播清理、MG 动效、图像/视频/配音/音乐生成、shader 效果、导出和验证 |
 | `video-downloader` | `davila7/claude-code-templates` | 面向授权素材的视频/音频下载，支持清晰度与格式选择、字幕/元数据保存、播放列表控制、dry-run、输出验证和禁止绕过限制 |
 | `cangjie-skill` | `kangarooking/cangjie-skill` | 用 RIA-TV++ 把长内容蒸馏成可追溯、有关联、经过压力测试的 agent skills，并支持状态断点续跑和模板化交付 |
+| `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` + 日本官方来源 | 面向日本市场的岗位分流、证据化 JD 匹配、履歴書/職務経歴書/Entry Sheet/英文简历、双语面试，以及内定、劳动条件、固定残业、転勤和在留资格审查 |
 
-这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
+这些技能放在 `project-agent-skills/` 目录下；`agent-reach` 和 `offer-toolkit-japan` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
 
 ## 重点能力示例
 
@@ -222,6 +234,7 @@ English version: [README.md](README.md)
 用 chatcut-transcription 和 chatcut-export 帮我加字幕并导出成片
 用 video-downloader 帮我把我拥有版权的视频下载成 1080p MP4，并保留字幕和元数据
 用 cangjie-skill 把这份已授权课程转写稿蒸馏成可复用、经过测试的 skills
+用 offer-toolkit-japan 分析这个东京岗位，制作履歴書和職務経歴書，并在不虚构经历的前提下准备日英双语面试包
 用 gsap-scrolltrigger 和 gsap-react 帮我在 Next.js 里做一个 pinned scroll 动画
 ```
 

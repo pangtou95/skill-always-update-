@@ -1,0 +1,63 @@
+{
+  "source_document": "",
+  "employing_entity": "",
+  "employment_type": "",
+  "contract_term": {
+    "fixed": false,
+    "period": "",
+    "renewal_criteria": "",
+    "renewal_limit": ""
+  },
+  "probation": {
+    "present": true,
+    "duration": "",
+    "different_conditions": ""
+  },
+  "job_duties": {
+    "initial": "",
+    "change_scope": ""
+  },
+  "work_location": {
+    "initial": "",
+    "change_scope": "",
+    "remote_policy": "",
+    "transfer_expectation": ""
+  },
+  "compensation": {
+    "base_salary": "",
+    "payment_frequency": "",
+    "allowances": [],
+    "fixed_overtime": {
+      "included": false,
+      "hours": "",
+      "amount": "",
+      "excess_paid": ""
+    },
+    "bonus": {
+      "guaranteed": false,
+      "details": ""
+    },
+    "salary_review": "",
+    "equity": ""
+  },
+  "working_time": {
+    "schedule": "",
+    "breaks": "",
+    "overtime": "",
+    "system": "standard",
+    "deemed_hours": ""
+  },
+  "leave": {
+    "holidays": "",
+    "annual_paid_leave": "",
+    "special_leave": ""
+  },
+  "insurance": [],
+  "start_date": "",
+  "visa_support": {
+    "needed": true,
+    "details": "",
+    "responsible_party": ""
+  },
+  "open_questions": []
+}

@@ -44,6 +44,7 @@ codex-skills/cosmos-policy/SKILL.md
 codex-skills/creative-thinking-for-research/SKILL.md
 codex-skills/crewai/SKILL.md
 codex-skills/deepspeed/SKILL.md
+codex-skills/deeptutor-cli/SKILL.md
 codex-skills/dspy/SKILL.md
 codex-skills/fact-check-citation/SKILL.md
 codex-skills/faiss/SKILL.md
@@ -62,6 +63,7 @@ codex-skills/gsap-timeline/SKILL.md
 codex-skills/gsap-utils/SKILL.md
 codex-skills/guidance/SKILL.md
 codex-skills/guizang-ppt-skill/SKILL.md
+codex-skills/hallmark/SKILL.md
 codex-skills/hqq/SKILL.md
 codex-skills/huggingface-tokenizers/SKILL.md
 codex-skills/instructor/SKILL.md
@@ -589,6 +591,7 @@ project-agent-skills/chatcut-widget-forms/SKILL.md
 project-agent-skills/claude-mem-operations/SKILL.md
 project-agent-skills/content-calendar-planner/SKILL.md
 project-agent-skills/content-research-brief/SKILL.md
+project-agent-skills/deeptutor-cli/SKILL.md
 project-agent-skills/fact-check-citation/SKILL.md
 project-agent-skills/freedomain-dns-ops/SKILL.md
 project-agent-skills/gpt-image-2-style-library/SKILL.md
@@ -600,6 +603,7 @@ project-agent-skills/gsap-react/SKILL.md
 project-agent-skills/gsap-scrolltrigger/SKILL.md
 project-agent-skills/gsap-timeline/SKILL.md
 project-agent-skills/gsap-utils/SKILL.md
+project-agent-skills/hallmark/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
 project-agent-skills/narrator-ai-cli-skill/SKILL.md
 project-agent-skills/offer-toolkit-japan/SKILL.md

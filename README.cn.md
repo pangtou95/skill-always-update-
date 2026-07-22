@@ -35,12 +35,13 @@ English version: [README.md](README.md)
 | 数据处理与评测 | `nemo-curator`、`ray-data`、`lm-evaluation-harness`、`bigcode-evaluation-harness`、`nemo-evaluator` | 构建训练数据流水线，清洗数据，做 benchmark、代码模型评测、自动化评估和实验记录 |
 | RAG 与向量数据库 | `faiss`、`qdrant`、`chroma`、`pinecone`、`sentence-transformers` | 搭建检索增强生成系统，设计 embedding、索引、召回、rerank 和向量库集成 |
 | Agent 与工作流 | `langchain`、`llamaindex`、`crewai`、`autogpt`、`a-evolve` | 构建多 Agent 协作、工具调用、任务规划、知识库问答和自动化研究流程 |
+| 学习与深度研究助手 | `deeptutor-cli` | 操作 DeepTutor 的辅导、深度解题、测验、研究、知识库、笔记本、记忆、会话、Partner、API 和本地 Web 应用流程 |
 | Prompt 与结构化输出 | `dspy`、`guidance`、`outlines`、`instructor` | 编写可控 prompt、结构化 JSON 输出、约束式生成、prompt 优化和程序化提示工程 |
 | 安全与对齐 | `constitutional-ai`、`llamaguard`、`nemo-guardrails`、`prompt-guard` | 做安全策略、内容过滤、prompt injection 防护、护栏设计和对齐方法研究 |
 | 多模态与生成模型 | `stable-diffusion`、`segment-anything`、`clip`、`blip-2`、`llava`、`whisper`、`audiocraft` | 处理图像生成、图像理解、分割、视觉语言模型、语音识别、音频生成和多模态应用 |
 | 论文与科研写作 | `ml-paper-writing`、`systems-paper-writing`、`academic-plotting`、`presenting-conference-talks` | 写 ML/系统论文、实验图表、会议演讲稿、研究叙事和投稿材料 |
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
-| 前端与视觉设计 | `frontend-design`、`web-design-engineer`、`open-design` | 生成网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
+| 前端与视觉设计 | `hallmark`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频导演、提示词与媒体生成 | `video-director-studio`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`narrator-ai-cli-skill`、`rw-generate-video`、`rw-integrate-*` | 把想法和素材整理成导演方案、类型蓝图、镜头/连续性/声音包，再编译为各模型提示词、自动短视频或媒体生成集成 |
@@ -127,6 +128,17 @@ English version: [README.md](README.md)
 
 该 Skill 包含 37 套导演语法、20 种成片蓝图、18 个制作模块、结构化导演包模板、`scripts/director_pack_audit.py` 审计器和 `scripts/liblib_catalog.py` 公开目录刷新工具。现有 Seedance、Runway 和 Pixelle 项目 Skill 已接入该导演层，复杂多镜头任务会先完成导演包再生成。
 
+## DeepTutor 与 Hallmark Skills
+
+本次导出加入了 [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) 和 [nutlope/hallmark](https://github.com/nutlope/hallmark) 的学习研究与界面设计 Skills，并完成 Codex 兼容和独立安装修复。
+
+| Skill | 安装位置 | 主要用途 |
+| --- | --- | --- |
+| `deeptutor-cli` | `codex-skills/`、`project-agent-skills/` | 检查、安装、初始化和操作 DeepTutor 1.5.2，覆盖辅导、深度解题、题目生成、研究、可视化、文档知识库、笔记本、会话、记忆、Partner、API 服务和本地 Web 应用 |
+| `hallmark` | `codex-skills/`、`project-agent-skills/` | 设计、审计、重设计和研究界面，提供 21 种宏观结构、20 套主题、响应式/交互状态检查、可移植 design tokens 和 58 项反模板化审查 |
+
+`deeptutor-cli` 是操作 Skill，不包含 DeepTutor 应用本体。真正运行前仍需安装外部 `deeptutor` 命令，并配置用户选择的模型和 embedding 服务。Hallmark 是纯指令 Skill，不需要 Hallmark 程序；本次打包补入了上游独立 Skill 目录遗漏的主题 token 和案例参考。两份包均保留 Apache-2.0 或 MIT 许可证说明。
+
 ## Seedance 2.0 Skill 更新
 
 本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
@@ -175,8 +187,10 @@ English version: [README.md](README.md)
 | `cangjie-skill` | `kangarooking/cangjie-skill` | 用 RIA-TV++ 把长内容蒸馏成可追溯、有关联、经过压力测试的 agent skills，并支持状态断点续跑和模板化交付 |
 | `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` + 日本官方及近期市场资料 | 面向日本市场的岗位分流、证据化 JD 匹配、履歴書/職務経歴書/Entry Sheet/英文简历、带追问树与事实边界的 130+ 面试题库，以及内定、劳动条件、固定残业、転勤和在留资格审查 |
 | `video-director-studio` | `liblib.tv/skill` 公开元数据综合分析 | 模型无关的 AI 视频导演编排，覆盖特征化导演语法、TVC/短剧/MV/动画/UGC 蓝图、制作模块、镜头与连续性合同、模型适配和结构化质检 |
+| `deeptutor-cli` | `HKUDS/DeepTutor` | DeepTutor 1.5.2 的 Codex 兼容 CLI 操作层，包含运行预检、修正后的安装路径、证据化学习流程和破坏性操作保护 |
+| `hallmark` | `nutlope/hallmark` | Hallmark 1.1.0 界面设计与审计流程，包含完整上游参考、补齐的 20 主题 token、修复后的独立链接和 Codex UI 元数据 |
 
-这些技能放在 `project-agent-skills/` 目录下；`agent-reach`、`offer-toolkit-japan` 和 `video-director-studio` 还同时导出到 `codex-skills/`，可直接安装到 Codex。
+这些技能放在 `project-agent-skills/` 目录下；包括 `agent-reach`、`offer-toolkit-japan`、`video-director-studio`、`deeptutor-cli` 和 `hallmark` 在内的直接使用包也同时导出到 `codex-skills/`。
 
 ## 重点能力示例
 
@@ -220,7 +234,7 @@ English version: [README.md](README.md)
 
 ### 做视觉设计和内容生成
 
-可以结合 `open-design`、`frontend-design`、`web-design-engineer`、`taste-skill-frontend-direction`、`seedance2-skill`、`seedance-prompt-zh`、Runway 系列 skills，让 Agent 帮你：
+可以结合 `hallmark`、`open-design`、`frontend-design`、`web-design-engineer`、`taste-skill-frontend-direction`、`seedance2-skill`、`seedance-prompt-zh`、Runway 系列 skills，让 Agent 帮你：
 
 - 生成网页、App 原型、仪表盘和落地页；
 - 制作 PPT、海报、社媒图、报告和视觉模板；
@@ -247,6 +261,8 @@ English version: [README.md](README.md)
 用 video-downloader 帮我把我拥有版权的视频下载成 1080p MP4，并保留字幕和元数据
 用 cangjie-skill 把这份已授权课程转写稿蒸馏成可复用、经过测试的 skills
 用 offer-toolkit-japan 分析这个东京岗位，制作履歴書和職務経歴書，并在不虚构经历的前提下准备日英双语面试包
+用 deeptutor-cli 把这些 PDF 建成知识库，并生成带依据的中文测验
+用 hallmark audit 审查这个前端，然后在保留现有路由和组件架构的前提下重设计
 用 gsap-scrolltrigger 和 gsap-react 帮我在 Next.js 里做一个 pinned scroll 动画
 ```
 

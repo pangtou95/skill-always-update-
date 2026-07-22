@@ -1,0 +1,4 @@
+interface:
+  display_name: "DeepTutor CLI"
+  short_description: "Operate DeepTutor learning and research workflows"
+  default_prompt: "Use $deeptutor-cli to set up a knowledge base and run an evidence-grounded learning workflow."

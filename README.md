@@ -35,12 +35,13 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Data and evaluation | `nemo-curator`, `ray-data`, `lm-evaluation-harness`, `bigcode-evaluation-harness`, `nemo-evaluator` | Build data pipelines, clean datasets, run benchmarks, evaluate code models, and track experiments |
 | RAG and vector databases | `faiss`, `qdrant`, `chroma`, `pinecone`, `sentence-transformers` | Design chunking, embeddings, indexing, retrieval, reranking, and vector database integrations |
 | Agents and workflow automation | `langchain`, `llamaindex`, `crewai`, `autogpt`, `a-evolve` | Build multi-agent workflows, tool calling, task planning, knowledge-base QA, and autonomous research loops |
+| Learning and research assistants | `deeptutor-cli` | Operate DeepTutor tutoring, deep solve, quiz, research, knowledge-base, notebook, memory, session, partner, API, and Web-app workflows |
 | Prompting and structured output | `dspy`, `guidance`, `outlines`, `instructor` | Create controlled prompts, structured JSON output, constrained generation, and programmatic prompt optimization |
 | Safety and alignment | `constitutional-ai`, `llamaguard`, `nemo-guardrails`, `prompt-guard` | Build safety policies, content filters, prompt-injection defenses, guardrails, and alignment workflows |
 | Multimodal and generative media | `stable-diffusion`, `segment-anything`, `clip`, `blip-2`, `llava`, `whisper`, `audiocraft` | Handle image generation, image understanding, segmentation, VLMs, speech recognition, and audio generation |
 | Academic and research writing | `ml-paper-writing`, `systems-paper-writing`, `academic-plotting`, `presenting-conference-talks` | Draft papers, improve research narratives, build academic plots, and prepare conference talks |
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
-| Frontend and visual design | `frontend-design`, `web-design-engineer`, `open-design` | Build web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
+| Frontend and visual design | `hallmark`, `frontend-design`, `web-design-engineer`, `open-design` | Build and audit distinctive web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
 | Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
 | Video direction, prompts, and media APIs | `video-director-studio`, `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `pixelle-video-workflows`, `narrator-ai-cli-skill`, `rw-generate-video`, `rw-integrate-*` | Turn ideas and assets into director treatments, format blueprints, shot/continuity/sound packs, provider-specific prompts, automated short videos, and integrated media generation |
@@ -127,6 +128,17 @@ This export adds a model-agnostic director layer distilled from the public metad
 
 The skill includes 37 reusable director grammars, 20 format blueprints, 18 production modules, a structured director-pack template, `scripts/director_pack_audit.py`, and a public-metadata refresh tool, `scripts/liblib_catalog.py`. Existing Seedance, Runway, and Pixelle project Skills now route complex multi-shot work through this director layer first.
 
+## DeepTutor And Hallmark Skills
+
+This export adds the upstream learning/research and design Skills from [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) and [nutlope/hallmark](https://github.com/nutlope/hallmark), with Codex compatibility and standalone-package repairs.
+
+| Skill | Locations | Main use |
+| --- | --- | --- |
+| `deeptutor-cli` | `codex-skills/`, `project-agent-skills/` | Preflight, install, initialize, and operate DeepTutor 1.5.2 for tutoring, deep solving, quiz generation, research, visualization, document knowledge bases, notebooks, sessions, memory, partners, API service, and the local Web app |
+| `hallmark` | `codex-skills/`, `project-agent-skills/` | Design, audit, redesign, and study interfaces with structural variety, 21 macrostructures, 20 catalog themes, responsive/state checks, portable design tokens, and a 58-gate anti-slop review |
+
+`deeptutor-cli` is an operations Skill, not a bundled copy of the DeepTutor application. The external `deeptutor` command and chosen model/embedding providers must be installed and configured before real runs. Hallmark is instruction-only and needs no Hallmark executable; this export adds the token catalog and worked references omitted by its standalone upstream Skill directory. Apache-2.0 and MIT license notices are retained in the respective packages.
+
 ## Seedance 2.0 Skill Update
 
 This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
@@ -175,8 +187,10 @@ The latest updates add repository-derived skills sourced from or distilled from 
 | `cangjie-skill` | `kangarooking/cangjie-skill` | RIA-TV++ long-form content distillation into traceable, linked, pressure-tested agent skills with checkpointed execution and reusable templates |
 | `offer-toolkit-japan` | `yanliudesign/offer-toolkit-skill` plus official and current market sources | Japan-focused job-market routing, evidence-based JD matching, 履歴書・職務経歴書・Entry Sheet and English resume preparation, a current 130+ prompt interview bank with follow-up and truth-boundary checks, and offer, labor-term, fixed-overtime, transfer, and residence-status review |
 | `video-director-studio` | Public metadata synthesis of `liblib.tv/skill` | Model-agnostic AI video direction with trait-based grammars, TVC/drama/MV/animation/UGC blueprints, production modules, shot and continuity contracts, provider adapters, and structured QC |
+| `deeptutor-cli` | `HKUDS/DeepTutor` | Codex-compatible DeepTutor 1.5.2 CLI operations with runtime preflight, corrected installation paths, evidence-grounded learning workflows, and destructive-operation safeguards |
+| `hallmark` | `nutlope/hallmark` | Hallmark 1.1.0 interface design/audit workflow with the complete upstream reference set, a restored 20-theme token catalog, fixed standalone links, and Codex UI metadata |
 
-These are stored under `project-agent-skills/`; `agent-reach`, `offer-toolkit-japan`, and `video-director-studio` are also exported under `codex-skills/` for direct Codex installation.
+These are stored under `project-agent-skills/`; selected direct-use packages, including `agent-reach`, `offer-toolkit-japan`, `video-director-studio`, `deeptutor-cli`, and `hallmark`, are also exported under `codex-skills/`.
 
 ## Example Use Cases
 
@@ -220,7 +234,7 @@ Combine `ml-paper-writing`, `systems-paper-writing`, `academic-plotting`, and `p
 
 ### Design Frontends And Generate Media
 
-Combine `open-design`, `frontend-design`, `web-design-engineer`, `taste-skill-frontend-direction`, `video-director-studio`, `seedance2-skill`, `seedance-prompt-zh`, and Runway skills to help an agent:
+Combine `hallmark`, `open-design`, `frontend-design`, `web-design-engineer`, `taste-skill-frontend-direction`, `video-director-studio`, `seedance2-skill`, `seedance-prompt-zh`, and Runway skills to help an agent:
 
 - build web apps, prototypes, dashboards, and landing pages;
 - create slide decks, posters, reports, and social assets;
@@ -247,6 +261,8 @@ Use chatcut-transcription and chatcut-export to add captions and render the fina
 Use video-downloader to save this video I own, including subtitles and metadata, in 1080p MP4.
 Use cangjie-skill to distill this authorized course transcript into reusable, tested skills.
 Use offer-toolkit-japan to analyze this Tokyo role, prepare my 履歴書 and 職務経歴書, and build a bilingual interview pack without inventing experience.
+Use deeptutor-cli to create a knowledge base from these PDFs and generate an evidence-grounded Chinese quiz.
+Use hallmark audit on this frontend, then redesign it without replacing the existing routes or component architecture.
 Use gsap-scrolltrigger and gsap-react to build a pinned scroll animation in Next.js.
 ```
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hallmark Design"
+  short_description: "Build and audit distinctive, production-ready interfaces"
+  default_prompt: "Use $hallmark to design or audit this interface with structural variety, responsive states, and an anti-slop review."

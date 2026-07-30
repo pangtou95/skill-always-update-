@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Graph"
+  short_description: "Review and navigate code with a local knowledge graph"
+  default_prompt: "Use $code-review-graph to analyze this repository with graph-assisted context and impact checks."

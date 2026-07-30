@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Paper Writing"
+  short_description: "Plan, write, and validate ML research papers"
+  default_prompt: "Use $research-paper-writing to develop this evidence-based paper section."

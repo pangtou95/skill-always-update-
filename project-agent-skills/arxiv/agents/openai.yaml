@@ -1,0 +1,4 @@
+interface:
+  display_name: "arXiv Research"
+  short_description: "Search and retrieve arXiv papers"
+  default_prompt: "Use $arxiv to find relevant papers and report stable identifiers."

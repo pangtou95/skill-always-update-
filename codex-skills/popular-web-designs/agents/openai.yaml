@@ -1,0 +1,4 @@
+interface:
+  display_name: "Popular Web Designs"
+  short_description: "Apply recognizable web design systems"
+  default_prompt: "Use $popular-web-designs to select and apply an appropriate design system."

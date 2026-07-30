@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan"
+  short_description: "Write an implementation plan without executing it"
+  default_prompt: "Use $plan to write a concrete implementation plan only."

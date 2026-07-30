@@ -1,0 +1,4 @@
+interface:
+  display_name: "PowerPoint"
+  short_description: "Create and verify editable PPTX presentations"
+  default_prompt: "Use $powerpoint to create and validate an editable presentation."

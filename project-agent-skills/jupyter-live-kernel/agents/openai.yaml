@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jupyter Live Kernel"
+  short_description: "Run stateful iterative Python exploration"
+  default_prompt: "Use $jupyter-live-kernel for this iterative Python analysis."

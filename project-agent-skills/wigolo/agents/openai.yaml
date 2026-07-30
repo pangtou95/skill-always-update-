@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wigolo Web Intelligence"
+  short_description: "Run local-first search, crawl, extraction, and research"
+  default_prompt: "Use $wigolo to gather web evidence with the local-first Wigolo MCP tools."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "KTransformers Operations"
+  short_description: "Plan and troubleshoot heterogeneous LLM inference and SFT"
+  default_prompt: "Use $ktransformers-ops to assess my hardware and plan a reproducible KTransformers workflow."

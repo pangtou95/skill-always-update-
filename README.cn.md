@@ -49,6 +49,8 @@ English version: [README.md](README.md)
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
+| 交互研究与网页情报 | `jupyter-live-kernel`、`arxiv`、`firecrawl*`、`wigolo` | 做有状态 Python 探索、论文检索、网页搜索/抓取/监控，以及本地优先的 MCP 研究 |
+| 规划、写作与演示 | `plan`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划、自然化文案、制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
 
 ## 内容创作者 Top 10 Skills
 
@@ -165,6 +167,34 @@ English version: [README.md](README.md)
 | `gsap-frameworks` | Vue、Nuxt、Svelte、SvelteKit 和其它生命周期型框架里的 GSAP 模式 |
 
 这些官方副本同时放在 `codex-skills/` 和 `project-agent-skills/` 下。
+
+## 截图提取的高级 Skills 与 Agent 工具
+
+本次核对了两张截图。第一张的 11 个名称此前都没有以同名 Skill 安装，现已补齐；其中 `writing-plans / plan` 按当前上游名称安装为 `plan`。`firecrawl` 还补入 9 个官方配套路由，避免主 Skill 内的相对链接和分流能力缺失。
+
+| Skill | 来源 | 状态与用途 |
+| --- | --- | --- |
+| `jupyter-live-kernel` | `moltis-org/moltis` / Hermes 来源 | 用 `hamelnb` 运行可持续状态的 Jupyter kernel |
+| `plan` | `NousResearch/hermes-agent` | 只写计划、不执行，覆盖截图中的 `writing-plans / plan` |
+| `claude-design`、`sketch` | `NousResearch/hermes-agent` | 生成一次性 HTML 设计成品，或并排比较 2-3 个交互草图 |
+| `powerpoint` | `bojieli/ai-agent-book` 的 Apache-2.0 `pptx` 示例改编 | 从结构化大纲生成并验证可编辑 `.pptx`；没有复制禁止再分发的 Anthropic 版本 |
+| `humanizer` | `NousResearch/hermes-agent` | 清理 AI 腔，同时保留原意、事实和作者声音 |
+| `arxiv`、`research-paper-writing` | `NousResearch/hermes-agent` | 检索 arXiv，并完成研究设计、实验、引用、写作与投稿检查 |
+| `firecrawl` + 9 个 `firecrawl-*` | `firecrawl/cli` | 搜索、抓取、站点地图、爬取、交互、下载、解析和变化监控 |
+| `grill-me` | `feiskyer/codex-settings` | 显式触发的高强度方案追问、术语表和 ADR 维护 |
+| `popular-web-designs` | `NousResearch/hermes-agent` | 54 套真实产品设计系统参考与 HTML/CSS 规则 |
+
+第二张图展示的是完整项目，不是都能直接作为 Skill 调用。本仓库为它们增加了诚实的操作层，不打包应用本体，也不会把“安装成功”误报为“任务已经运行”。
+
+| Skill | 对应项目 | 主要用途 |
+| --- | --- | --- |
+| `ai-agent-book-guide` | `bojieli/ai-agent-book` | 按 10 章路线学习和实践 Agent、上下文、记忆、工具、评估、训练、多模态与协作 |
+| `code-review-graph` | `tirth8205/code-review-graph` | 安装 Codex MCP，构建本地代码图谱，做影响分析、审查、调试和重构 |
+| `voicebox-studio` | `jamiepine/voicebox` | 通过本地 REST/MCP 做 TTS、转写、voice profile 和 Agent 语音输出 |
+| `wigolo` | `KnockOutEZ/wigolo` | Node 20+ 的本地优先搜索、抓取、爬取、缓存、提取和研究 MCP |
+| `ktransformers-ops` | `kvcache-ai/ktransformers` | 评估硬件，规划和排查 CPU-GPU 异构 MoE 推理与 LLaMA-Factory SFT |
+
+终端中可以直接点名，例如：`用 $grill-me 追问我的方案`、`用 $arxiv 搜索这篇论文`、`用 $code-review-graph 审查当前 diff`。外部工具型 Skill 仍需先安装对应 CLI、应用、运行时或模型。
 
 ## 本次新增的 GitHub 仓库分析技能
 

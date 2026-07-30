@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sketch"
+  short_description: "Compare disposable HTML design variants"
+  default_prompt: "Use $sketch to explore several interactive design directions."

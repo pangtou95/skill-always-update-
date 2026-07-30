@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voicebox Studio"
+  short_description: "Run local voice generation, transcription, and agent speech"
+  default_prompt: "Use $voicebox-studio to verify Voicebox and complete this local voice workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Agent Book Guide"
+  short_description: "Learn and apply the ten-part AI Agent curriculum"
+  default_prompt: "Use $ai-agent-book-guide to build a practical learning path for this AI Agent topic."

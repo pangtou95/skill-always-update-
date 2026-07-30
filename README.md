@@ -49,6 +49,8 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, and clip YouTube content |
 | Career and Japan job search | `career-ops`, `offer-toolkit-japan` | Scan and track applications, decode Japanese or English JDs, prepare 履歴書・職務経歴書・English resumes, practice bilingual interviews, and review offers, labor terms, and residence-status questions |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
+| Interactive research and web intelligence | `jupyter-live-kernel`, `arxiv`, `firecrawl*`, `wigolo` | Run stateful Python exploration, paper search, web search/scraping/monitoring, and local-first MCP research |
+| Planning, writing, and presentations | `plan`, `humanizer`, `research-paper-writing`, `powerpoint`, `grill-me` | Write implementation plans, revise prose, produce research papers and editable PPTX files, and pressure-test decisions |
 
 ## Content Creator Top 10 Skills
 
@@ -165,6 +167,34 @@ The latest update also installs the official [greensock/gsap-skills](https://git
 | `gsap-frameworks` | Vue, Nuxt, Svelte, SvelteKit and other lifecycle-based framework patterns |
 
 These official copies are available under both `codex-skills/` and `project-agent-skills/`.
+
+## Skills And Agent Tools Extracted From The Screenshots
+
+Both screenshots were audited. None of the 11 names in the first image had previously been installed under the exact same Skill name. They are now included; the `writing-plans / plan` entry uses its current upstream name, `plan`. The Firecrawl router is accompanied by nine official focused Skills so its links and routing remain complete.
+
+| Skill | Source | Status and purpose |
+| --- | --- | --- |
+| `jupyter-live-kernel` | `moltis-org/moltis`, originating in Hermes | Run a persistent Jupyter kernel through `hamelnb` |
+| `plan` | `NousResearch/hermes-agent` | Plan without execution; covers the screenshot's `writing-plans / plan` entry |
+| `claude-design`, `sketch` | `NousResearch/hermes-agent` | Build one-off HTML artifacts or compare 2-3 interactive design sketches |
+| `powerpoint` | Adapted from the Apache-2.0 `pptx` example in `bojieli/ai-agent-book` | Generate and verify editable `.pptx` files without copying Anthropic's non-redistributable Skill |
+| `humanizer` | `NousResearch/hermes-agent` | Remove AI writing patterns while preserving meaning and factual boundaries |
+| `arxiv`, `research-paper-writing` | `NousResearch/hermes-agent` | Search arXiv and handle research design, experiments, citations, writing, and submission checks |
+| `firecrawl` plus nine `firecrawl-*` Skills | `firecrawl/cli` | Search, scrape, map, crawl, interact, download, parse, and monitor web content |
+| `grill-me` | `feiskyer/codex-settings` | Explicit pressure-testing interviews with glossary and ADR maintenance |
+| `popular-web-designs` | `NousResearch/hermes-agent` | Reference 54 real product design systems and their HTML/CSS rules |
+
+The second screenshot shows full applications rather than ready-to-call Skills. This repository adds honest operation layers without bundling the applications or treating installation as successful execution.
+
+| Skill | Project | Main use |
+| --- | --- | --- |
+| `ai-agent-book-guide` | `bojieli/ai-agent-book` | Follow a ten-chapter learning and implementation path for Agents, context, memory, tools, evaluation, training, multimodality, and collaboration |
+| `code-review-graph` | `tirth8205/code-review-graph` | Configure its Codex MCP, build a local code graph, and perform impact analysis, review, debugging, and refactoring |
+| `voicebox-studio` | `jamiepine/voicebox` | Use local REST/MCP routes for TTS, transcription, voice profiles, and agent speech |
+| `wigolo` | `KnockOutEZ/wigolo` | Run Node 20+ local-first search, fetch, crawl, cache, extraction, and research tools over MCP |
+| `ktransformers-ops` | `kvcache-ai/ktransformers` | Assess hardware and plan CPU-GPU heterogeneous MoE inference or LLaMA-Factory SFT |
+
+They can be named directly in a terminal session, for example: `Use $grill-me to challenge this design`, `Use $arxiv to find this paper`, or `Use $code-review-graph to review the current diff`. Tool-backed Skills still require their external CLI, application, runtime, or models.
 
 ## Newly Added Repository-Derived Skills
 

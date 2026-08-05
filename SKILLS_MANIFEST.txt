@@ -560,6 +560,8 @@ codex-skills/research-paper-writing/SKILL.md
 codex-skills/rwkv/SKILL.md
 codex-skills/saelens/SKILL.md
 codex-skills/script-writer/SKILL.md
+codex-skills/seedance-2-5-prompt-studio/SKILL.md
+codex-skills/seedance-director-compat/SKILL.md
 codex-skills/seedance2-skill/SKILL.md
 codex-skills/seedance2-skill/zh/SKILL.md
 codex-skills/segment-anything/SKILL.md
@@ -676,6 +678,8 @@ project-agent-skills/rw-recipe-full-setup/SKILL.md
 project-agent-skills/rw-setup-api-key/SKILL.md
 project-agent-skills/scrapling-official/SKILL.md
 project-agent-skills/script-writer/SKILL.md
+project-agent-skills/seedance-2-5-prompt-studio/SKILL.md
+project-agent-skills/seedance-director-compat/SKILL.md
 project-agent-skills/seedance-prompt-en/SKILL.md
 project-agent-skills/seedance-prompt-zh/SKILL.md
 project-agent-skills/seo-aeo-outline/SKILL.md

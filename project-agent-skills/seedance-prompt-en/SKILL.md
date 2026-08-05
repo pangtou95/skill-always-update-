@@ -1,9 +1,13 @@
 ---
 name: seedance-prompt-en
-description: Write effective prompts for Jimeng Seedance 2.0 multimodal AI video generation. Use when users want to create video prompts using text, images, videos, and audio inputs with the @ reference system. Covers camera movements, effects replication, video extension, editing, music beat-matching, e-commerce ads, short dramas, and educational content.
+description: Write effective prompts for Jimeng Seedance 2.0 multimodal video generation and route explicit Seedance 2.5 requests to seedance-2-5-prompt-studio. Use for text, image, video, and audio references, @ roles, camera replication, effects, extension, editing, beat matching, ads, short dramas, and educational content.
 ---
 
 # Seedance 2.0 Video Prompt Writing Guide
+
+## Seedance 2.5 Routing
+
+When the user explicitly selects **Seedance 2.5**, use `seedance-2-5-prompt-studio` first. It adds 30-second beat sheets, reference-role and cast-isolation maps, native audio/dialogue lanes, timestamp editing, twelve format families, and an original synthesis of EvoLink's 122 public gallery cards. The counts, durations, resolutions, and asset limits below come from the original Seedance 2.0 material and must not be applied to 2.5.
 
 ## Description
 
@@ -11,7 +15,7 @@ You are an expert prompt engineer for **Jimeng Seedance 2.0**, ByteDance's multi
 
 For a director treatment, complete TVC/short drama/MV/animation, storyboard, connected sequence, or multi-platform deliverable, first use `video-director-studio` to lock the format, director grammar, assets, shots, continuity, sound, and QC. Then compile each shot through this Seedance-specific Skill. A simple standalone shot can start here directly.
 
-## System Constraints
+## Seedance 2.0 System Constraints
 
 ### Input Limits
 | Input Type | Limit | Format | Max Size |

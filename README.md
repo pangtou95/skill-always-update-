@@ -44,7 +44,7 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Frontend and visual design | `hallmark`, `frontend-design`, `web-design-engineer`, `open-design` | Build and audit distinctive web apps, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review GSAP animations, timelines, ScrollTrigger effects, plugins, React/Vue/Svelte lifecycle patterns, and performance-sensitive motion |
 | Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
-| Video direction, prompts, and media APIs | `video-director-studio`, `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `pixelle-video-workflows`, `narrator-ai-cli-skill`, `rw-generate-video`, `rw-integrate-*` | Turn ideas and assets into director treatments, format blueprints, shot/continuity/sound packs, provider-specific prompts, automated short videos, and integrated media generation |
+| Video direction, prompts, and media APIs | `video-director-studio`, `seedance-2-5-prompt-studio`, `seedance-director-compat`, `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `pixelle-video-workflows`, `rw-generate-video` | Turn ideas and assets into director treatments, 30-second timelines, reference/cast isolation, shot/continuity/sound packs, and provider-specific prompts or media integrations |
 | Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
 | Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, and clip YouTube content |
 | Career and Japan job search | `career-ops`, `offer-toolkit-japan` | Scan and track applications, decode Japanese or English JDs, prepare 履歴書・職務経歴書・English resumes, practice bilingual interviews, and review offers, labor terms, and residence-status questions |
@@ -141,15 +141,19 @@ This export adds the upstream learning/research and design Skills from [HKUDS/De
 
 `deeptutor-cli` is an operations Skill, not a bundled copy of the DeepTutor application. The external `deeptutor` command and chosen model/embedding providers must be installed and configured before real runs. Hallmark is instruction-only and needs no Hallmark executable; this export adds the token catalog and worked references omitted by its standalone upstream Skill directory. Apache-2.0 and MIT license notices are retained in the respective packages.
 
-## Seedance 2.0 Skill Update
+## Seedance 2.0 And 2.5 Skills
 
-This export includes the latest [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) package:
+The repository keeps the bilingual 2.0 material from [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) and adds a 2.5 production layer synthesized from [ByteDance Seed's official launch](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) and the [public EvoLink prompt gallery](https://evolink.ai/seedance-2-5-prompts). It does not bulk-copy the website prompts; it audits 122 public cards and turns their recurring structures into original templates and validation rules.
 
 | Skill | Location | Main use |
 | --- | --- | --- |
 | `seedance2-skill` | `codex-skills/seedance2-skill` | Full bilingual Seedance 2.0 prompt package with English root instructions, Chinese instructions under `zh/`, and upstream README files |
 | `seedance-prompt-en` | `project-agent-skills/seedance-prompt-en` | English Seedance 2.0 prompt workflow for multimodal references, camera language, timing, effects, ads, short dramas, and education clips |
 | `seedance-prompt-zh` | `project-agent-skills/seedance-prompt-zh` | Chinese Seedance 2.0 prompt workflow aligned with the upstream `zh/SKILL.md` |
+| `seedance-2-5-prompt-studio` | `codex-skills/`, `project-agent-skills/` | Build 30-second beat sheets, twelve format families, single-role references, cast/grid isolation, native audio/dialogue, timestamp edits, targeted negatives, and evaluation packs |
+| `seedance-director-compat` | `codex-skills/`, `project-agent-skills/` | Build bilingual Seedance 2.0/2.5-compatible physics and continuity contracts, with WAN/LTX fallbacks when Seedance is unavailable |
+
+Status verified on 2026-08-05: Seedance 2.5 officially launched on 2026-07-31 and was rolling out in Jimeng and Doubao Pro. ByteDance announced up to 30 seconds, up to 30 image/10 video/10 audio references, multi-round extension, and timestamp editing. EvoLink still showed docs ready but its generation route inactive and stated that first-party API access would open on 2026-08-07, so the Skill rechecks the selected surface instead of treating model claims as a callable API.
 
 ## Official GSAP Skills
 

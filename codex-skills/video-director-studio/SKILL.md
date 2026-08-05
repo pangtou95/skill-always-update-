@@ -67,7 +67,8 @@ Do not force a full production package when the user only needs one shot. For co
 
 | Need | Route |
 | --- | --- |
-| Seedance multimodal prompt | `seedance-director-compat`, `seedance-prompt-zh`, or `seedance-prompt-en` |
+| Seedance 2.5 prompt pack | `seedance-2-5-prompt-studio`, plus `seedance-director-compat` for bilingual physics/fallback contracts |
+| Seedance 2.0 multimodal prompt | `seedance-director-compat`, `seedance-prompt-zh`, or `seedance-prompt-en` |
 | Runway generation/API | `rw-check-compatibility`, then `rw-generate-video` or `use-runway-api` |
 | WAN or LTX local fallback | `seedance-director-compat` compatibility compiler |
 | Automated multi-scene short video | `pixelle-video-workflows` |

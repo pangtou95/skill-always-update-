@@ -44,7 +44,7 @@ English version: [README.md](README.md)
 | 前端与视觉设计 | `hallmark`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
-| 视频导演、提示词与媒体生成 | `video-director-studio`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`narrator-ai-cli-skill`、`rw-generate-video`、`rw-integrate-*` | 把想法和素材整理成导演方案、类型蓝图、镜头/连续性/声音包，再编译为各模型提示词、自动短视频或媒体生成集成 |
+| 视频导演、提示词与媒体生成 | `video-director-studio`、`seedance-2-5-prompt-studio`、`seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成导演方案、30 秒时间轴、参考职责/角色隔离、镜头/连续性/声音包，再编译为各模型提示词或媒体生成集成 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
@@ -141,15 +141,19 @@ English version: [README.md](README.md)
 
 `deeptutor-cli` 是操作 Skill，不包含 DeepTutor 应用本体。真正运行前仍需安装外部 `deeptutor` 命令，并配置用户选择的模型和 embedding 服务。Hallmark 是纯指令 Skill，不需要 Hallmark 程序；本次打包补入了上游独立 Skill 目录遗漏的主题 token 和案例参考。两份包均保留 Apache-2.0 或 MIT 许可证说明。
 
-## Seedance 2.0 Skill 更新
+## Seedance 2.0 与 2.5 Skills
 
-本次导出同步了最新的 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 包：
+本仓库保留 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) 的 2.0 双语资料，并新增基于 [ByteDance Seed 官方发布](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)和 [EvoLink 公开提示词画廊](https://evolink.ai/seedance-2-5-prompts)提炼的 2.5 制作层。没有批量复制网页提示词，而是审计 122 个公开卡片后提炼成原创结构、模板和验证规则。
 
 | Skill | 位置 | 主要用途 |
 | --- | --- | --- |
 | `seedance2-skill` | `codex-skills/seedance2-skill` | 完整双语 Seedance 2.0 提示词包，根目录为英文说明，`zh/` 下为中文说明，并保留上游 README |
 | `seedance-prompt-en` | `project-agent-skills/seedance-prompt-en` | 英文 Seedance 2.0 提示词流程，覆盖多模态引用、运镜语言、分镜节奏、特效、广告、短剧和科普视频 |
 | `seedance-prompt-zh` | `project-agent-skills/seedance-prompt-zh` | 中文 Seedance 2.0 提示词流程，已对齐上游 `zh/SKILL.md` |
+| `seedance-2-5-prompt-studio` | `codex-skills/`、`project-agent-skills/` | 为 Seedance 2.5 生成 30 秒分幕、12 类成片格式、单职责参考图、角色/九宫格隔离、原生声音/对白、时间戳编辑、负面约束和验收清单 |
+| `seedance-director-compat` | `codex-skills/`、`project-agent-skills/` | 制作 Seedance 2.0/2.5 兼容的中英双语物理与连续性合同，并在模型不可用时编译 WAN/LTX 回退包 |
+
+2026-08-05 核验状态：Seedance 2.5 已于 2026-07-31 官方发布并在即梦/豆包 Pro 滚动开放；官方公布单次最长 30 秒、最多 30 图片/10 视频/10 音频、多轮延长和时间戳编辑。EvoLink 当日仍是文档已发布、生成路由未开放，并称第一方 API 将于 2026-08-07 开放，因此 Skill 要求每次执行前重新核验具体平台，不能把模型能力直接当成可调用 API。
 
 ## 官方 GSAP Skills
 

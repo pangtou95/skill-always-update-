@@ -13,11 +13,14 @@ Keep one model-agnostic director pack. Compile separate provider prompts from it
 
 ## Seedance-Compatible
 
+- Route explicit Seedance 2.5 work through `seedance-2-5-prompt-studio`. It supports 30-second beat sheets, one-role-per-reference maps, cast/grid isolation, native audio lanes, timestamp edits, and current availability evidence.
+- ByteDance's 2026-07-31 launch material states up to 30 seconds, 30 image references, 10 video references, 10 audio references, multi-round extension, and timestamp-level editing. Verify the selected product/provider before treating these model claims as callable limits.
+- Do not reuse the 2.0 wrapper's 9-image/3-video/3-audio, 15-second, or resolution limits for 2.5.
 - Prefer Chinese prompt compilation when the installed surface recommends it; still retain bilingual production fields when needed.
 - Bind `@` references to explicit roles: first frame, last frame, identity, environment, action, camera, rhythm, audio, product, or wardrobe.
 - Source media carries static state; text describes motion, camera, timing, light change, sound, endpoint, and preservation constraints.
 - Use timed segments only when the duration and event count support them.
-- Route advanced continuity/physics work through `seedance-director-compat` when installed.
+- Route advanced bilingual continuity/physics and WAN/LTX fallback work through `seedance-director-compat` when installed.
 
 ## WAN
 

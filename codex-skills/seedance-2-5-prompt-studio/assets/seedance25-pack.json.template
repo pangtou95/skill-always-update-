@@ -1,0 +1,72 @@
+{
+  "availability": {
+    "surface": "",
+    "status": "prompt-only",
+    "verified_at": "",
+    "notes": ""
+  },
+  "model_profile": "Seedance 2.5",
+  "mode": "r2v",
+  "format_family": "cinematic-film",
+  "duration_seconds": 30,
+  "aspect_ratio": "16:9",
+  "reference_roles": [
+    {
+      "tag": "@Image 1",
+      "primary_role": "identity",
+      "preserve": ["face", "hair", "body proportions"],
+      "exclude": ["background", "pose"],
+      "active_beats": [1, 2, 3, 4]
+    }
+  ],
+  "cast_isolation": [],
+  "timeline": [
+    {
+      "start": 0,
+      "end": 6,
+      "purpose": "setup",
+      "subject_action": "",
+      "camera": "",
+      "audio": [],
+      "transition_or_endpoint": ""
+    },
+    {
+      "start": 6,
+      "end": 14,
+      "purpose": "development",
+      "subject_action": "",
+      "camera": "",
+      "audio": [],
+      "transition_or_endpoint": ""
+    },
+    {
+      "start": 14,
+      "end": 23,
+      "purpose": "turn_or_climax",
+      "subject_action": "",
+      "camera": "",
+      "audio": [],
+      "transition_or_endpoint": ""
+    },
+    {
+      "start": 23,
+      "end": 30,
+      "purpose": "resolution",
+      "subject_action": "",
+      "camera": "",
+      "audio": [],
+      "transition_or_endpoint": ""
+    }
+  ],
+  "global_locks": [],
+  "dialogue": [],
+  "music": "",
+  "ambience": [],
+  "foley": [],
+  "visible_text": [],
+  "negative_constraints": [],
+  "ending_state": "",
+  "final_prompt": "",
+  "evaluation": [],
+  "source_refs": []
+}

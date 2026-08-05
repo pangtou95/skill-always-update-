@@ -1,0 +1,43 @@
+{
+  "route": "image",
+  "family": "product-packaging",
+  "model_surface": {
+    "name": "prompt-only",
+    "verified_at": "",
+    "capability_notes": []
+  },
+  "deliverable": "",
+  "audience": "",
+  "objective": "",
+  "aspect_ratio": "1:1",
+  "language": "zh-CN",
+  "duration_seconds": null,
+  "reference_roles": [],
+  "image_plan": {
+    "composition": "",
+    "viewpoint": "",
+    "lighting": "",
+    "materials": [],
+    "palette": [],
+    "visible_text": []
+  },
+  "timeline": [],
+  "audio": {
+    "dialogue": [],
+    "music": "",
+    "ambience": [],
+    "foley": []
+  },
+  "locks": [],
+  "negative_constraints": [],
+  "final_prompt": "",
+  "variants": [],
+  "evaluation": [],
+  "rights": {
+    "references_authorized": false,
+    "likeness_authorized": false,
+    "trademark_authorized": false,
+    "notes": ""
+  },
+  "source_refs": []
+}

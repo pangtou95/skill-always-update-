@@ -7,6 +7,8 @@ description: Choose GPT-Image2 / gpt-image-2 visual styles and industrial prompt
 
 Use this skill to turn a user's image-generation intent into a production-ready GPT-Image2 prompt using the awesome-gpt-image-2 style library.
 
+For cross-model inspiration, image-to-video handoff, OpenNana gallery requests, structured reference roles, rights checks, or prompt-pack validation, first use `opennana-image-video-prompt-studio`. Return here after the shared brief is stable to select a GPT-Image2-specific style/template.
+
 ## Example Output
 
 ![City life system map example](assets/city-life-system-map.png)

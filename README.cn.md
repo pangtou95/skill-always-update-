@@ -38,13 +38,13 @@ English version: [README.md](README.md)
 | 学习与深度研究助手 | `deeptutor-cli` | 操作 DeepTutor 的辅导、深度解题、测验、研究、知识库、笔记本、记忆、会话、Partner、API 和本地 Web 应用流程 |
 | Prompt 与结构化输出 | `dspy`、`guidance`、`outlines`、`instructor` | 编写可控 prompt、结构化 JSON 输出、约束式生成、prompt 优化和程序化提示工程 |
 | 安全与对齐 | `constitutional-ai`、`llamaguard`、`nemo-guardrails`、`prompt-guard` | 做安全策略、内容过滤、prompt injection 防护、护栏设计和对齐方法研究 |
-| 多模态与生成模型 | `stable-diffusion`、`segment-anything`、`clip`、`blip-2`、`llava`、`whisper`、`audiocraft` | 处理图像生成、图像理解、分割、视觉语言模型、语音识别、音频生成和多模态应用 |
+| 多模态与生成模型 | `opennana-image-video-prompt-studio`、`gpt-image-2-style-library`、`stable-diffusion`、`segment-anything`、`clip`、`blip-2`、`llava`、`whisper`、`audiocraft` | 制作结构化生图/生视频提示词包，衔接图转视频，并处理图像生成、理解、分割、视觉语言模型、语音和音频 |
 | 论文与科研写作 | `ml-paper-writing`、`systems-paper-writing`、`academic-plotting`、`presenting-conference-talks` | 写 ML/系统论文、实验图表、会议演讲稿、研究叙事和投稿材料 |
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `hallmark`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
-| 视频导演、提示词与媒体生成 | `video-director-studio`、`seedance-2-5-prompt-studio`、`seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成导演方案、30 秒时间轴、参考职责/角色隔离、镜头/连续性/声音包，再编译为各模型提示词或媒体生成集成 |
+| 视频导演、提示词与媒体生成 | `opennana-image-video-prompt-studio`、`video-director-studio`、`seedance-2-5-prompt-studio`、`seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成题材选型、提示词包、导演方案、时间轴、参考职责/角色隔离、镜头/连续性/声音包，再编译为各模型提示词或媒体生成集成 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
@@ -140,6 +140,16 @@ English version: [README.md](README.md)
 | `hallmark` | `codex-skills/`、`project-agent-skills/` | 设计、审计、重设计和研究界面，提供 21 种宏观结构、20 套主题、响应式/交互状态检查、可移植 design tokens 和 58 项反模板化审查 |
 
 `deeptutor-cli` 是操作 Skill，不包含 DeepTutor 应用本体。真正运行前仍需安装外部 `deeptutor` 命令，并配置用户选择的模型和 embedding 服务。Hallmark 是纯指令 Skill，不需要 Hallmark 程序；本次打包补入了上游独立 Skill 目录遗漏的主题 token 和案例参考。两份包均保留 Apache-2.0 或 MIT 许可证说明。
+
+## OpenNana 生图与生视频提示词工作台
+
+本次导出新增了一个跨模型原创提示词层，来源是对 [OpenNana 生图画廊](https://opennana.com/awesome-prompt-gallery?media_type=image)和[生视频画廊](https://opennana.com/awesome-prompt-gallery?media_type=video)公开组织方式与元数据的综合分析。仓库不会复制锁定/付费提示词、创作者素材或整站提示词正文。
+
+| Skill | 安装位置 | 主要用途 |
+| --- | --- | --- |
+| `opennana-image-video-prompt-studio` | `codex-skills/`、`project-agent-skills/` | 分流生图、生视频与图转视频任务；选择成片题材；为参考素材分配单一职责；制作构图或时间轴；控制文字/声音；检查权利；设计变量并校验结构化提示词包 |
+
+2026-08-05 检查时，图片端可见 Nano Banana Pro、Nano Banana 2、ChatGPT、Grok 模型筛选，视频端可见 Seedance 2.0。服务端渲染的图片页面显示 14,110 条，而同一页面使用的公开列表 API 返回 15,962 条；视频页面与 API 均返回 613 条。Skill 会记录这种动态差异，不把数量或社区案例当成永久的模型能力承诺。包内附原创图像/视频模式库、图转视频模板、JSON 模板和 `scripts/validate_prompt_pack.py`。
 
 ## Seedance 2.0 与 2.5 Skills
 

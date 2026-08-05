@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenNana Image/Video Prompt Studio"
+  short_description: "Build original structured image and video prompt packs"
+  default_prompt: "Use $opennana-image-video-prompt-studio to turn my idea and authorized references into a validated image or video prompt pack."

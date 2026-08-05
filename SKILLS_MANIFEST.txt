@@ -536,6 +536,7 @@ codex-skills/open-design/skills/web-design-guidelines/SKILL.md
 codex-skills/open-design/skills/weread-year-in-review-video-template/SKILL.md
 codex-skills/open-design/skills/wpds/SKILL.md
 codex-skills/open-design/skills/youtube-clipper/SKILL.md
+codex-skills/opennana-image-video-prompt-studio/SKILL.md
 codex-skills/openpi/SKILL.md
 codex-skills/openrlhf/SKILL.md
 codex-skills/openvla-oft/SKILL.md
@@ -652,6 +653,7 @@ project-agent-skills/jupyter-live-kernel/SKILL.md
 project-agent-skills/ktransformers-ops/SKILL.md
 project-agent-skills/narrator-ai-cli-skill/SKILL.md
 project-agent-skills/offer-toolkit-japan/SKILL.md
+project-agent-skills/opennana-image-video-prompt-studio/SKILL.md
 project-agent-skills/pixelle-video-workflows/SKILL.md
 project-agent-skills/plan/SKILL.md
 project-agent-skills/platform-repurpose/SKILL.md

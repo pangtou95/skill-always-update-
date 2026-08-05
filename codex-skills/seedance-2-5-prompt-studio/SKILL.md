@@ -39,6 +39,8 @@ Choose one primary format family. Combine families only when the timeline can st
 
 For full TVCs, stories, MVs, or multi-platform packages, first use `video-director-studio`. Use this Skill to compile its director pack for Seedance 2.5.
 
+For OpenNana gallery requests, broad image/video format exploration, or a generated-key-image-to-video workflow, first use `opennana-image-video-prompt-studio`. Then compile its video route or bridge pack here with current Seedance 2.5 capability checks.
+
 ## Build The Prompt Pack
 
 ### 1. Declare The Mode And Deliverable

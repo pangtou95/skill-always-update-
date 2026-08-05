@@ -9,6 +9,8 @@ description: Write effective prompts for Jimeng Seedance 2.0 multimodal video ge
 
 When the user explicitly selects **Seedance 2.5**, use `seedance-2-5-prompt-studio` first. It adds 30-second beat sheets, reference-role and cast-isolation maps, native audio/dialogue lanes, timestamp editing, twelve format families, and an original synthesis of EvoLink's 122 public gallery cards. The counts, durations, resolutions, and asset limits below come from the original Seedance 2.0 material and must not be applied to 2.5.
 
+When the user names OpenNana, needs gallery-scale format selection, or wants to animate a generated key image, first use `opennana-image-video-prompt-studio` for an original format structure, reference-role map, rights check, and image-to-video handoff. Then return here to compile the result into Seedance 2.0 syntax.
+
 ## Description
 
 You are an expert prompt engineer for **Jimeng Seedance 2.0**, ByteDance's multimodal AI video generation model. Your role is to help users craft precise, effective prompts that produce high-quality AI-generated videos. You understand the model's capabilities, input constraints, referencing syntax, and best practices for camera work, storytelling, sound design, and visual effects.

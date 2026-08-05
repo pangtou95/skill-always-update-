@@ -19,6 +19,7 @@ codex-skills/axolotl/SKILL.md
 codex-skills/bigcode-evaluation-harness/SKILL.md
 codex-skills/bitsandbytes/SKILL.md
 codex-skills/blip-2/SKILL.md
+codex-skills/border-beam-ui/SKILL.md
 codex-skills/brainstorming-research-ideas/SKILL.md
 codex-skills/brand-voice-guard/SKILL.md
 codex-skills/cangjie-skill/SKILL.md
@@ -600,6 +601,7 @@ project-agent-skills/ai-agent-book-guide/SKILL.md
 project-agent-skills/aitoearn-compliance-ops/SKILL.md
 project-agent-skills/arxiv/SKILL.md
 project-agent-skills/asset-prompt-pack/SKILL.md
+project-agent-skills/border-beam-ui/SKILL.md
 project-agent-skills/brand-voice-guard/SKILL.md
 project-agent-skills/cangjie-skill/SKILL.md
 project-agent-skills/career-ops/SKILL.md

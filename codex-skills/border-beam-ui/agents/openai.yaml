@@ -1,0 +1,4 @@
+interface:
+  display_name: "Border Beam UI"
+  short_description: "Design and audit restrained luminous UI borders"
+  default_prompt: "Use $border-beam-ui to add an accessible, restrained animated border treatment to this component and verify every interaction state."

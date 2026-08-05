@@ -41,8 +41,8 @@ English version: [README.md](README.md)
 | 多模态与生成模型 | `opennana-image-video-prompt-studio`、`gpt-image-2-style-library`、`stable-diffusion`、`segment-anything`、`clip`、`blip-2`、`llava`、`whisper`、`audiocraft` | 制作结构化生图/生视频提示词包，衔接图转视频，并处理图像生成、理解、分割、视觉语言模型、语音和音频 |
 | 论文与科研写作 | `ml-paper-writing`、`systems-paper-writing`、`academic-plotting`、`presenting-conference-talks` | 写 ML/系统论文、实验图表、会议演讲稿、研究叙事和投稿材料 |
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
-| 前端与视觉设计 | `hallmark`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
-| 前端动效 | `gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查 GSAP 动画、时间线、ScrollTrigger 滚动效果、插件、React/Vue/Svelte 生命周期模式和高性能动效 |
+| 前端与视觉设计 | `hallmark`、`border-beam-ui`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、组件、发光状态边框、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
+| 前端动效 | `border-beam-ui`、`gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查克制的边框动效、GSAP 动画、时间线、ScrollTrigger、插件、框架生命周期、低动态模式和性能 |
 | 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频导演、提示词与媒体生成 | `opennana-image-video-prompt-studio`、`video-director-studio`、`seedance-2-5-prompt-studio`、`seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成题材选型、提示词包、导演方案、时间轴、参考职责/角色隔离、镜头/连续性/声音包，再编译为各模型提示词或媒体生成集成 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
@@ -140,6 +140,16 @@ English version: [README.md](README.md)
 | `hallmark` | `codex-skills/`、`project-agent-skills/` | 设计、审计、重设计和研究界面，提供 21 种宏观结构、20 套主题、响应式/交互状态检查、可移植 design tokens 和 58 项反模板化审查 |
 
 `deeptutor-cli` 是操作 Skill，不包含 DeepTutor 应用本体。真正运行前仍需安装外部 `deeptutor` 命令，并配置用户选择的模型和 embedding 服务。Hallmark 是纯指令 Skill，不需要 Hallmark 程序；本次打包补入了上游独立 Skill 目录遗漏的主题 token 和案例参考。两份包均保留 Apache-2.0 或 MIT 许可证说明。
+
+## Border Beam UI 边框动效 Skill
+
+本次导出新增 `border-beam-ui`，基于 MIT 许可的 [Jakubantalik/border-beam](https://github.com/Jakubantalik/border-beam) React 组件和[交互演示站](https://beam.jakubantalik.com/)，把上游效果预设整理成适用于按钮、图标控件、输入框、搜索栏、选中卡片、加载状态和短暂成功反馈的克制设计规则。
+
+| Skill | 安装位置 | 主要用途 |
+| --- | --- | --- |
+| `border-beam-ui` | `codex-skills/`、`project-agent-skills/` | 选择 `sm`、`md`、`line`、`pulse-inner` 或 `pulse-outside`；接入 React 18+ 官方包或跨框架 CSS 回退；映射产品 token；审计焦点、低动态模式、裁切、明暗主题、密度和性能 |
+
+2026-08-05 已检查上游提交 `647d26e2a27f26587110fea5a8410c80deb5ac5e` 的组件 API、渲染层、主题/配色、启停淡入淡出、脉冲离屏暂停和约 30 fps 共享驱动。当时仓库 manifest 为 `1.4.0`，npm `latest` 仍是 `1.3.0`，因此 Skill 要求先核对实际安装版本再采用精确默认值。它不会让所有组件一起发光：密集业务界面默认只在事件发生时启动，并始终保留稳定细边、语义状态和清晰键盘焦点。`scripts/audit_beam_usage.py` 可检查常见接入错误。
 
 ## OpenNana 生图与生视频提示词工作台
 

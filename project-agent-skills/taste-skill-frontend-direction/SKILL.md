@@ -35,6 +35,8 @@ Choose the narrowest skill direction:
 
 Do not stack every taste skill at once. One design direction should lead.
 
+For an animated edge on a button, input, search bar, selected card, or working state, use `border-beam-ui` only after choosing the page's design direction. Keep it as a sparse interaction signal instead of turning glow into the overall aesthetic.
+
 ## Design Read First
 
 Before coding, infer and state a one-line design read:

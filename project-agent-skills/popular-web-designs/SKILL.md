@@ -19,6 +19,9 @@ system, shadows, responsive behavior, and practical agent prompts with exact CSS
   the visual vocabulary.
 - **`design-md`** — use when the deliverable is a formal DESIGN.md token spec
   file, not a rendered artifact.
+- **`border-beam-ui`** — use only when the selected system needs a restrained
+  animated border or state glow. It maps the beam to the chosen system's tokens
+  and verifies focus, reduced motion, clipping, and visual restraint.
 
 ## How to Use
 

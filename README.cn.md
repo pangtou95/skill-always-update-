@@ -43,14 +43,28 @@ English version: [README.md](README.md)
 | 研究创意与自动研究 | `0-autoresearch-skill`、`brainstorming-research-ideas`、`creative-thinking-for-research` | 生成研究方向、拆解论文想法、设计实验、做技术路线探索 |
 | 前端与视觉设计 | `hallmark`、`border-beam-ui`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、组件、发光状态边框、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `border-beam-ui`、`gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查克制的边框动效、GSAP 动画、时间线、ScrollTrigger、插件、框架生命周期、低动态模式和性能 |
-| 内容创作者运营 | `content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 做选题调研、SEO/AEO 大纲、标题 hook、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
+| 内容创作者运营 | `human-writing`、`content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 先写有材料支撑的自然中文，再做选题调研、大纲、标题、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频导演、提示词与媒体生成 | `opennana-image-video-prompt-studio`、`video-director-studio`、`seedance-2-5-prompt-studio`、`seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成题材选型、提示词包、导演方案、时间轴、参考职责/角色隔离、镜头/连续性/声音包，再编译为各模型提示词或媒体生成集成 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 | 交互研究与网页情报 | `jupyter-live-kernel`、`arxiv`、`firecrawl*`、`wigolo` | 做有状态 Python 探索、论文检索、网页搜索/抓取/监控，以及本地优先的 MCP 研究 |
-| 规划、写作与演示 | `plan`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划、自然化文案、制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
+| 规划、写作与演示 | `plan`、`human-writing`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划，创作和修改自然中文，制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
+
+## Human Writing 中文写作 Skill
+
+本次导出安装了 [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) `1.1.0`，对应上游提交 `4fda173f3fef7fb808f3eba991eeb2528ea4b189`。MIT 许可的完整 Skill、参考规则、Lite 版本、Agent 元数据和文风检查脚本均已保留在 `codex-skills/human-writing/`、`project-agent-skills/human-writing/` 与 `user-agent-skills/human-writing/`。
+
+使用 `$human-writing` 可以写知乎回答、公众号文章、论坛长帖、博客、人物稿、行业与产品解读、评测、故事、脚本和口播。它会先判断中文长篇非虚构的材料是否充分，区分现实事实与虚构内容，再按文体读取对应规则，完成中文语序、节奏和段落推进的修改，最后还可以运行 `scripts/check_prose.py` 做诊断。
+
+原有 `humanizer` 遇到中文文章类任务时，现在会优先路由到 `human-writing`。`script-writer`、`platform-repurpose` 和 `brand-voice-guard` 也已接入中文终稿检查。事实、引用、法律表述、品牌规范、平台限制和用户真实语气始终优先。系统不会为了制造活人感而编造第一人称经历或观点，也不会把文章专用的标点规则强加给代码、URL、机器元数据及无关的技术或学术格式。
+
+Terminal 中可以这样调用：
+
+```text
+使用 $human-writing，把这些已经核实的材料写成一篇中文公众号文章。先检查事实边界，再写初稿，最后运行文风检查。
+```
 
 ## 内容创作者 Top 10 Skills
 
@@ -202,7 +216,7 @@ English version: [README.md](README.md)
 | `plan` | `NousResearch/hermes-agent` | 只写计划、不执行，覆盖截图中的 `writing-plans / plan` |
 | `claude-design`、`sketch` | `NousResearch/hermes-agent` | 生成一次性 HTML 设计成品，或并排比较 2-3 个交互草图 |
 | `powerpoint` | `bojieli/ai-agent-book` 的 Apache-2.0 `pptx` 示例改编 | 从结构化大纲生成并验证可编辑 `.pptx`；没有复制禁止再分发的 Anthropic 版本 |
-| `humanizer` | `NousResearch/hermes-agent` | 清理 AI 腔，同时保留原意、事实和作者声音 |
+| `humanizer` | `NousResearch/hermes-agent` | 清理通用 AI 腔；中文文章类内容交给 `human-writing`，同时保留原意、事实和作者声音 |
 | `arxiv`、`research-paper-writing` | `NousResearch/hermes-agent` | 检索 arXiv，并完成研究设计、实验、引用、写作与投稿检查 |
 | `firecrawl` + 9 个 `firecrawl-*` | `firecrawl/cli` | 搜索、抓取、站点地图、爬取、交互、下载、解析和变化监控 |
 | `grill-me` | `feiskyer/codex-settings` | 显式触发的高强度方案追问、术语表和 ADR 维护 |

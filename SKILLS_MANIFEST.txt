@@ -82,6 +82,7 @@ codex-skills/guizang-ppt-skill/SKILL.md
 codex-skills/hallmark/SKILL.md
 codex-skills/hqq/SKILL.md
 codex-skills/huggingface-tokenizers/SKILL.md
+codex-skills/human-writing/SKILL.md
 codex-skills/humanizer/SKILL.md
 codex-skills/instructor/SKILL.md
 codex-skills/jupyter-live-kernel/SKILL.md
@@ -649,6 +650,7 @@ project-agent-skills/gsap-scrolltrigger/SKILL.md
 project-agent-skills/gsap-timeline/SKILL.md
 project-agent-skills/gsap-utils/SKILL.md
 project-agent-skills/hallmark/SKILL.md
+project-agent-skills/human-writing/SKILL.md
 project-agent-skills/humanizer/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
 project-agent-skills/jupyter-live-kernel/SKILL.md
@@ -703,6 +705,7 @@ user-agent-skills/brand-voice-guard/SKILL.md
 user-agent-skills/content-calendar-planner/SKILL.md
 user-agent-skills/content-research-brief/SKILL.md
 user-agent-skills/fact-check-citation/SKILL.md
+user-agent-skills/human-writing/SKILL.md
 user-agent-skills/narrator-ai-cli-skill/SKILL.md
 user-agent-skills/platform-repurpose/SKILL.md
 user-agent-skills/publish-metadata-ops/SKILL.md

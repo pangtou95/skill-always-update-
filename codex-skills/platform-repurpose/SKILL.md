@@ -24,6 +24,8 @@ This is a local Codex wrapper for the content-creator Top 10 skill list. It pres
 
 Use upstream repurposing workflow. Preserve the core idea while rewriting structure, tone, length, CTA, and compliance for each target platform.
 
+For Chinese outputs, run each platform-native draft through `human-writing` after structure, length, CTA, and compliance adaptation. Select the matching format instead of forcing long-article rules onto every caption. Preserve facts, citations, brand language, platform limits, hashtags, and required metadata.
+
 ## Standard Output
 
 Return the requested deliverable first, then add a short `Notes` section with assumptions, missing inputs, and recommended next steps.

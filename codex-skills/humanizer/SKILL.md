@@ -1,6 +1,6 @@
 ---
 name: humanizer
-description: "Humanize text: strip AI-isms and add real voice."
+description: "Humanize text: strip AI-isms and add real voice; route Chinese articles and prose to human-writing."
 license: MIT
 metadata:
   hermes:
@@ -26,6 +26,12 @@ Load this skill whenever the user asks to:
 - review text for AI tells before publishing
 
 Also apply this skill to **your own** output when writing user-facing prose such as release notes, PR descriptions, docs, and summaries. Hermes's baseline voice already strips most of these, but a focused pass catches what slips through.
+
+## Chinese Prose Routing
+
+For Chinese articles, Zhihu answers, WeChat posts, forum prose, profiles, current-affairs or product explainers, reviews, stories, scripts, and spoken-word drafts, use `human-writing` as the primary workflow. It checks material sufficiency, reality and fiction boundaries, Chinese word order, paragraph progression, and final prose shape. Use this generic Humanizer only as a secondary cross-language anti-pattern pass when useful.
+
+Do not add first-person experience, opinions, uncertainty, jokes, or details that the user or sources did not support. The factual and format rules in `human-writing` override generic advice to "add soul."
 
 ## How to use it in Hermes
 

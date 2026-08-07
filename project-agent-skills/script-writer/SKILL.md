@@ -24,6 +24,8 @@ This is a local Codex wrapper for the content-creator Top 10 skill list. It pres
 
 Use upstream short-form script workflow as the base. Adapt output to the requested channel: short video, talking-head, livestream outline, podcast draft, or ad read.
 
+For Chinese spoken scripts, podcast drafts, livestream copy, and article-like narration, use `human-writing` with `references/formats.md` for the final prose pass after the script structure is approved. Preserve timing, CTA, legal claims, citations, and brand constraints. Never invent personal experience merely to make the text sound natural.
+
 ## Standard Output
 
 Return the requested deliverable first, then add a short `Notes` section with assumptions, missing inputs, and recommended next steps.

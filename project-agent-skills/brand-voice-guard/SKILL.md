@@ -24,6 +24,8 @@ This is a local Codex wrapper for the content-creator Top 10 skill list. It pres
 
 Use upstream brand voice enforcement. If guidelines are missing, ask for them or derive a lightweight temporary rubric from provided examples.
 
+For Chinese prose, use `human-writing` after brand checks to improve material density, Chinese rhythm, and paragraph progression. Brand rules, factual accuracy, regulated wording, and required terms override stylistic cleanup. Do not manufacture first-person experience or an informal voice.
+
 ## Standard Output
 
 Return the requested deliverable first, then add a short `Notes` section with assumptions, missing inputs, and recommended next steps.

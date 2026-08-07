@@ -43,14 +43,28 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Research ideation | `0-autoresearch-skill`, `brainstorming-research-ideas`, `creative-thinking-for-research` | Generate research directions, decompose paper ideas, design experiments, and explore technical routes |
 | Frontend and visual design | `hallmark`, `border-beam-ui`, `frontend-design`, `web-design-engineer`, `open-design` | Build and audit distinctive web apps, components, luminous state borders, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `border-beam-ui`, `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review restrained border motion, GSAP animations, timelines, ScrollTrigger effects, plugins, framework lifecycles, reduced motion, and performance-sensitive motion |
-| Content creator operations | `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Research, outline, write, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
+| Content creator operations | `human-writing`, `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Write evidence-grounded Chinese prose, then research, outline, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
 | Video direction, prompts, and media APIs | `opennana-image-video-prompt-studio`, `video-director-studio`, `seedance-2-5-prompt-studio`, `seedance-director-compat`, `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `pixelle-video-workflows`, `rw-generate-video` | Turn ideas and assets into format-selected prompt packs, director treatments, timelines, reference/cast isolation, shot/continuity/sound packs, and provider-specific prompts or media integrations |
 | Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
 | Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, and clip YouTube content |
 | Career and Japan job search | `career-ops`, `offer-toolkit-japan` | Scan and track applications, decode Japanese or English JDs, prepare 履歴書・職務経歴書・English resumes, practice bilingual interviews, and review offers, labor terms, and residence-status questions |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
 | Interactive research and web intelligence | `jupyter-live-kernel`, `arxiv`, `firecrawl*`, `wigolo` | Run stateful Python exploration, paper search, web search/scraping/monitoring, and local-first MCP research |
-| Planning, writing, and presentations | `plan`, `humanizer`, `research-paper-writing`, `powerpoint`, `grill-me` | Write implementation plans, revise prose, produce research papers and editable PPTX files, and pressure-test decisions |
+| Planning, writing, and presentations | `plan`, `human-writing`, `humanizer`, `research-paper-writing`, `powerpoint`, `grill-me` | Write implementation plans, create and revise natural Chinese prose, produce research papers and editable PPTX files, and pressure-test decisions |
+
+## Human Writing Chinese Prose Skill
+
+This export installs [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) version `1.1.0` from upstream commit `4fda173f3fef7fb808f3eba991eeb2528ea4b189`. The complete MIT-licensed Skill, references, Lite edition, agent metadata, and prose checker are preserved in `codex-skills/human-writing/`, `project-agent-skills/human-writing/`, and `user-agent-skills/human-writing/`.
+
+Use `$human-writing` for Chinese articles, Zhihu answers, WeChat posts, forum prose, profiles, explainers, reviews, stories, scripts, and spoken narration. It checks whether long nonfiction has enough concrete material, separates factual and fictional claims, selects format-specific guidance, revises Chinese sentence and paragraph flow, and can run `scripts/check_prose.py` as a final diagnostic.
+
+The existing `humanizer` now delegates Chinese article-like work to `human-writing`. `script-writer`, `platform-repurpose`, and `brand-voice-guard` also call it for their final Chinese prose pass. Facts, citations, legal wording, brand rules, platform limits, and the user's real voice remain higher-priority constraints. The integration never invents personal experiences or opinions to make text sound more human, and it does not force prose-only punctuation rules onto code, URLs, metadata, or unrelated technical and academic formats.
+
+Example terminal prompt:
+
+```text
+Use $human-writing to turn these verified notes into a Chinese WeChat article. Check factual boundaries first, write the draft, then run the prose checker.
+```
 
 ## Content Creator Top 10 Skills
 
@@ -202,7 +216,7 @@ Both screenshots were audited. None of the 11 names in the first image had previ
 | `plan` | `NousResearch/hermes-agent` | Plan without execution; covers the screenshot's `writing-plans / plan` entry |
 | `claude-design`, `sketch` | `NousResearch/hermes-agent` | Build one-off HTML artifacts or compare 2-3 interactive design sketches |
 | `powerpoint` | Adapted from the Apache-2.0 `pptx` example in `bojieli/ai-agent-book` | Generate and verify editable `.pptx` files without copying Anthropic's non-redistributable Skill |
-| `humanizer` | `NousResearch/hermes-agent` | Remove AI writing patterns while preserving meaning and factual boundaries |
+| `humanizer` | `NousResearch/hermes-agent` | Remove general AI writing patterns; route Chinese article-like prose to `human-writing` while preserving meaning and factual boundaries |
 | `arxiv`, `research-paper-writing` | `NousResearch/hermes-agent` | Search arXiv and handle research design, experiments, citations, writing, and submission checks |
 | `firecrawl` plus nine `firecrawl-*` Skills | `firecrawl/cli` | Search, scrape, map, crawl, interact, download, parse, and monitor web content |
 | `grill-me` | `feiskyer/codex-settings` | Explicit pressure-testing interviews with glossary and ADR maintenance |

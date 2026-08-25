@@ -44,13 +44,52 @@ English version: [README.md](README.md)
 | 前端与视觉设计 | `hallmark`、`border-beam-ui`、`frontend-design`、`web-design-engineer`、`open-design` | 生成和审计具有结构差异的网页、组件、发光状态边框、仪表盘、演示文稿、海报、社媒图、交互原型和设计系统 |
 | 前端动效 | `border-beam-ui`、`gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查克制的边框动效、GSAP 动画、时间线、ScrollTrigger、插件、框架生命周期、低动态模式和性能 |
 | 内容创作者运营 | `human-writing`、`content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 先写有材料支撑的自然中文，再做选题调研、大纲、标题、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
-| 视频导演、提示词与媒体生成 | `opennana-image-video-prompt-studio`、`video-director-studio`、`seedance-2-5-prompt-studio`、`seedance-director-compat`、`seedance2-skill`、`seedance-prompt-zh`、`seedance-prompt-en`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成题材选型、提示词包、导演方案、时间轴、参考职责/角色隔离、镜头/连续性/声音包，再编译为各模型提示词或媒体生成集成 |
+| 视频导演、提示词与媒体生成 | `video-shotcraft`、`generative-media-skills`、`drama-skills`、`higgsfield-ai-prompt`、`h3lite`、`opennana-image-video-prompt-studio`、`video-director-studio`、`seedance-2-5-prompt-studio`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成剧本、分镜、导演方案、镜头/连续性/声音包、模型提示词和生成流程，并验证最终媒体产物 |
 | 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 | 交互研究与网页情报 | `jupyter-live-kernel`、`arxiv`、`firecrawl*`、`wigolo` | 做有状态 Python 探索、论文检索、网页搜索/抓取/监控，以及本地优先的 MCP 研究 |
 | 规划、写作与演示 | `plan`、`human-writing`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划，创作和修改自然中文，制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
+
+## 视频 Agent Skill 专项更新：28 个仓库
+
+[huangserva 的 X 帖子](https://x.com/servasyy_ai/status/2092059961656537546)中列出的 28 个视频 Skill 仓库已于 `2026-08-25` 完成审计和导入，上游合计包含 263 个 `SKILL.md`。为了防止几百个内部阶段卡同时参与自动触发，本库为每个仓库提供一个经过验证的总路由入口，并把可复制的上游子技能树保存在 `references/upstream/`，内部入口统一改名为 `SOURCE_SKILL.md`。
+
+每个 Skill 的 `SOURCE.md` 都记录了准确的上游提交和审计时看到的许可证。安装路由 Skill 不等于安装其 CLI、完整应用、模型权重、付费 API、账号或密钥。上传素材、克隆声音、公开发布、付费生成、安装大型模型和修改外部账号仍需单独明确授权。三个缺少清晰再分发许可或采用混合许可的仓库使用来源链接型适配器，不复制受限正文。
+
+| 已安装 Skill | 上游仓库 | 导入方式 |
+| --- | --- | --- |
+| `video-shotcraft` | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | Apache-2.0 快照 |
+| `generative-media-skills` | [SamurAIGPT/Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | MIT 快照 |
+| `chengfeng-videocut` | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) | Apache-2.0 快照 |
+| `srt-whiteboard-animation` | [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) | MIT 快照 |
+| `claude-code-video-toolkit` | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | MIT 快照 |
+| `shuohao-video-drama` | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | Apache-2.0 快照 |
+| `video-podcast-maker` | [Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) | CC BY-NC 4.0 快照 |
+| `drama-skills` | [worldwonderer/drama-skills](https://github.com/worldwonderer/drama-skills) | MIT 快照 |
+| `lanshu-ai-presenter-video` | [cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) | MIT 快照 |
+| `make-prompt-seedance2` | [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | 仅来源链接，上游未声明许可证 |
+| `buttercut-video-editor` | [barefootford/buttercut](https://github.com/barefootford/buttercut) | PolyForm 非商业快照 |
+| `orkas-video-studio` | [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | MIT 快照 |
+| `chatgpt-video-editing` | [Jaycheng1103/chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) | MIT 快照 |
+| `video-recap-skills` | [worldwonderer/video-recap-skills](https://github.com/worldwonderer/video-recap-skills) | MIT 快照 |
+| `nomi-video-workbench` | [aqm857886159/Nomi](https://github.com/aqm857886159/Nomi) | AGPL-3.0 快照 |
+| `higgsfield-ai-prompt` | [OSideMedia/higgsfield-ai-prompt-skill](https://github.com/OSideMedia/higgsfield-ai-prompt-skill) | MIT 快照 |
+| `ai-shortfilm-prompts` | [jnMetaCode/ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | MIT 快照 |
+| `ai-video-generator-claude` | [rediumvex/ai-video-generator-claude](https://github.com/rediumvex/ai-video-generator-claude) | MIT 快照 |
+| `seedance-realistic-prompt` | [zhouwei713/seedance-prompt](https://github.com/zhouwei713/seedance-prompt) | MIT 快照 |
+| `h3lite` | [Rimagination/h3lite](https://github.com/Rimagination/h3lite) | MIT 快照 |
+| `classical-poem-silk-video` | [Mr-funny/hbg-classical-poem-silk-video](https://github.com/Mr-funny/hbg-classical-poem-silk-video) | MIT 快照 |
+| `claude-youtube-editor` | [hassancs91/claude-youtube-editor](https://github.com/hassancs91/claude-youtube-editor) | MIT 快照 |
+| `super-video-maker` | [Bomx/super-video-maker-skill](https://github.com/Bomx/super-video-maker-skill) | 仅来源链接，上游未声明许可证 |
+| `ai-media-generator` | [Hao0321/ai-media-generator](https://github.com/Hao0321/ai-media-generator) | MIT 快照 |
+| `cs-board` | [ChenShuo2004/cs-board](https://github.com/ChenShuo2004/cs-board) | MIT 快照 |
+| `cut-director` | [Fangx-AI/cut-director](https://github.com/Fangx-AI/cut-director) | 仅来源链接，上游为混合许可 |
+| `oh-my-cassette` | [Cassette-Editor/oh-my-cassette](https://github.com/Cassette-Editor/oh-my-cassette) | MIT 快照 |
+| `erduo-broll-loop` | [erduo1998-cell/erduo-broll-loop-engineering](https://github.com/erduo1998-cell/erduo-broll-loop-engineering) | MIT 快照 |
+
+调用示例：`使用 $video-shotcraft 设计一条 20 秒产品片，先交付镜头方案，暂时不要调用付费生成接口。`
 
 ## Human Writing 中文写作 Skill
 

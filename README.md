@@ -44,13 +44,52 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Frontend and visual design | `hallmark`, `border-beam-ui`, `frontend-design`, `web-design-engineer`, `open-design` | Build and audit distinctive web apps, components, luminous state borders, dashboards, landing pages, slide decks, social graphics, reports, and design systems |
 | Frontend animation | `border-beam-ui`, `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react`, `gsap-plugins`, `gsap-utils`, `gsap-performance`, `gsap-frameworks` | Build and review restrained border motion, GSAP animations, timelines, ScrollTrigger effects, plugins, framework lifecycles, reduced motion, and performance-sensitive motion |
 | Content creator operations | `human-writing`, `content-research-brief`, `seo-aeo-outline`, `viral-hook-title`, `script-writer`, `platform-repurpose`, `brand-voice-guard`, `fact-check-citation`, `content-calendar-planner`, `asset-prompt-pack`, `publish-metadata-ops`, `aitoearn-compliance-ops` | Write evidence-grounded Chinese prose, then research, outline, repurpose, QA, fact-check, plan calendars, create visual prompt packs, prepare publish metadata, and run compliant AiToEarn automation checks |
-| Video direction, prompts, and media APIs | `opennana-image-video-prompt-studio`, `video-director-studio`, `seedance-2-5-prompt-studio`, `seedance-director-compat`, `seedance2-skill`, `seedance-prompt-zh`, `seedance-prompt-en`, `pixelle-video-workflows`, `rw-generate-video` | Turn ideas and assets into format-selected prompt packs, director treatments, timelines, reference/cast isolation, shot/continuity/sound packs, and provider-specific prompts or media integrations |
+| Video direction, prompts, and media APIs | `video-shotcraft`, `generative-media-skills`, `drama-skills`, `higgsfield-ai-prompt`, `h3lite`, `opennana-image-video-prompt-studio`, `video-director-studio`, `seedance-2-5-prompt-studio`, `pixelle-video-workflows`, `rw-generate-video` | Turn ideas and assets into scripts, storyboards, director treatments, shot/continuity/sound packs, model prompts, generation workflows, and verified media outputs |
 | Editable video production | `chatcut-plugin-basics`, `chatcut-asset-import`, `chatcut-transcription`, `chatcut-create-motion-graphics`, `chatcut-voice`, `chatcut-music`, `chatcut-export`, `chatcut-verification` | Operate ChatCut projects through MCP: import media, edit timelines, add captions, create motion graphics, generate voice/music/video assets, export, and verify visible edits |
 | Scraping and content tools | `scrapling-official`, `video-downloader`, `youtube-clipper`, `cangjie-skill` | Scrape websites, download permitted media, preserve transcripts and metadata, distill long-form content into tested skills, and clip YouTube content |
 | Career and Japan job search | `career-ops`, `offer-toolkit-japan` | Scan and track applications, decode Japanese or English JDs, prepare 履歴書・職務経歴書・English resumes, practice bilingual interviews, and review offers, labor terms, and residence-status questions |
 | Internet reach and cross-platform research | `agent-reach` | Route research across web pages, RSS, GitHub, YouTube, Bilibili, V2EX, semantic search, and optional authenticated social platforms |
 | Interactive research and web intelligence | `jupyter-live-kernel`, `arxiv`, `firecrawl*`, `wigolo` | Run stateful Python exploration, paper search, web search/scraping/monitoring, and local-first MCP research |
 | Planning, writing, and presentations | `plan`, `human-writing`, `humanizer`, `research-paper-writing`, `powerpoint`, `grill-me` | Write implementation plans, create and revise natural Chinese prose, produce research papers and editable PPTX files, and pressure-test decisions |
+
+## Video Agent Skill Wave: 28 Repositories
+
+The 28 video-skill repositories catalogued in [huangserva's X post](https://x.com/servasyy_ai/status/2092059961656537546) were audited and imported on `2026-08-25`. They expose 263 upstream `SKILL.md` entrypoints in total. To avoid hundreds of internal stage cards competing for automatic activation, this library provides one validated repository-level router per project and stores the applicable upstream child-skill tree under `references/upstream/` with entrypoints renamed to `SOURCE_SKILL.md`.
+
+Each `SOURCE.md` records the exact upstream commit and observed license. Installing a router does not install its CLI, application, model weights, paid API access, or credentials. Remote uploads, voice cloning, publishing, paid generation, large model installation, and account mutations still require explicit authorization. Three repositories with absent or mixed redistribution terms use source-linked adapters and do not copy restricted upstream text.
+
+| Installed Skill | Upstream | Import mode |
+| --- | --- | --- |
+| `video-shotcraft` | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | Apache-2.0 snapshot |
+| `generative-media-skills` | [SamurAIGPT/Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | MIT snapshot |
+| `chengfeng-videocut` | [Agentchengfeng/chengfeng-videocut-skills](https://github.com/Agentchengfeng/chengfeng-videocut-skills) | Apache-2.0 snapshot |
+| `srt-whiteboard-animation` | [geeklee/srt-whiteboard-animation](https://github.com/geeklee/srt-whiteboard-animation) | MIT snapshot |
+| `claude-code-video-toolkit` | [digitalsamba/claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | MIT snapshot |
+| `shuohao-video-drama` | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | Apache-2.0 snapshot |
+| `video-podcast-maker` | [Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) | CC BY-NC 4.0 snapshot |
+| `drama-skills` | [worldwonderer/drama-skills](https://github.com/worldwonderer/drama-skills) | MIT snapshot |
+| `lanshu-ai-presenter-video` | [cclank/lanshu-create-ai-presenter-video](https://github.com/cclank/lanshu-create-ai-presenter-video) | MIT snapshot |
+| `make-prompt-seedance2` | [liangdabiao/make-prompt-seedance2](https://github.com/liangdabiao/make-prompt-seedance2) | Source-linked; no license declared |
+| `buttercut-video-editor` | [barefootford/buttercut](https://github.com/barefootford/buttercut) | PolyForm Noncommercial snapshot |
+| `orkas-video-studio` | [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | MIT snapshot |
+| `chatgpt-video-editing` | [Jaycheng1103/chatgpt-video-editing-skills](https://github.com/Jaycheng1103/chatgpt-video-editing-skills) | MIT snapshot |
+| `video-recap-skills` | [worldwonderer/video-recap-skills](https://github.com/worldwonderer/video-recap-skills) | MIT snapshot |
+| `nomi-video-workbench` | [aqm857886159/Nomi](https://github.com/aqm857886159/Nomi) | AGPL-3.0 snapshot |
+| `higgsfield-ai-prompt` | [OSideMedia/higgsfield-ai-prompt-skill](https://github.com/OSideMedia/higgsfield-ai-prompt-skill) | MIT snapshot |
+| `ai-shortfilm-prompts` | [jnMetaCode/ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | MIT snapshot |
+| `ai-video-generator-claude` | [rediumvex/ai-video-generator-claude](https://github.com/rediumvex/ai-video-generator-claude) | MIT snapshot |
+| `seedance-realistic-prompt` | [zhouwei713/seedance-prompt](https://github.com/zhouwei713/seedance-prompt) | MIT snapshot |
+| `h3lite` | [Rimagination/h3lite](https://github.com/Rimagination/h3lite) | MIT snapshot |
+| `classical-poem-silk-video` | [Mr-funny/hbg-classical-poem-silk-video](https://github.com/Mr-funny/hbg-classical-poem-silk-video) | MIT snapshot |
+| `claude-youtube-editor` | [hassancs91/claude-youtube-editor](https://github.com/hassancs91/claude-youtube-editor) | MIT snapshot |
+| `super-video-maker` | [Bomx/super-video-maker-skill](https://github.com/Bomx/super-video-maker-skill) | Source-linked; no license declared |
+| `ai-media-generator` | [Hao0321/ai-media-generator](https://github.com/Hao0321/ai-media-generator) | MIT snapshot |
+| `cs-board` | [ChenShuo2004/cs-board](https://github.com/ChenShuo2004/cs-board) | MIT snapshot |
+| `cut-director` | [Fangx-AI/cut-director](https://github.com/Fangx-AI/cut-director) | Source-linked; mixed license |
+| `oh-my-cassette` | [Cassette-Editor/oh-my-cassette](https://github.com/Cassette-Editor/oh-my-cassette) | MIT snapshot |
+| `erduo-broll-loop` | [erduo1998-cell/erduo-broll-loop-engineering](https://github.com/erduo1998-cell/erduo-broll-loop-engineering) | MIT snapshot |
+
+Example: `Use $video-shotcraft to design a 20-second product film, return the shot plan first, and do not call a paid generator yet.`
 
 ## Human Writing Chinese Prose Skill
 

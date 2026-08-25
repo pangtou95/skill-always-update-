@@ -1,0 +1,4 @@
+interface:
+  display_name: "Erduo B-roll Loop Engineering"
+  short_description: "Build SRT B-roll through chapter-owned creative loops."
+  default_prompt: "Use $erduo-broll-loop-engineering with the complete original SRT and design to build a five-shot HyperFrames canary through Lead samples and 5–8-shot Chapter Builders; stop for my choice before full production."

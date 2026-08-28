@@ -594,6 +594,7 @@ codex-skills/sentence-transformers/SKILL.md
 codex-skills/sentencepiece/SKILL.md
 codex-skills/seo-aeo-outline/SKILL.md
 codex-skills/sglang/SKILL.md
+codex-skills/short-drama-director/SKILL.md
 codex-skills/shuohao-video-drama/SKILL.md
 codex-skills/simpo/SKILL.md
 codex-skills/sketch/SKILL.md
@@ -739,6 +740,7 @@ project-agent-skills/seedance-prompt-en/SKILL.md
 project-agent-skills/seedance-prompt-zh/SKILL.md
 project-agent-skills/seedance-realistic-prompt/SKILL.md
 project-agent-skills/seo-aeo-outline/SKILL.md
+project-agent-skills/short-drama-director/SKILL.md
 project-agent-skills/shuohao-video-drama/SKILL.md
 project-agent-skills/sketch/SKILL.md
 project-agent-skills/srt-whiteboard-animation/SKILL.md
@@ -789,6 +791,7 @@ user-agent-skills/publish-metadata-ops/SKILL.md
 user-agent-skills/script-writer/SKILL.md
 user-agent-skills/seedance-realistic-prompt/SKILL.md
 user-agent-skills/seo-aeo-outline/SKILL.md
+user-agent-skills/short-drama-director/SKILL.md
 user-agent-skills/shuohao-video-drama/SKILL.md
 user-agent-skills/srt-whiteboard-animation/SKILL.md
 user-agent-skills/super-video-maker/SKILL.md

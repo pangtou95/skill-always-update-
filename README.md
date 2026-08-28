@@ -52,6 +52,27 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Interactive research and web intelligence | `jupyter-live-kernel`, `arxiv`, `firecrawl*`, `wigolo` | Run stateful Python exploration, paper search, web search/scraping/monitoring, and local-first MCP research |
 | Planning, writing, and presentations | `plan`, `human-writing`, `humanizer`, `research-paper-writing`, `powerpoint`, `grill-me` | Write implementation plans, create and revise natural Chinese prose, produce research papers and editable PPTX files, and pressure-test decisions |
 
+## Manga Creation: Short-Drama Director V6.0
+
+Integrated [manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) as **`short-drama-director`**, based on upstream V6.0 commit `d59b9217dd6ebec7515d1170fbe4cd8680992bd2`, audited on `2026-08-29`. The MIT license, 18 reference modules, and upstream static package checker are included in all three export groups. `PROVENANCE.json` records local adaptations.
+
+The existing `drama-skills`, `shuohao-video-drama`, and `video-director-studio` now route relevant manga work to this specialist. The active project remains the owner: approved plots, exact dialogue, asset IDs, shot IDs, and continuity states are reused rather than regenerated.
+
+| Stage | Added capability |
+| --- | --- |
+| Script | Premise/structure/beat/entity/page gates and seven-dimensional dialogue diagnosis |
+| Continuity | Tiered character assets, visual anchors, spatial snapshots and action-axis tracking |
+| Direction | Dialogue micro-expressions, optional action PREVIS and martial-arts reference modules |
+| Handoff | Timed shots, layered model prompts, sound plan and evidence-linked P0/P1/P2 review |
+
+Local adaptations treat fixed camera angles, 15-second clips, sentence lengths, and action intensity as presets, not universal rules. Verify current model limits before execution; preserve locked dialogue and account for overlapping action/audio. Content compliance requires actual content revision, not keyword substitution. Completion-rate scores are heuristics, not performance guarantees.
+
+The bundled `assets/handoff.example.json` is a fictional, draft-only 30-second silent manga example. The package checker checks files and text, not rendered video or platform acceptance. Installing this Skill does not install a generator, configure an API, upload media, or authorize paid calls.
+
+Example inside Codex: `Use $short-drama-director to adapt this story into a 60-second manga episode. Keep the existing characters, diagnose dialogue, then deliver assets, storyboards and Seedance prompts. Do not generate or upload video yet.`
+
+Repository verification: `python3 tools/test_short_drama_integration.py`. Set `SKILLS_LOCAL_ROOT` to an installed skill root to include local-copy checks. This checks packaging, routing and the example contract; not creative quality or real generation.
+
 ## Video Agent Skill Wave: 28 Repositories
 
 The 28 video-skill repositories catalogued in [huangserva's X post](https://x.com/servasyy_ai/status/2092059961656537546) were audited and imported on `2026-08-25`. They expose 263 upstream `SKILL.md` entrypoints in total. To avoid hundreds of internal stage cards competing for automatic activation, this library provides one validated repository-level router per project and stores the applicable upstream child-skill tree under `references/upstream/` with entrypoints renamed to `SOURCE_SKILL.md`.

@@ -67,6 +67,7 @@ Do not force a full production package when the user only needs one shot. For co
 
 | Need | Route |
 | --- | --- |
+| Manga / short-drama specialist direction | Load sibling `../short-drama-director/SKILL.md` for dialogue diagnosis, asset/spatial locks, dialogue/action storyboards and QC; keep the existing director pack or `drama-skills` / `shuohao-video-drama` project as owner |
 | Seedance 2.5 prompt pack | `seedance-2-5-prompt-studio`, plus `seedance-director-compat` for bilingual physics/fallback contracts |
 | Seedance 2.0 multimodal prompt | `seedance-director-compat`, `seedance-prompt-zh`, or `seedance-prompt-en` |
 | Runway generation/API | `rw-check-compatibility`, then `rw-generate-video` or `use-runway-api` |
@@ -77,6 +78,13 @@ Do not force a full production package when the user only needs one shot. For co
 | Narration-led movie recap | `narrator-ai-cli-skill` |
 
 The director pack is the source of truth. Provider prompts are disposable compilations from that pack.
+
+For manga integration, reuse approved beats, exact dialogue, asset/scene/shot IDs,
+and continuity states. Load only the relevant specialist modules and merge their
+results into the existing pack. Commercial action presets do not override
+intentional 2D side views, quiet scenes, long takes, or the verified model limits.
+If the optional sibling Skill is absent, continue with this director workflow
+and report that the specialist module was not used.
 
 ## Required Final Checks
 

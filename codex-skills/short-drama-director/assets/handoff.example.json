@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "fictional_example": true,
+  "project_id": "rain-letter",
+  "revision": "draft-1",
+  "owner_skill": "drama-skills",
+  "brief": {
+    "concept": "A courier finds an old undelivered letter and decides to deliver it.",
+    "style": "restrained 2D ink manga, side-on compositions allowed",
+    "target_duration_s": 30,
+    "aspect_ratio": "9:16",
+    "dialogue_language": "none",
+    "dialogue_locked": true,
+    "approved_dialogue": [],
+    "action_preset": "R1"
+  },
+  "model": {
+    "provider": "unknown",
+    "version": "unknown",
+    "mode": "unknown",
+    "max_clip_duration_s": null,
+    "verified_on": null,
+    "evidence_url": null
+  },
+  "assets": [
+    {
+      "asset_id": "char-courier",
+      "tier": "A",
+      "anchor": "young adult courier, short black hair, green raincoat, red satchel",
+      "reference_file": null,
+      "rights_status": "original fictional design; no supplied likeness",
+      "approval_status": "draft"
+    },
+    {
+      "asset_id": "prop-letter",
+      "tier": "B",
+      "anchor": "sealed white envelope, blue stamp, no legible address",
+      "reference_file": null,
+      "rights_status": "original fictional prop",
+      "approval_status": "draft"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "scene-01",
+      "space": "Covered station platform, bench on screen-left, exit screen-right.",
+      "axis": "Courier travels screen-left to screen-right; camera remains platform-side."
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "scene_id": "scene-01",
+      "asset_ids": ["char-courier", "prop-letter"],
+      "start_s": 0,
+      "duration_s": 10,
+      "exact_dialogue": [],
+      "camera": "Static side-on medium shot.",
+      "action": "Courier notices the envelope on the bench and lifts it with the right hand.",
+      "sound": "Rain beyond the roof; sleeve and paper rustle.",
+      "entry_state": "Letter on bench, courier's right hand empty.",
+      "exit_state": "Letter held in right hand at chest level."
+    },
+    {
+      "shot_id": "shot-02",
+      "scene_id": "scene-01",
+      "asset_ids": ["char-courier", "prop-letter"],
+      "start_s": 10,
+      "duration_s": 10,
+      "exact_dialogue": [],
+      "camera": "Static close-up from the same side of the axis.",
+      "action": "Courier studies the stamp, hesitates, then carefully puts the letter in the satchel.",
+      "sound": "Rain continues; paper and satchel clasp.",
+      "entry_state": "Letter held in right hand at chest level.",
+      "exit_state": "Letter inside the closed red satchel; gaze towards screen-right."
+    },
+    {
+      "shot_id": "shot-03",
+      "scene_id": "scene-01",
+      "asset_ids": ["char-courier", "prop-letter"],
+      "start_s": 20,
+      "duration_s": 10,
+      "exact_dialogue": [],
+      "camera": "Static wide shot, no axis crossing.",
+      "action": "Courier steps towards the exit on screen-right; the bench remains empty.",
+      "sound": "Footsteps join the rain, then fade.",
+      "entry_state": "Letter inside the closed red satchel; gaze towards screen-right.",
+      "exit_state": "Courier exits screen-right with the satchel."
+    }
+  ],
+  "transitions": {"type": "hard-cut", "overlap_s": 0},
+  "execution": {"mode": "draft-only", "paid_generation_authorized": false, "upload_authorized": false},
+  "qc": {
+    "status": "pending",
+    "issues": [
+      {"severity": "P0", "scope": "execution-only", "shot_id": null, "evidence": "Provider and clip limits are unknown.", "fix": "Verify model capabilities and authorization before submitting shots.", "status": "open"}
+    ]
+  }
+}

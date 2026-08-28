@@ -52,6 +52,27 @@ English version: [README.md](README.md)
 | 交互研究与网页情报 | `jupyter-live-kernel`、`arxiv`、`firecrawl*`、`wigolo` | 做有状态 Python 探索、论文检索、网页搜索/抓取/监控，以及本地优先的 MCP 研究 |
 | 规划、写作与演示 | `plan`、`human-writing`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划，创作和修改自然中文，制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
 
+## 漫剧创作增强：漫剧老李 V6.0
+
+已将 [manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) 适配为 **`short-drama-director`**，基于上游 V6.0 提交 `d59b9217dd6ebec7515d1170fbe4cd8680992bd2`，审计日期为 `2026-08-29`。三个导出目录均包含 MIT 许可证、18 个参考模块及上游静态包检查脚本；本地适配记录见 `PROVENANCE.json`。
+
+原有 `drama-skills`、`shuohao-video-drama` 和 `video-director-studio` 已接入专项路由。当前项目仍是主流程：沿用已批准的剧情、原句台词、角色/镜头 ID 和连续性状态，不重复生成或推倒重来。
+
+| 阶段 | 补充能力 |
+| --- | --- |
+| 编剧 | 前提/结构/节拍/实体/剧本页五阶门控、台词七维诊断 |
+| 一致性 | 角色分级资产、视觉锚点、空间快照、动作轴线跟踪 |
+| 导演 | 文戏微表情、按需启用的武戏 PREVIS 与武学参考 |
+| 交付 | 带时长的镜头表、分层模型提示词、声音计划、附证据的 P0/P1/P2 审查 |
+
+本地版把固定镜头角度、15 秒片段、句长和动作强度降为可选预设，不限制慢节奏、静默文戏或 2D 侧视。执行前核验当前模型上限；保护已锁台词，正确计算动作与对白的重叠时间。内容合规必须修改实际内容，不能用换词规避审核。完播评分仅为创作启发，不是效果保证。
+
+`assets/handoff.example.json` 提供一份虚构的 30 秒静默漫剧交接示例，状态为仅草稿。包检查脚本只检查文件和文本，不证明成片合格或审核通过。安装 Skill 不等于安装视频引擎、配置 API、上传素材或授权付费调用。
+
+在 Codex 内可以说：`使用 $short-drama-director 把这个故事改成 60 秒漫剧，沿用现有角色，先诊断台词，再输出资产表、分镜和 Seedance 提示词，暂不生成或上传视频。`
+
+仓库验证命令：`python3 tools/test_short_drama_integration.py`。设置 `SKILLS_LOCAL_ROOT` 为安装目录可同时检查本地副本。此测试验证包结构、路由与示例契约，不评测创作品质或真实生成效果。
+
 ## 视频 Agent Skill 专项更新：28 个仓库
 
 [huangserva 的 X 帖子](https://x.com/servasyy_ai/status/2092059961656537546)中列出的 28 个视频 Skill 仓库已于 `2026-08-25` 完成审计和导入，上游合计包含 263 个 `SKILL.md`。为了防止几百个内部阶段卡同时参与自动触发，本库为每个仓库提供一个经过验证的总路由入口，并把可复制的上游子技能树保存在 `references/upstream/`，内部入口统一改名为 `SOURCE_SKILL.md`。

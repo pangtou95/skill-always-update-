@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
+  "commit": "d59b9217dd6ebec7515d1170fbe4cd8680992bd2",
+  "upstream_path": "short-drama-director",
+  "upstream_version": "6.0",
+  "audited_on": "2026-08-29",
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "integration_version": "1.0.0",
+  "reference_modules": 18,
+  "local_changes": [
+    "Adapt frontmatter to Codex skill validation and add scoped workflow handoffs.",
+    "Treat prescriptive creative rules as presets, not universal quality failures.",
+    "Require current model capability evidence before execution.",
+    "Clarify dialogue timing, timeline overlap, content revision and QC boundaries.",
+    "Add a fictional, draft-only handoff example."
+  ],
+  "runtime_installed": false,
+  "paid_calls_made": false
+}

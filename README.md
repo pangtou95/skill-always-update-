@@ -52,6 +52,12 @@ Symlinks were dereferenced during export, so cloned copies contain real files in
 | Interactive research and web intelligence | `jupyter-live-kernel`, `arxiv`, `firecrawl*`, `wigolo` | Run stateful Python exploration, paper search, web search/scraping/monitoring, and local-first MCP research |
 | Planning, writing, and presentations | `plan`, `human-writing`, `humanizer`, `research-paper-writing`, `powerpoint`, `grill-me` | Write implementation plans, create and revise natural Chinese prose, produce research papers and editable PPTX files, and pressure-test decisions |
 
+## Fast Web Agent: Jev Ultrafast
+
+Added `jev-fast-web`, an optional, bounded terminal function based on [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) at commit `452c1ad2dd628008f1d5608f28158d76e49e6cc0` (MIT). The Skill and adapter are exported in all three groups; upstream code stays in a separate local Python environment. It does **not** replace or speed up Codex's built-in Computer Use engine. The terminal adapter offers `check`, a no-model local DOM `probe`, and an explicitly enabled `run` command with a host allowlist, action cap, and independent final-page expectation.
+
+On 2026-09-18, upstream's 31 offline tests and 21 browser guard checks passed using an isolated Chrome profile. The installed function's own five offline tests also passed. A 30-observation local fixture probe measured a 1.48 ms median per DOM read; this is not an end-to-end speedup. `TYPESAFE_API_KEY` and `TEXT_MODEL_API_KEY` were unset, so no paid API calls or matched live-vs-Computer-Use benchmark were run. A real speed claim needs both keys, equivalent tasks, independent result checks, and multiple runs. Chrome's advanced controls, uploads, frames, canvas, private account operations, and desktop apps remain outside this recommended route.
+
 ## Jianying Headless: Source-Linked Guide
 
 Added `jianying-headless-guide` from a review of [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) at commit `bb1e72cfc2bbed71ba7587548cebc85330b3e29a`. It helps an agent distinguish editable local Jianying drafts from ChatCut projects, plan isolated builds, check required versions and access, and verify a requested native export. `video-director-studio` now routes local Jianying handoffs to it.

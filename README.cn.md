@@ -52,6 +52,12 @@ English version: [README.md](README.md)
 | 交互研究与网页情报 | `jupyter-live-kernel`、`arxiv`、`firecrawl*`、`wigolo` | 做有状态 Python 探索、论文检索、网页搜索/抓取/监控，以及本地优先的 MCP 研究 |
 | 规划、写作与演示 | `plan`、`human-writing`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划，创作和修改自然中文，制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
 
+## 网页加速功能：Jev Ultrafast
+
+新增可选的 `jev-fast-web` 终端功能，参考 [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) 的 MIT 仓库，固定审查提交 `452c1ad2dd628008f1d5608f28158d76e49e6cc0`。三份导出均包含原创 Skill 和调用脚本；上游运行代码另装在本地隔离 Python 环境。它**不会直接替换或加速 Codex 内置 Computer Use**。终端入口提供依赖检查、无需模型的本地 DOM 探测，以及需显式开启、限制域名和步数并核验结果的网页任务调用。
+
+2026-09-18 的测试结果：上游 31 项离线测试、独立 Chrome 配置中的 21 项浏览器控件检查，以及本入口 5 项离线测试均通过。本地页面连续观察 30 次，单次 DOM 读取中位数为 1.48 毫秒；这不能代表完整任务提速。本机未设置 `TYPESAFE_API_KEY` 和 `TEXT_MODEL_API_KEY`，所以没有产生付费调用，也没有做与内置 Computer Use 的同任务速度对比。真实提速结论需要配置两个密钥、做等价任务、多次运行并独立核对结果。上传、frame、canvas、私密账号操作和桌面 App 不走此路由。
+
 ## 剪映无头剪辑：来源链接型指南
 
 基于 [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) 的公开说明，新增 `jianying-headless-guide`，核对的提交为 `bb1e72cfc2bbed71ba7587548cebc85330b3e29a`。它帮助 Agent 区分本地剪映草稿与 ChatCut 项目，规划隔离构建、检查版本与访问权限，并在明确要求导出时验证成片。`video-director-studio` 已增加本地剪映交接路由。

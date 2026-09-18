@@ -75,6 +75,7 @@ Do not force a full production package when the user only needs one shot. For co
 | Automated multi-scene short video | `pixelle-video-workflows` |
 | LibTV platform execution | Use LibTV's own Skill/CLI after account, cost, and model availability are confirmed |
 | Editable assembly/captions/export | `chatcut-plugin-basics`, relevant `chatcut-*` Skills, then verification |
+| Local editable Jianying draft / native export readiness | `jianying-headless-guide` for a source-linked dependency check and isolated-draft handoff; the upstream core and matching Jianying installation are separate requirements |
 | Narration-led movie recap | `narrator-ai-cli-skill` |
 
 The director pack is the source of truth. Provider prompts are disposable compilations from that pack.

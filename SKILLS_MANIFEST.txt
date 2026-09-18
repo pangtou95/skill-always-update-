@@ -101,6 +101,7 @@ codex-skills/huggingface-tokenizers/SKILL.md
 codex-skills/human-writing/SKILL.md
 codex-skills/humanizer/SKILL.md
 codex-skills/instructor/SKILL.md
+codex-skills/jianying-headless-guide/SKILL.md
 codex-skills/jupyter-live-kernel/SKILL.md
 codex-skills/knowledge-distillation/SKILL.md
 codex-skills/ktransformers-ops/SKILL.md
@@ -698,6 +699,7 @@ project-agent-skills/higgsfield-ai-prompt/SKILL.md
 project-agent-skills/human-writing/SKILL.md
 project-agent-skills/humanizer/SKILL.md
 project-agent-skills/ian-xiaohei-illustrations/SKILL.md
+project-agent-skills/jianying-headless-guide/SKILL.md
 project-agent-skills/jupyter-live-kernel/SKILL.md
 project-agent-skills/ktransformers-ops/SKILL.md
 project-agent-skills/lanshu-ai-presenter-video/SKILL.md
@@ -780,6 +782,7 @@ user-agent-skills/generative-media-skills/SKILL.md
 user-agent-skills/h3lite/SKILL.md
 user-agent-skills/higgsfield-ai-prompt/SKILL.md
 user-agent-skills/human-writing/SKILL.md
+user-agent-skills/jianying-headless-guide/SKILL.md
 user-agent-skills/lanshu-ai-presenter-video/SKILL.md
 user-agent-skills/make-prompt-seedance2/SKILL.md
 user-agent-skills/narrator-ai-cli-skill/SKILL.md

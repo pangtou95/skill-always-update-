@@ -45,12 +45,18 @@ English version: [README.md](README.md)
 | 前端动效 | `border-beam-ui`、`gsap-core`、`gsap-timeline`、`gsap-scrolltrigger`、`gsap-react`、`gsap-plugins`、`gsap-utils`、`gsap-performance`、`gsap-frameworks` | 编写和审查克制的边框动效、GSAP 动画、时间线、ScrollTrigger、插件、框架生命周期、低动态模式和性能 |
 | 内容创作者运营 | `human-writing`、`content-research-brief`、`seo-aeo-outline`、`viral-hook-title`、`script-writer`、`platform-repurpose`、`brand-voice-guard`、`fact-check-citation`、`content-calendar-planner`、`asset-prompt-pack`、`publish-metadata-ops`、`aitoearn-compliance-ops` | 先写有材料支撑的自然中文，再做选题调研、大纲、标题、脚本、平台改写、品牌语气检查、事实核查、内容日历、视觉提示词包、发布元数据和 AiToEarn 合规自动化风控 |
 | 视频导演、提示词与媒体生成 | `video-shotcraft`、`generative-media-skills`、`drama-skills`、`higgsfield-ai-prompt`、`h3lite`、`opennana-image-video-prompt-studio`、`video-director-studio`、`seedance-2-5-prompt-studio`、`pixelle-video-workflows`、`rw-generate-video` | 把想法和素材整理成剧本、分镜、导演方案、镜头/连续性/声音包、模型提示词和生成流程，并验证最终媒体产物 |
-| 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification` | 通过 ChatCut MCP 操作可编辑视频项目：导入素材、编辑时间线、添加字幕、制作 MG 动效、生成配音/音乐/视频素材、导出并验证可见结果 |
+| 可编辑视频制作 | `chatcut-plugin-basics`、`chatcut-asset-import`、`chatcut-transcription`、`chatcut-create-motion-graphics`、`chatcut-voice`、`chatcut-music`、`chatcut-export`、`chatcut-verification`、`jianying-headless-guide` | 用 ChatCut MCP 剪辑，或另行规划本地剪映草稿流程并核验上游运行依赖 |
 | 爬虫与内容工具 | `scrapling-official`、`video-downloader`、`youtube-clipper`、`cangjie-skill` | 做网页抓取、合规下载媒体、保留转写和元数据、把长内容蒸馏为经过测试的 skills，以及 YouTube 内容裁剪 |
 | 求职与日本就业 | `career-ops`、`offer-toolkit-japan` | 扫描和跟踪申请，分析日文/英文 JD，制作履歴書、職務経歴書和英文简历，准备双语面试，并审查内定、劳动条件和在留资格问题 |
 | 全网触达与跨平台研究 | `agent-reach` | 在网页、RSS、GitHub、YouTube、B站、V2EX、语义搜索和可选登录态社交平台之间路由研究任务 |
 | 交互研究与网页情报 | `jupyter-live-kernel`、`arxiv`、`firecrawl*`、`wigolo` | 做有状态 Python 探索、论文检索、网页搜索/抓取/监控，以及本地优先的 MCP 研究 |
 | 规划、写作与演示 | `plan`、`human-writing`、`humanizer`、`research-paper-writing`、`powerpoint`、`grill-me` | 写实施计划，创作和修改自然中文，制作科研论文与可编辑 PPT，并通过高强度追问检验方案 |
+
+## 剪映无头剪辑：来源链接型指南
+
+基于 [mcncarl/jianying-headless](https://github.com/mcncarl/jianying-headless) 的公开说明，新增 `jianying-headless-guide`，核对的提交为 `bb1e72cfc2bbed71ba7587548cebc85330b3e29a`。它帮助 Agent 区分本地剪映草稿与 ChatCut 项目，规划隔离构建、检查版本与访问权限，并在明确要求导出时验证成片。`video-director-studio` 已增加本地剪映交接路由。
+
+这是一份**原创、只链接来源的操作指南**，不是上游 `yichen-jianying-edit` Skill 或核心引擎的复制品。[上游许可证](https://github.com/mcncarl/jianying-headless/blob/main/LICENSE)限制商业使用及公开打包衍生内容，因此库中不包含上游脚本、codec、剪映程序文件、凭据或特效资源。单独安装指南不能生成或导出剪映项目。2026-09-18 检查本机时，已具备 Apple Silicon 和 macOS 26.3.1，但 `/Applications` 未发现剪映；未进行原生操作测试。
 
 ## 漫剧创作增强：漫剧老李 V6.0
 

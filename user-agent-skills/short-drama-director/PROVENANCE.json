@@ -6,14 +6,19 @@
   "audited_on": "2026-08-29",
   "license": "MIT",
   "license_file": "LICENSE",
-  "integration_version": "1.0.0",
-  "reference_modules": 18,
+  "integration_version": "1.1.0",
+  "reviewed_upstream_version": "6.9.9",
+  "reviewed_upstream_commit": "6da07df971c85e730975785e7301cc1de9a7d3e7",
+  "reviewed_on": "2026-10-13",
+  "update_mode": "V6.0 base preserved; selective original V6.9.9 methods supplement, not full snapshot replacement",
+  "reference_modules": 19,
   "local_changes": [
     "Adapt frontmatter to Codex skill validation and add scoped workflow handoffs.",
     "Treat prescriptive creative rules as presets, not universal quality failures.",
     "Require current model capability evidence before execution.",
     "Clarify dialogue timing, timeline overlap, content revision and QC boundaries.",
-    "Add a fictional, draft-only handoff example."
+    "Add a fictional, draft-only handoff example.",
+    "Add a selective V6.9.9 supplement for segment continuity, explicit subject ownership, voiceover, expressions and H3 verification."
   ],
   "runtime_installed": false,
   "paid_calls_made": false

@@ -4,7 +4,8 @@ description: "漫剧老李 / Short-Drama Director: develop AI manga and short dr
 license: MIT
 metadata:
   upstream_version: "6.0"
-  integration_version: "1.0.0"
+  integration_version: "1.1.0"
+  reviewed_upstream_version: "6.9.9"
   upstream_commit: "d59b9217dd6ebec7515d1170fbe4cd8680992bd2"
 ---
 
@@ -15,6 +16,8 @@ metadata:
 这是上游 V6.0 的 Codex 适配版，来源和修改清单见 `PROVENANCE.json`，MIT 原文保留在 `LICENSE`。以下集成约定优先于后文及参考模块中的经验性规则；不能覆盖用户要求、平台能力或安全边界。
 
 ### 单一主流程，按需调用
+
+- 2026-10-13 已复核上游 V6.9.9，按需读取 `references/latest-methods.md`：补充跨段末态、首镜具体主体、旁白声画分离、FACS 表情与 H3 格式核验。它是选择性整合，不代表下方保留的 V6.0 全文已替换成完整 V6.9.9，也不安装新版脚本或模型。
 
 - 从 `drama-skills` 进入时，由它继续管理整集开发、制作与审查；本 Skill 只补齐当前阶段，不重开大纲或重复生成已批准资产。
 - 从 `shuohao-video-drama` 进入时，复用其小说分析、人物、提纲、美术和剧本，再做台词诊断、空间锁、分镜与质检。
@@ -54,12 +57,13 @@ metadata:
 
 ---
 
-## 一、 系统架构与 18 大专业规则库
+## 一、 系统架构与 19 大专业规则库
 
 ```text
 skills/short-drama-director/
 ├── SKILL.md                              # 全局总控路由器、六步工作法与极速直出模式
-└── references/                           # 18 大专业规则库（★=权威文件，其余为权威文件的细化/速查，见下节导航）
+└── references/                           # 18 个原有模块 + 1 个本地新版方法补充
+    ├── latest-methods.md                 # V6.9.9 选择性整合，不覆盖已有适配
     ├── ★ screenplay-gate-engine.md       # 五阶门控剧本引擎 (Premise->Structure->Beat->Entity->Page)【唯一权威】
     ├── ★ dialogue-doctor-7d.md           # 台词七维全量诊断与三段式理由重构引擎【唯一权威】
     ├── ★ asset-spatial-ledger.md         # 16 项资产锁定(A/B/C分级)、短锚点 (@asset_name) 与 3D 空间快照【唯一权威】

@@ -1,0 +1,5173 @@
+{
+  "checked_at": "2026-10-13T01:18:13.390698+00:00",
+  "scope": "Top-level exported skills only; not bundled plugins or nested snapshots.",
+  "warning": "HEAD drift is a review candidate, not proof a skill is outdated. No source record means no latest-version claim.",
+  "repositories": [
+    {
+      "repository": "Agentchengfeng/chengfeng-videocut-skills",
+      "head": "a33b43e08c34fa8beeb5e78498e852f4e80975a5"
+    },
+    {
+      "repository": "Agents365-ai/video-podcast-maker",
+      "head": "33b8078e3e87c9626d39d144b4c901b4ebf16f74"
+    },
+    {
+      "repository": "Bomx/super-video-maker-skill",
+      "head": "3fec4aa66a1d4f8b249746eabc372547f67bba5c"
+    },
+    {
+      "repository": "Cassette-Editor/oh-my-cassette",
+      "head": "4bebe25e619ba7b9a0c00806b56e720ab44463eb"
+    },
+    {
+      "repository": "ChenShuo2004/cs-board",
+      "head": "f7780ef08cc2c752806e49805f5f696bfcd020de"
+    },
+    {
+      "repository": "Fangx-AI/cut-director",
+      "head": "7e5803bf7bcd3892711eb9e2599f3833aff95a00"
+    },
+    {
+      "repository": "Hao0321/ai-media-generator",
+      "head": "edc8aa5227f4a58f9a3a88c7bf3e99bdda2a4361"
+    },
+    {
+      "repository": "Jaycheng1103/chatgpt-video-editing-skills",
+      "head": "dc2f10ac4616603188aff3df9ea6548a8da36355"
+    },
+    {
+      "repository": "Mr-funny/hbg-classical-poem-silk-video",
+      "head": "3326843a10bd398ec710f13ad58705e552c1c757"
+    },
+    {
+      "repository": "OSideMedia/higgsfield-ai-prompt-skill",
+      "head": "70754977d1884794963ac0a748eaaa85b6e9c82a"
+    },
+    {
+      "repository": "Orkas-AI/Orkas-VideoStudio",
+      "head": "c0c3c3eac359f9a3e8e3fbe65fd5426fad03dc4b"
+    },
+    {
+      "repository": "Rimagination/h3lite",
+      "head": "9bafafa6f1741fd6eb49d46b078e2dbb0feec3be"
+    },
+    {
+      "repository": "SamurAIGPT/Generative-Media-Skills",
+      "head": "66b55e2a27ee554667ec255782922bae72882cc8"
+    },
+    {
+      "repository": "Vincentwei1021/video-shotcraft",
+      "head": "e1d15d91374490c59bbbc1a05c2da7efde429828"
+    },
+    {
+      "repository": "aqm857886159/Nomi",
+      "head": "0f9a8f628b7a3d2dfb1a7dc233f62656cf9dbfde"
+    },
+    {
+      "repository": "barefootford/buttercut",
+      "head": "352c1e0314060fccf7d825d7e9adfa2dce6859d5"
+    },
+    {
+      "repository": "browser-use/jev-ultrafast",
+      "head": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46"
+    },
+    {
+      "repository": "cclank/lanshu-create-ai-presenter-video",
+      "head": "762d3ee42623b75a4ec63ad6aa61ace69d78ce6e"
+    },
+    {
+      "repository": "creght-dev/ui-refs",
+      "head": "19eeae8e68a62fff7fe0c934ca880d4580722689"
+    },
+    {
+      "repository": "digitalsamba/claude-code-video-toolkit",
+      "head": "959e0fc6c20210832078781e49daa7384cebb293"
+    },
+    {
+      "repository": "erduo1998-cell/erduo-broll-loop-engineering",
+      "head": "741583ed973f9a431fcb262396556eae7fd13f15"
+    },
+    {
+      "repository": "eternityspring/shuohao-skills",
+      "head": "c27ea0e49c009a2b3c43dec40b702597ab56e1d9"
+    },
+    {
+      "repository": "firecrawl/cli",
+      "head": "783575dfeaeb06f3dd8f3867dcf8f0191e8866d2"
+    },
+    {
+      "repository": "geeklee/srt-whiteboard-animation",
+      "head": "696a7243c0e6ffb6827676e539c2ca5ebae2bf6b"
+    },
+    {
+      "repository": "hassancs91/claude-youtube-editor",
+      "head": "a6ac742b44520fd3c6aeaf3cd754e113fa334fed"
+    },
+    {
+      "repository": "jnMetaCode/ai-shortfilm-prompts",
+      "head": "5e7c3742aa44f9e015660f6d53a1a086ffbffef0"
+    },
+    {
+      "repository": "liangdabiao/make-prompt-seedance2",
+      "head": "5e6c250f74fd5f30afb4e5ff0f8550a06ebb4e8e"
+    },
+    {
+      "repository": "lixiaoxiao9888-create/manju-laoli-skill",
+      "head": "6da07df971c85e730975785e7301cc1de9a7d3e7"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "head": "49dd158d1076134a641b33efb035946536778336"
+    },
+    {
+      "repository": "mcncarl/jianying-headless",
+      "head": "42b3d75b15bd9f3a9bb4c11b2f5205f7b4312252"
+    },
+    {
+      "repository": "morluto/rea",
+      "head": "4f4f6cd7b5d7a400b90772a138d7b9f942c2a556"
+    },
+    {
+      "repository": "rediumvex/ai-video-generator-claude",
+      "head": "ffdad7d515f6579780749d1a90d9ed0945e3a4ac"
+    },
+    {
+      "repository": "worldwonderer/drama-skills",
+      "head": "c2426e03c0e7722bebcc6a488b6658dc38c65ac3"
+    },
+    {
+      "repository": "worldwonderer/video-recap-skills",
+      "head": "539168622918e058bd250c793b82f043eced31e0"
+    },
+    {
+      "repository": "zhouwei713/seedance-prompt",
+      "head": "f3336851c4eed8cdd6ce0f27df351611d4f751dd"
+    }
+  ],
+  "entries": [
+    {
+      "skill": "0-autoresearch-skill",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "a-evolve",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "academic-plotting",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "accelerate",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/accelerate"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "agent-reach",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Panniantong/Agent-Reach"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ai-agent-book-guide",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "bojieli/ai-agent-book"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ai-media-generator",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/ai-media-generator/SOURCE.md"
+      ],
+      "repositories": [
+        "Hao0321/ai-media-generator"
+      ],
+      "pinned_commits": [
+        "edc8aa5227f4a58f9a3a88c7bf3e99bdda2a4361"
+      ],
+      "unverified_link_hints": [
+        "Hao0321/ai-media-generator"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ai-shortfilm-prompts",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/ai-shortfilm-prompts/SOURCE.md"
+      ],
+      "repositories": [
+        "jnMetaCode/ai-shortfilm-prompts"
+      ],
+      "pinned_commits": [
+        "5e7c3742aa44f9e015660f6d53a1a086ffbffef0"
+      ],
+      "unverified_link_hints": [
+        "jnMetaCode/ai-shortfilm-prompts"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ai-video-generator-claude",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/ai-video-generator-claude/SOURCE.md"
+      ],
+      "repositories": [
+        "rediumvex/ai-video-generator-claude"
+      ],
+      "pinned_commits": [
+        "ffdad7d515f6579780749d1a90d9ed0945e3a4ac"
+      ],
+      "unverified_link_hints": [
+        "rediumvex/ai-video-generator-claude"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "aitoearn-compliance-ops",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "yikart/AiToEarn"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "arxiv",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "asset-prompt-pack",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "audiocraft",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "facebookresearch/audiocraft",
+        "facebookresearch/audiocraft.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "autogpt",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Significant-Gravitas/AutoGPT",
+        "Significant-Gravitas/AutoGPT.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "awq",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "casper-hansen/AutoAWQ",
+        "mit-han-lab/llm-awq",
+        "vllm-project/llm-compressor"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "axolotl",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "axolotl-ai-cloud/diff-transformer"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "bigcode-evaluation-harness",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "bigcode-project/bigcode-evaluation-harness",
+        "bigcode-project/bigcode-evaluation-harness.git",
+        "nuprl/MultiPL-E"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "bitsandbytes",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "bitsandbytes-foundation/bitsandbytes"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "blip-2",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "salesforce/LAVIS"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "border-beam-ui",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "brainstorming-research-ideas",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "brand-voice-guard",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "buttercut-video-editor",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/buttercut-video-editor/SOURCE.md"
+      ],
+      "repositories": [
+        "barefootford/buttercut"
+      ],
+      "pinned_commits": [
+        "5d625237621d372a31a99e8bf78a88c37564bab8"
+      ],
+      "unverified_link_hints": [
+        "barefootford/buttercut"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "cangjie-skill",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-asset-import",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-create-motion-graphics",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-export",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-image-gen",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-known-errors",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-music",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-plugin-basics",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-product-help",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-shader-gen",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-talking-head-guide",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-transcription",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-verification",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-video-gen",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-voice",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-widget-forms",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatgpt-video-editing",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/chatgpt-video-editing/SOURCE.md"
+      ],
+      "repositories": [
+        "Jaycheng1103/chatgpt-video-editing-skills"
+      ],
+      "pinned_commits": [
+        "dc2f10ac4616603188aff3df9ea6548a8da36355"
+      ],
+      "unverified_link_hints": [
+        "Jaycheng1103/chatgpt-video-editing-skills"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "chengfeng-videocut",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/chengfeng-videocut/SOURCE.md"
+      ],
+      "repositories": [
+        "Agentchengfeng/chengfeng-videocut-skills"
+      ],
+      "pinned_commits": [
+        "2e51611965af6e6b8baea3bfc82995b5c9e8f5ef"
+      ],
+      "unverified_link_hints": [
+        "Agentchengfeng/chengfeng-videocut-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "chroma",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "chroma-core/chroma"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "classical-poem-silk-video",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/classical-poem-silk-video/SOURCE.md"
+      ],
+      "repositories": [
+        "Mr-funny/hbg-classical-poem-silk-video"
+      ],
+      "pinned_commits": [
+        "3326843a10bd398ec710f13ad58705e552c1c757"
+      ],
+      "unverified_link_hints": [
+        "Mr-funny/hbg-classical-poem-silk-video"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "claude-code-video-toolkit",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/claude-code-video-toolkit/SOURCE.md"
+      ],
+      "repositories": [
+        "digitalsamba/claude-code-video-toolkit"
+      ],
+      "pinned_commits": [
+        "c05a0cb7e646da122ded600db5fc97468e8611d9"
+      ],
+      "unverified_link_hints": [
+        "digitalsamba/claude-code-video-toolkit"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "claude-design",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "claude-youtube-editor",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/claude-youtube-editor/SOURCE.md"
+      ],
+      "repositories": [
+        "hassancs91/claude-youtube-editor"
+      ],
+      "pinned_commits": [
+        "a6ac742b44520fd3c6aeaf3cd754e113fa334fed"
+      ],
+      "unverified_link_hints": [
+        "hassancs91/claude-youtube-editor"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "clip",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "openai/CLIP",
+        "openai/CLIP.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "code-review-graph",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "constitutional-ai",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "content-calendar-planner",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "content-research-brief",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "cosmos-policy",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Lifelong-Robot-Learning/LIBERO",
+        "NVlabs/cosmos-policy",
+        "NVlabs/cosmos-policy.git",
+        "moojink/robocasa-cosmos-policy",
+        "moojink/robocasa-cosmos-policy.git",
+        "robocasa/robocasa"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "creative-thinking-for-research",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "crewai",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "crewAIInc/crewAI",
+        "crewAIInc/crewAI-examples",
+        "crewAIInc/crewAI-tools"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "cs-board",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/cs-board/SOURCE.md"
+      ],
+      "repositories": [
+        "ChenShuo2004/cs-board"
+      ],
+      "pinned_commits": [
+        "2c14596177de5ba24f634698dea31ae92dbd92c5"
+      ],
+      "unverified_link_hints": [
+        "ChenShuo2004/cs-board"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "cut-director",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/cut-director/SOURCE.md"
+      ],
+      "repositories": [
+        "Fangx-AI/cut-director"
+      ],
+      "pinned_commits": [
+        "b52e67b972d264cfbadd42b0ba178e8592402e4c"
+      ],
+      "unverified_link_hints": [
+        "Fangx-AI/cut-director"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "deepspeed",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "deeptutor-cli",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "HKUDS/DeepTutor"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "drama-skills",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/drama-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "worldwonderer/drama-skills"
+      ],
+      "pinned_commits": [
+        "e2ebebe3c7aa1edeea812fbf7fd78c2ea6684933"
+      ],
+      "unverified_link_hints": [
+        "worldwonderer/drama-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "dspy",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "stanfordnlp/dspy",
+        "stanfordnlp/dspy.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "erduo-broll-loop",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/erduo-broll-loop/SOURCE.md"
+      ],
+      "repositories": [
+        "erduo1998-cell/erduo-broll-loop-engineering"
+      ],
+      "pinned_commits": [
+        "ee7f720a8a844de5957cf104b904daa050f183d0"
+      ],
+      "unverified_link_hints": [
+        "erduo1998-cell/erduo-broll-loop-engineering"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "fact-check-citation",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "faiss",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "facebookresearch/faiss"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/firecrawl/references/SOURCE.md"
+      ],
+      "repositories": [
+        "firecrawl/cli"
+      ],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-agent",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-crawl",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-download",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-interact",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-map",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-monitor",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-parse",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-scrape",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-search",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "flash-attention",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Dao-AILab/flash-attention"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "frontend-design",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "generative-media-skills",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/generative-media-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "SamurAIGPT/Generative-Media-Skills"
+      ],
+      "pinned_commits": [
+        "d9cdaa83510d46820391f058be6fde4281db285c"
+      ],
+      "unverified_link_hints": [
+        "SamurAIGPT/Generative-Media-Skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "gguf",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "abetlen/llama-cpp-python",
+        "ggml-org/llama.cpp"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gptq",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "AutoGPTQ/AutoGPTQ"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "grill-me",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/grill-me/SOURCE.md"
+      ],
+      "repositories": [
+        "mattpocock/skills"
+      ],
+      "pinned_commits": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ],
+      "unverified_link_hints": [],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "grpo-rl-training",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/open-r1",
+        "huggingface/trl"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-core",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-frameworks",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-performance",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-plugins",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-react",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-scrolltrigger",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-timeline",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-utils",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "guidance",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "guidance-ai/guidance"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "guizang-ppt-skill",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "h3lite",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/h3lite/SOURCE.md"
+      ],
+      "repositories": [
+        "Rimagination/h3lite"
+      ],
+      "pinned_commits": [
+        "9bafafa6f1741fd6eb49d46b078e2dbb0feec3be"
+      ],
+      "unverified_link_hints": [
+        "Rimagination/h3lite"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "hallmark",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "higgsfield-ai-prompt",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/higgsfield-ai-prompt/SOURCE.md"
+      ],
+      "repositories": [
+        "OSideMedia/higgsfield-ai-prompt-skill"
+      ],
+      "pinned_commits": [
+        "c0b73ab946df6658cca513db78bdc3909a655bfd"
+      ],
+      "unverified_link_hints": [
+        "OSideMedia/higgsfield-ai-prompt-skill"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "hqq",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "mobiusml/hqq"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "huggingface-tokenizers",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/tokenizers"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "human-writing",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "humanizer",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "blader/humanizer"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "instructor",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "jxnl/instructor"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "jev-fast-web",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/jev-fast-web/SOURCE.md"
+      ],
+      "repositories": [
+        "browser-use/jev-ultrafast"
+      ],
+      "pinned_commits": [
+        "452c1ad2dd628008f1d5608f28158d76e49e6cc0"
+      ],
+      "unverified_link_hints": [
+        "browser-use/jev-ultrafast"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "jianying-headless-guide",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/jianying-headless-guide/SOURCE.md"
+      ],
+      "repositories": [
+        "mcncarl/jianying-headless"
+      ],
+      "pinned_commits": [
+        "bb1e72cfc2bbed71ba7587548cebc85330b3e29a"
+      ],
+      "unverified_link_hints": [
+        "mcncarl/jianying-headless"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "jupyter-live-kernel",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "hamelsmu/hamelnb.git",
+        "nousresearch/hermes-agent"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "knowledge-distillation",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "microsoft/LMOps"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ktransformers-ops",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "lambda-labs",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "user/project"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "langchain",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "langchain-ai/langchain"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "langsmith",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "langchain-ai/langsmith-sdk"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "lanshu-ai-presenter-video",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/lanshu-ai-presenter-video/SOURCE.md"
+      ],
+      "repositories": [
+        "cclank/lanshu-create-ai-presenter-video"
+      ],
+      "pinned_commits": [
+        "04f6bceab888ad923e192fb02542eda06d1fdda8"
+      ],
+      "unverified_link_hints": [
+        "cclank/lanshu-create-ai-presenter-video"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "litgpt",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Lightning-AI/litgpt"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "llama-cpp",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "ggerganov/llama.cpp"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "llama-factory",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "llamaguard",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "llamaindex",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "run-llama/llama_index"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "llava",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "haotian-liu/LLaVA"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "lm-evaluation-harness",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "EleutherAI/lm-evaluation-harness"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "long-context",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/transformers",
+        "jquesnelle/yarn"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "make-prompt-seedance2",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/make-prompt-seedance2/SOURCE.md"
+      ],
+      "repositories": [
+        "liangdabiao/make-prompt-seedance2"
+      ],
+      "pinned_commits": [
+        "4530e9145c4f16bf4ccb7f86090df10333e5e64e"
+      ],
+      "unverified_link_hints": [
+        "liangdabiao/make-prompt-seedance2"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "mamba",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "state-spaces/mamba"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "matt-engineering-workflows",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/matt-engineering-workflows/SOURCE.md"
+      ],
+      "repositories": [
+        "mattpocock/skills"
+      ],
+      "pinned_commits": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ],
+      "unverified_link_hints": [
+        "mattpocock/skills"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "megatron-core",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NVIDIA/Megatron-LM"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "miles",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "THUDM/slime",
+        "radixark/miles",
+        "radixark/miles.git",
+        "sgl-project/sglang"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ml-paper-writing",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "acl-org/acl-style-files",
+        "orchestra-research/AI-research-SKILLs"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ml-training-recipes",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "mlflow",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "mlflow/mlflow"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "modal",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "modal-labs/modal-examples"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "model-merging",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "arcee-ai/mergekit",
+        "arcee-ai/mergekit.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "model-pruning",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "IST-DASLab/sparsegpt",
+        "locuslab/wanda"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "moe-training",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "microsoft/Megatron-DeepSpeed"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nanogpt",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "karpathy/nanoGPT"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "narrator-ai-cli-skill",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NarratorAI-Studio/narrator-ai-cli"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nemo-curator",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NVIDIA/NeMo-Curator"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nemo-evaluator",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NVIDIA-NeMo/Evaluator"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nemo-guardrails",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NVIDIA/NeMo-Guardrails"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nnsight",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "ndif-team/nnsight"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nomi-video-workbench",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/nomi-video-workbench/SOURCE.md"
+      ],
+      "repositories": [
+        "aqm857886159/Nomi"
+      ],
+      "pinned_commits": [
+        "bc2a82557a64432f326f1d8358f9d717c5261b57"
+      ],
+      "unverified_link_hints": [
+        "aqm857886159/Nomi"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "offer-toolkit-japan",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "oh-my-cassette",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/oh-my-cassette/SOURCE.md"
+      ],
+      "repositories": [
+        "Cassette-Editor/oh-my-cassette"
+      ],
+      "pinned_commits": [
+        "d87db2e5def5d1ddc9c4620065addb73a8d5f36f"
+      ],
+      "unverified_link_hints": [
+        "Cassette-Editor/oh-my-cassette"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "open-design",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "opennana-image-video-prompt-studio",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "openpi",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Physical-Intelligence/openpi",
+        "Physical-Intelligence/openpi.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "openrlhf",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "OpenRLHF/OpenRLHF"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "openvla-oft",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Lifelong-Robot-Learning/LIBERO.git",
+        "moojink/openvla-oft",
+        "moojink/openvla-oft.git",
+        "moojink/rlds_dataset_builder"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "orkas-video-studio",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/orkas-video-studio/SOURCE.md"
+      ],
+      "repositories": [
+        "Orkas-AI/Orkas-VideoStudio"
+      ],
+      "pinned_commits": [
+        "7387d99d468e0cce22508854ba8bca04e79657e1"
+      ],
+      "unverified_link_hints": [
+        "Orkas-AI/Orkas-VideoStudio"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "outlines",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "outlines-dev/outlines"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "peft",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/peft"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "phoenix",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Arize-ai/phoenix"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "pinecone",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "plan",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "platform-repurpose",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "popular-web-designs",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "powerpoint",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "presenting-conference-talks",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "prompt-guard",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "meta-llama/llama-cookbook"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "publish-metadata-ops",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "pytorch-fsdp2",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "pytorch-lightning",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Lightning-AI/pytorch-lightning"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "pyvene",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "stanfordnlp/pyvene"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "qdrant",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "qdrant/qdrant",
+        "qdrant/qdrant-client"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ray-data",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "ray-project/ray"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ray-train",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "ray-project/ray"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rea-analysis",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/rea-analysis/SOURCE.md"
+      ],
+      "repositories": [
+        "morluto/rea"
+      ],
+      "pinned_commits": [
+        "4f4f6cd7b5d7a400b90772a138d7b9f942c2a556"
+      ],
+      "unverified_link_hints": [
+        "morluto/rea"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "research-paper-writing",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "acl-org/acl-style-files"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rwkv",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "BlinkDL/RWKV-LM"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "saelens",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "jbloomAus/SAELens"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "script-writer",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-2-5-prompt-studio",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-director-compat",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-realistic-prompt",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/seedance-realistic-prompt/SOURCE.md"
+      ],
+      "repositories": [
+        "zhouwei713/seedance-prompt"
+      ],
+      "pinned_commits": [
+        "f3336851c4eed8cdd6ce0f27df351611d4f751dd"
+      ],
+      "unverified_link_hints": [
+        "zhouwei713/seedance-prompt"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "seedance2-skill",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "segment-anything",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "facebookresearch/segment-anything",
+        "facebookresearch/segment-anything-2",
+        "facebookresearch/segment-anything.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "sentence-transformers",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "UKPLab/sentence-transformers"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "sentencepiece",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "google/sentencepiece",
+        "google/sentencepiece.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seo-aeo-outline",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "sglang",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "sgl-project/sglang",
+        "sgl-project/sglang.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "short-drama-director",
+      "group": "codex-skills",
+      "base_commit": "d59b9217dd6ebec7515d1170fbe4cd8680992bd2",
+      "records": [
+        "codex-skills/short-drama-director/PROVENANCE.json"
+      ],
+      "repositories": [
+        "lixiaoxiao9888-create/manju-laoli-skill"
+      ],
+      "pinned_commits": [
+        "6da07df971c85e730975785e7301cc1de9a7d3e7",
+        "d59b9217dd6ebec7515d1170fbe4cd8680992bd2"
+      ],
+      "unverified_link_hints": [],
+      "status": "reviewed-head-local-base-preserved"
+    },
+    {
+      "skill": "shuohao-video-drama",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/shuohao-video-drama/SOURCE.md"
+      ],
+      "repositories": [
+        "eternityspring/shuohao-skills"
+      ],
+      "pinned_commits": [
+        "0e5eb688ebf1b45e45c9bec31543aaa59e67c7bc"
+      ],
+      "unverified_link_hints": [
+        "eternityspring/shuohao-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "simpo",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/alignment-handbook",
+        "huggingface/alignment-handbook.git",
+        "princeton-nlp/SimPO"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "sketch",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "gsd-build/get-shit-done"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "skypilot",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "skypilot-org/skypilot"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "slime",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "THUDM/slime",
+        "THUDM/slime.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "speculative-decoding",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "FasterDecoding/Medusa",
+        "hao-ai-lab/LookaheadDecoding"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "srt-whiteboard-animation",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/srt-whiteboard-animation/SOURCE.md"
+      ],
+      "repositories": [
+        "geeklee/srt-whiteboard-animation"
+      ],
+      "pinned_commits": [
+        "696a7243c0e6ffb6827676e539c2ca5ebae2bf6b"
+      ],
+      "unverified_link_hints": [
+        "geeklee/srt-whiteboard-animation"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "stable-diffusion",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/diffusers"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "super-video-maker",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/super-video-maker/SOURCE.md"
+      ],
+      "repositories": [
+        "Bomx/super-video-maker-skill"
+      ],
+      "pinned_commits": [
+        "3fec4aa66a1d4f8b249746eabc372547f67bba5c"
+      ],
+      "unverified_link_hints": [
+        "Bomx/super-video-maker-skill"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "swanlab",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "SwanHubX/SwanLab",
+        "SwanHubX/self-hosted"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "systems-paper-writing",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "tensorboard",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "tensorflow/tensorboard"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "tensorrt-llm",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NVIDIA/TensorRT-LLM"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "torchforge",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "meta-pytorch/monarch",
+        "meta-pytorch/torchforge",
+        "pytorch/torchtitan"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "torchtitan",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "pytorch/ao.git",
+        "pytorch/torchtitan"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "transformer-lens",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "TransformerLensOrg/TransformerLens"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "trl-fine-tuning",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "huggingface/trl"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ui-refs",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/ui-refs/SOURCE.md"
+      ],
+      "repositories": [
+        "creght-dev/ui-refs"
+      ],
+      "pinned_commits": [
+        "19eeae8e68a62fff7fe0c934ca880d4580722689"
+      ],
+      "unverified_link_hints": [
+        "creght-dev/ui-refs"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "unsloth",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "verl",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "verl-project/verl-recipe",
+        "volcengine/verl",
+        "volcengine/verl.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "video-director-studio",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "video-downloader",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "video-podcast-maker",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/video-podcast-maker/SOURCE.md"
+      ],
+      "repositories": [
+        "Agents365-ai/video-podcast-maker"
+      ],
+      "pinned_commits": [
+        "73fcf16836aec2ae014fd68202f095e64c13fc4d"
+      ],
+      "unverified_link_hints": [
+        "Agents365-ai/video-podcast-maker"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "video-recap-skills",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/video-recap-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "worldwonderer/video-recap-skills"
+      ],
+      "pinned_commits": [
+        "7142ee976c647f8b54417aebe13a4cbe0f35ac14"
+      ],
+      "unverified_link_hints": [
+        "worldwonderer/video-recap-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "video-shotcraft",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [
+        "codex-skills/video-shotcraft/SOURCE.md"
+      ],
+      "repositories": [
+        "Vincentwei1021/video-shotcraft"
+      ],
+      "pinned_commits": [
+        "e1d15d91374490c59bbbc1a05c2da7efde429828"
+      ],
+      "unverified_link_hints": [
+        "Vincentwei1021/video-shotcraft"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "viral-hook-title",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "vllm",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "vllm-project/vllm"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "voicebox-studio",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "web-design-engineer",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "weights-and-biases",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "wandb/examples",
+        "wandb/wandb"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "whisper",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "openai/whisper"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "wigolo",
+      "group": "codex-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "KnockOutEZ/wigolo"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "agent-reach",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Panniantong/Agent-Reach"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ai-agent-book-guide",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "bojieli/ai-agent-book"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ai-media-generator",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/ai-media-generator/SOURCE.md"
+      ],
+      "repositories": [
+        "Hao0321/ai-media-generator"
+      ],
+      "pinned_commits": [
+        "edc8aa5227f4a58f9a3a88c7bf3e99bdda2a4361"
+      ],
+      "unverified_link_hints": [
+        "Hao0321/ai-media-generator"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ai-shortfilm-prompts",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/ai-shortfilm-prompts/SOURCE.md"
+      ],
+      "repositories": [
+        "jnMetaCode/ai-shortfilm-prompts"
+      ],
+      "pinned_commits": [
+        "5e7c3742aa44f9e015660f6d53a1a086ffbffef0"
+      ],
+      "unverified_link_hints": [
+        "jnMetaCode/ai-shortfilm-prompts"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ai-video-generator-claude",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/ai-video-generator-claude/SOURCE.md"
+      ],
+      "repositories": [
+        "rediumvex/ai-video-generator-claude"
+      ],
+      "pinned_commits": [
+        "ffdad7d515f6579780749d1a90d9ed0945e3a4ac"
+      ],
+      "unverified_link_hints": [
+        "rediumvex/ai-video-generator-claude"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "aitoearn-compliance-ops",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "yikart/AiToEarn"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "arxiv",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "asset-prompt-pack",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "border-beam-ui",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "brand-voice-guard",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "buttercut-video-editor",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/buttercut-video-editor/SOURCE.md"
+      ],
+      "repositories": [
+        "barefootford/buttercut"
+      ],
+      "pinned_commits": [
+        "5d625237621d372a31a99e8bf78a88c37564bab8"
+      ],
+      "unverified_link_hints": [
+        "barefootford/buttercut"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "cangjie-skill",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "career-ops",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "santifer/career-ops"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-asset-import",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-create-motion-graphics",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-export",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-image-gen",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-known-errors",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-music",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-plugin-basics",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-product-help",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-shader-gen",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-talking-head-guide",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-transcription",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-verification",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-video-gen",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-voice",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatcut-widget-forms",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "chatgpt-video-editing",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/chatgpt-video-editing/SOURCE.md"
+      ],
+      "repositories": [
+        "Jaycheng1103/chatgpt-video-editing-skills"
+      ],
+      "pinned_commits": [
+        "dc2f10ac4616603188aff3df9ea6548a8da36355"
+      ],
+      "unverified_link_hints": [
+        "Jaycheng1103/chatgpt-video-editing-skills"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "chengfeng-videocut",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/chengfeng-videocut/SOURCE.md"
+      ],
+      "repositories": [
+        "Agentchengfeng/chengfeng-videocut-skills"
+      ],
+      "pinned_commits": [
+        "2e51611965af6e6b8baea3bfc82995b5c9e8f5ef"
+      ],
+      "unverified_link_hints": [
+        "Agentchengfeng/chengfeng-videocut-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "classical-poem-silk-video",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/classical-poem-silk-video/SOURCE.md"
+      ],
+      "repositories": [
+        "Mr-funny/hbg-classical-poem-silk-video"
+      ],
+      "pinned_commits": [
+        "3326843a10bd398ec710f13ad58705e552c1c757"
+      ],
+      "unverified_link_hints": [
+        "Mr-funny/hbg-classical-poem-silk-video"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "claude-code-video-toolkit",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/claude-code-video-toolkit/SOURCE.md"
+      ],
+      "repositories": [
+        "digitalsamba/claude-code-video-toolkit"
+      ],
+      "pinned_commits": [
+        "c05a0cb7e646da122ded600db5fc97468e8611d9"
+      ],
+      "unverified_link_hints": [
+        "digitalsamba/claude-code-video-toolkit"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "claude-design",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "claude-mem-operations",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "thedotmack/claude-mem"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "claude-youtube-editor",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/claude-youtube-editor/SOURCE.md"
+      ],
+      "repositories": [
+        "hassancs91/claude-youtube-editor"
+      ],
+      "pinned_commits": [
+        "a6ac742b44520fd3c6aeaf3cd754e113fa334fed"
+      ],
+      "unverified_link_hints": [
+        "hassancs91/claude-youtube-editor"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "code-review-graph",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "content-calendar-planner",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "content-research-brief",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "cs-board",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/cs-board/SOURCE.md"
+      ],
+      "repositories": [
+        "ChenShuo2004/cs-board"
+      ],
+      "pinned_commits": [
+        "2c14596177de5ba24f634698dea31ae92dbd92c5"
+      ],
+      "unverified_link_hints": [
+        "ChenShuo2004/cs-board"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "cut-director",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/cut-director/SOURCE.md"
+      ],
+      "repositories": [
+        "Fangx-AI/cut-director"
+      ],
+      "pinned_commits": [
+        "b52e67b972d264cfbadd42b0ba178e8592402e4c"
+      ],
+      "unverified_link_hints": [
+        "Fangx-AI/cut-director"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "deeptutor-cli",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "HKUDS/DeepTutor"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "drama-skills",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/drama-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "worldwonderer/drama-skills"
+      ],
+      "pinned_commits": [
+        "e2ebebe3c7aa1edeea812fbf7fd78c2ea6684933"
+      ],
+      "unverified_link_hints": [
+        "worldwonderer/drama-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "erduo-broll-loop",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/erduo-broll-loop/SOURCE.md"
+      ],
+      "repositories": [
+        "erduo1998-cell/erduo-broll-loop-engineering"
+      ],
+      "pinned_commits": [
+        "ee7f720a8a844de5957cf104b904daa050f183d0"
+      ],
+      "unverified_link_hints": [
+        "erduo1998-cell/erduo-broll-loop-engineering"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "fact-check-citation",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/firecrawl/references/SOURCE.md"
+      ],
+      "repositories": [
+        "firecrawl/cli"
+      ],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-agent",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-crawl",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-download",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-interact",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-map",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-monitor",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-parse",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-scrape",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "firecrawl-search",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "freedomain-dns-ops",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "DigitalPlatDev/FreeDomain"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "generative-media-skills",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/generative-media-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "SamurAIGPT/Generative-Media-Skills"
+      ],
+      "pinned_commits": [
+        "d9cdaa83510d46820391f058be6fde4281db285c"
+      ],
+      "unverified_link_hints": [
+        "SamurAIGPT/Generative-Media-Skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "gpt-image-2-style-library",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "grill-me",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/grill-me/SOURCE.md"
+      ],
+      "repositories": [
+        "mattpocock/skills"
+      ],
+      "pinned_commits": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ],
+      "unverified_link_hints": [],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "gsap-core",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-frameworks",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-performance",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-plugins",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-react",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-scrolltrigger",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-timeline",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "gsap-utils",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "h3lite",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/h3lite/SOURCE.md"
+      ],
+      "repositories": [
+        "Rimagination/h3lite"
+      ],
+      "pinned_commits": [
+        "9bafafa6f1741fd6eb49d46b078e2dbb0feec3be"
+      ],
+      "unverified_link_hints": [
+        "Rimagination/h3lite"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "hallmark",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "higgsfield-ai-prompt",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/higgsfield-ai-prompt/SOURCE.md"
+      ],
+      "repositories": [
+        "OSideMedia/higgsfield-ai-prompt-skill"
+      ],
+      "pinned_commits": [
+        "c0b73ab946df6658cca513db78bdc3909a655bfd"
+      ],
+      "unverified_link_hints": [
+        "OSideMedia/higgsfield-ai-prompt-skill"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "human-writing",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "humanizer",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "blader/humanizer"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ian-xiaohei-illustrations",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "jev-fast-web",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/jev-fast-web/SOURCE.md"
+      ],
+      "repositories": [
+        "browser-use/jev-ultrafast"
+      ],
+      "pinned_commits": [
+        "452c1ad2dd628008f1d5608f28158d76e49e6cc0"
+      ],
+      "unverified_link_hints": [
+        "browser-use/jev-ultrafast"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "jianying-headless-guide",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/jianying-headless-guide/SOURCE.md"
+      ],
+      "repositories": [
+        "mcncarl/jianying-headless"
+      ],
+      "pinned_commits": [
+        "bb1e72cfc2bbed71ba7587548cebc85330b3e29a"
+      ],
+      "unverified_link_hints": [
+        "mcncarl/jianying-headless"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "jupyter-live-kernel",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "hamelsmu/hamelnb.git",
+        "nousresearch/hermes-agent"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ktransformers-ops",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "lanshu-ai-presenter-video",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/lanshu-ai-presenter-video/SOURCE.md"
+      ],
+      "repositories": [
+        "cclank/lanshu-create-ai-presenter-video"
+      ],
+      "pinned_commits": [
+        "04f6bceab888ad923e192fb02542eda06d1fdda8"
+      ],
+      "unverified_link_hints": [
+        "cclank/lanshu-create-ai-presenter-video"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "make-prompt-seedance2",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/make-prompt-seedance2/SOURCE.md"
+      ],
+      "repositories": [
+        "liangdabiao/make-prompt-seedance2"
+      ],
+      "pinned_commits": [
+        "4530e9145c4f16bf4ccb7f86090df10333e5e64e"
+      ],
+      "unverified_link_hints": [
+        "liangdabiao/make-prompt-seedance2"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "matt-engineering-workflows",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/matt-engineering-workflows/SOURCE.md"
+      ],
+      "repositories": [
+        "mattpocock/skills"
+      ],
+      "pinned_commits": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ],
+      "unverified_link_hints": [
+        "mattpocock/skills"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "narrator-ai-cli-skill",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NarratorAI-Studio/narrator-ai-cli"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nomi-video-workbench",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/nomi-video-workbench/SOURCE.md"
+      ],
+      "repositories": [
+        "aqm857886159/Nomi"
+      ],
+      "pinned_commits": [
+        "bc2a82557a64432f326f1d8358f9d717c5261b57"
+      ],
+      "unverified_link_hints": [
+        "aqm857886159/Nomi"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "offer-toolkit-japan",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "oh-my-cassette",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/oh-my-cassette/SOURCE.md"
+      ],
+      "repositories": [
+        "Cassette-Editor/oh-my-cassette"
+      ],
+      "pinned_commits": [
+        "d87db2e5def5d1ddc9c4620065addb73a8d5f36f"
+      ],
+      "unverified_link_hints": [
+        "Cassette-Editor/oh-my-cassette"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "opennana-image-video-prompt-studio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "orkas-video-studio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/orkas-video-studio/SOURCE.md"
+      ],
+      "repositories": [
+        "Orkas-AI/Orkas-VideoStudio"
+      ],
+      "pinned_commits": [
+        "7387d99d468e0cce22508854ba8bca04e79657e1"
+      ],
+      "unverified_link_hints": [
+        "Orkas-AI/Orkas-VideoStudio"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "pixelle-video-workflows",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "AIDC-AI/Pixelle-Video",
+        "AIDC-AI/Pixelle-Video.git"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "plan",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "platform-repurpose",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "popular-web-designs",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "powerpoint",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ppf-contact-solver-workflows",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "st-tech/ppf-contact-solver"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "publish-metadata-ops",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rea-analysis",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/rea-analysis/SOURCE.md"
+      ],
+      "repositories": [
+        "morluto/rea"
+      ],
+      "pinned_commits": [
+        "4f4f6cd7b5d7a400b90772a138d7b9f942c2a556"
+      ],
+      "unverified_link_hints": [
+        "morluto/rea"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "research-paper-writing",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "acl-org/acl-style-files"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-api-reference",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-check-compatibility",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-check-org-details",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-fetch-api-reference",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-generate-audio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-generate-image",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-generate-video",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-audio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-character-embed",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "runwayml/avatars-sdk-react"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-characters",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "runwayml/avatars-sdk-react"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-documents",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-image",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-uploads",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-integrate-video",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-recipe-full-setup",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rw-setup-api-key",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "scrapling-official",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "D4Vinci/Scrapling"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "script-writer",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-2-5-prompt-studio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-director-compat",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-prompt-en",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-prompt-zh",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-realistic-prompt",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/seedance-realistic-prompt/SOURCE.md"
+      ],
+      "repositories": [
+        "zhouwei713/seedance-prompt"
+      ],
+      "pinned_commits": [
+        "f3336851c4eed8cdd6ce0f27df351611d4f751dd"
+      ],
+      "unverified_link_hints": [
+        "zhouwei713/seedance-prompt"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "seo-aeo-outline",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "short-drama-director",
+      "group": "project-agent-skills",
+      "base_commit": "d59b9217dd6ebec7515d1170fbe4cd8680992bd2",
+      "records": [
+        "project-agent-skills/short-drama-director/PROVENANCE.json"
+      ],
+      "repositories": [
+        "lixiaoxiao9888-create/manju-laoli-skill"
+      ],
+      "pinned_commits": [
+        "6da07df971c85e730975785e7301cc1de9a7d3e7",
+        "d59b9217dd6ebec7515d1170fbe4cd8680992bd2"
+      ],
+      "unverified_link_hints": [],
+      "status": "reviewed-head-local-base-preserved"
+    },
+    {
+      "skill": "shuohao-video-drama",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/shuohao-video-drama/SOURCE.md"
+      ],
+      "repositories": [
+        "eternityspring/shuohao-skills"
+      ],
+      "pinned_commits": [
+        "0e5eb688ebf1b45e45c9bec31543aaa59e67c7bc"
+      ],
+      "unverified_link_hints": [
+        "eternityspring/shuohao-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "sketch",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "gsd-build/get-shit-done"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "srt-whiteboard-animation",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/srt-whiteboard-animation/SOURCE.md"
+      ],
+      "repositories": [
+        "geeklee/srt-whiteboard-animation"
+      ],
+      "pinned_commits": [
+        "696a7243c0e6ffb6827676e539c2ca5ebae2bf6b"
+      ],
+      "unverified_link_hints": [
+        "geeklee/srt-whiteboard-animation"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "super-video-maker",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/super-video-maker/SOURCE.md"
+      ],
+      "repositories": [
+        "Bomx/super-video-maker-skill"
+      ],
+      "pinned_commits": [
+        "3fec4aa66a1d4f8b249746eabc372547f67bba5c"
+      ],
+      "unverified_link_hints": [
+        "Bomx/super-video-maker-skill"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "taste-skill-frontend-direction",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "leonxlnx/taste-skill"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "twenty-crm-development",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "twentyhq/twenty"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ui-refs",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/ui-refs/SOURCE.md"
+      ],
+      "repositories": [
+        "creght-dev/ui-refs"
+      ],
+      "pinned_commits": [
+        "19eeae8e68a62fff7fe0c934ca880d4580722689"
+      ],
+      "unverified_link_hints": [
+        "creght-dev/ui-refs"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "understand-anything-knowledge-graph",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Lum1104/Understand-Anything"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "use-runway-api",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "video-director-studio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "video-downloader",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "video-podcast-maker",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/video-podcast-maker/SOURCE.md"
+      ],
+      "repositories": [
+        "Agents365-ai/video-podcast-maker"
+      ],
+      "pinned_commits": [
+        "73fcf16836aec2ae014fd68202f095e64c13fc4d"
+      ],
+      "unverified_link_hints": [
+        "Agents365-ai/video-podcast-maker"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "video-recap-skills",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/video-recap-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "worldwonderer/video-recap-skills"
+      ],
+      "pinned_commits": [
+        "7142ee976c647f8b54417aebe13a4cbe0f35ac14"
+      ],
+      "unverified_link_hints": [
+        "worldwonderer/video-recap-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "video-shotcraft",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [
+        "project-agent-skills/video-shotcraft/SOURCE.md"
+      ],
+      "repositories": [
+        "Vincentwei1021/video-shotcraft"
+      ],
+      "pinned_commits": [
+        "e1d15d91374490c59bbbc1a05c2da7efde429828"
+      ],
+      "unverified_link_hints": [
+        "Vincentwei1021/video-shotcraft"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "viral-hook-title",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "voicebox-studio",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "wigolo",
+      "group": "project-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "KnockOutEZ/wigolo"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "agent-reach",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "Panniantong/Agent-Reach"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "ai-media-generator",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/ai-media-generator/SOURCE.md"
+      ],
+      "repositories": [
+        "Hao0321/ai-media-generator"
+      ],
+      "pinned_commits": [
+        "edc8aa5227f4a58f9a3a88c7bf3e99bdda2a4361"
+      ],
+      "unverified_link_hints": [
+        "Hao0321/ai-media-generator"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ai-shortfilm-prompts",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/ai-shortfilm-prompts/SOURCE.md"
+      ],
+      "repositories": [
+        "jnMetaCode/ai-shortfilm-prompts"
+      ],
+      "pinned_commits": [
+        "5e7c3742aa44f9e015660f6d53a1a086ffbffef0"
+      ],
+      "unverified_link_hints": [
+        "jnMetaCode/ai-shortfilm-prompts"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ai-video-generator-claude",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/ai-video-generator-claude/SOURCE.md"
+      ],
+      "repositories": [
+        "rediumvex/ai-video-generator-claude"
+      ],
+      "pinned_commits": [
+        "ffdad7d515f6579780749d1a90d9ed0945e3a4ac"
+      ],
+      "unverified_link_hints": [
+        "rediumvex/ai-video-generator-claude"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "asset-prompt-pack",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "brand-voice-guard",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "buttercut-video-editor",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/buttercut-video-editor/SOURCE.md"
+      ],
+      "repositories": [
+        "barefootford/buttercut"
+      ],
+      "pinned_commits": [
+        "5d625237621d372a31a99e8bf78a88c37564bab8"
+      ],
+      "unverified_link_hints": [
+        "barefootford/buttercut"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "chatgpt-video-editing",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/chatgpt-video-editing/SOURCE.md"
+      ],
+      "repositories": [
+        "Jaycheng1103/chatgpt-video-editing-skills"
+      ],
+      "pinned_commits": [
+        "dc2f10ac4616603188aff3df9ea6548a8da36355"
+      ],
+      "unverified_link_hints": [
+        "Jaycheng1103/chatgpt-video-editing-skills"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "chengfeng-videocut",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/chengfeng-videocut/SOURCE.md"
+      ],
+      "repositories": [
+        "Agentchengfeng/chengfeng-videocut-skills"
+      ],
+      "pinned_commits": [
+        "2e51611965af6e6b8baea3bfc82995b5c9e8f5ef"
+      ],
+      "unverified_link_hints": [
+        "Agentchengfeng/chengfeng-videocut-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "classical-poem-silk-video",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/classical-poem-silk-video/SOURCE.md"
+      ],
+      "repositories": [
+        "Mr-funny/hbg-classical-poem-silk-video"
+      ],
+      "pinned_commits": [
+        "3326843a10bd398ec710f13ad58705e552c1c757"
+      ],
+      "unverified_link_hints": [
+        "Mr-funny/hbg-classical-poem-silk-video"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "claude-code-video-toolkit",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/claude-code-video-toolkit/SOURCE.md"
+      ],
+      "repositories": [
+        "digitalsamba/claude-code-video-toolkit"
+      ],
+      "pinned_commits": [
+        "c05a0cb7e646da122ded600db5fc97468e8611d9"
+      ],
+      "unverified_link_hints": [
+        "digitalsamba/claude-code-video-toolkit"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "claude-youtube-editor",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/claude-youtube-editor/SOURCE.md"
+      ],
+      "repositories": [
+        "hassancs91/claude-youtube-editor"
+      ],
+      "pinned_commits": [
+        "a6ac742b44520fd3c6aeaf3cd754e113fa334fed"
+      ],
+      "unverified_link_hints": [
+        "hassancs91/claude-youtube-editor"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "content-calendar-planner",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "content-research-brief",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "cs-board",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/cs-board/SOURCE.md"
+      ],
+      "repositories": [
+        "ChenShuo2004/cs-board"
+      ],
+      "pinned_commits": [
+        "2c14596177de5ba24f634698dea31ae92dbd92c5"
+      ],
+      "unverified_link_hints": [
+        "ChenShuo2004/cs-board"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "cut-director",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/cut-director/SOURCE.md"
+      ],
+      "repositories": [
+        "Fangx-AI/cut-director"
+      ],
+      "pinned_commits": [
+        "b52e67b972d264cfbadd42b0ba178e8592402e4c"
+      ],
+      "unverified_link_hints": [
+        "Fangx-AI/cut-director"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "drama-skills",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/drama-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "worldwonderer/drama-skills"
+      ],
+      "pinned_commits": [
+        "e2ebebe3c7aa1edeea812fbf7fd78c2ea6684933"
+      ],
+      "unverified_link_hints": [
+        "worldwonderer/drama-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "erduo-broll-loop",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/erduo-broll-loop/SOURCE.md"
+      ],
+      "repositories": [
+        "erduo1998-cell/erduo-broll-loop-engineering"
+      ],
+      "pinned_commits": [
+        "ee7f720a8a844de5957cf104b904daa050f183d0"
+      ],
+      "unverified_link_hints": [
+        "erduo1998-cell/erduo-broll-loop-engineering"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "fact-check-citation",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "generative-media-skills",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/generative-media-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "SamurAIGPT/Generative-Media-Skills"
+      ],
+      "pinned_commits": [
+        "d9cdaa83510d46820391f058be6fde4281db285c"
+      ],
+      "unverified_link_hints": [
+        "SamurAIGPT/Generative-Media-Skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "grill-me",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/grill-me/SOURCE.md"
+      ],
+      "repositories": [
+        "mattpocock/skills"
+      ],
+      "pinned_commits": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ],
+      "unverified_link_hints": [],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "h3lite",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/h3lite/SOURCE.md"
+      ],
+      "repositories": [
+        "Rimagination/h3lite"
+      ],
+      "pinned_commits": [
+        "9bafafa6f1741fd6eb49d46b078e2dbb0feec3be"
+      ],
+      "unverified_link_hints": [
+        "Rimagination/h3lite"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "higgsfield-ai-prompt",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/higgsfield-ai-prompt/SOURCE.md"
+      ],
+      "repositories": [
+        "OSideMedia/higgsfield-ai-prompt-skill"
+      ],
+      "pinned_commits": [
+        "c0b73ab946df6658cca513db78bdc3909a655bfd"
+      ],
+      "unverified_link_hints": [
+        "OSideMedia/higgsfield-ai-prompt-skill"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "human-writing",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "jev-fast-web",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/jev-fast-web/SOURCE.md"
+      ],
+      "repositories": [
+        "browser-use/jev-ultrafast"
+      ],
+      "pinned_commits": [
+        "452c1ad2dd628008f1d5608f28158d76e49e6cc0"
+      ],
+      "unverified_link_hints": [
+        "browser-use/jev-ultrafast"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "jianying-headless-guide",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/jianying-headless-guide/SOURCE.md"
+      ],
+      "repositories": [
+        "mcncarl/jianying-headless"
+      ],
+      "pinned_commits": [
+        "bb1e72cfc2bbed71ba7587548cebc85330b3e29a"
+      ],
+      "unverified_link_hints": [
+        "mcncarl/jianying-headless"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "lanshu-ai-presenter-video",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/lanshu-ai-presenter-video/SOURCE.md"
+      ],
+      "repositories": [
+        "cclank/lanshu-create-ai-presenter-video"
+      ],
+      "pinned_commits": [
+        "04f6bceab888ad923e192fb02542eda06d1fdda8"
+      ],
+      "unverified_link_hints": [
+        "cclank/lanshu-create-ai-presenter-video"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "make-prompt-seedance2",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/make-prompt-seedance2/SOURCE.md"
+      ],
+      "repositories": [
+        "liangdabiao/make-prompt-seedance2"
+      ],
+      "pinned_commits": [
+        "4530e9145c4f16bf4ccb7f86090df10333e5e64e"
+      ],
+      "unverified_link_hints": [
+        "liangdabiao/make-prompt-seedance2"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "matt-engineering-workflows",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/matt-engineering-workflows/SOURCE.md"
+      ],
+      "repositories": [
+        "mattpocock/skills"
+      ],
+      "pinned_commits": [
+        "49dd158d1076134a641b33efb035946536778336"
+      ],
+      "unverified_link_hints": [
+        "mattpocock/skills"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "narrator-ai-cli-skill",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "NarratorAI-Studio/narrator-ai-cli"
+      ],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "nomi-video-workbench",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/nomi-video-workbench/SOURCE.md"
+      ],
+      "repositories": [
+        "aqm857886159/Nomi"
+      ],
+      "pinned_commits": [
+        "bc2a82557a64432f326f1d8358f9d717c5261b57"
+      ],
+      "unverified_link_hints": [
+        "aqm857886159/Nomi"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "oh-my-cassette",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/oh-my-cassette/SOURCE.md"
+      ],
+      "repositories": [
+        "Cassette-Editor/oh-my-cassette"
+      ],
+      "pinned_commits": [
+        "d87db2e5def5d1ddc9c4620065addb73a8d5f36f"
+      ],
+      "unverified_link_hints": [
+        "Cassette-Editor/oh-my-cassette"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "orkas-video-studio",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/orkas-video-studio/SOURCE.md"
+      ],
+      "repositories": [
+        "Orkas-AI/Orkas-VideoStudio"
+      ],
+      "pinned_commits": [
+        "7387d99d468e0cce22508854ba8bca04e79657e1"
+      ],
+      "unverified_link_hints": [
+        "Orkas-AI/Orkas-VideoStudio"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "platform-repurpose",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "publish-metadata-ops",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "rea-analysis",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/rea-analysis/SOURCE.md"
+      ],
+      "repositories": [
+        "morluto/rea"
+      ],
+      "pinned_commits": [
+        "4f4f6cd7b5d7a400b90772a138d7b9f942c2a556"
+      ],
+      "unverified_link_hints": [
+        "morluto/rea"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "script-writer",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "seedance-realistic-prompt",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/seedance-realistic-prompt/SOURCE.md"
+      ],
+      "repositories": [
+        "zhouwei713/seedance-prompt"
+      ],
+      "pinned_commits": [
+        "f3336851c4eed8cdd6ce0f27df351611d4f751dd"
+      ],
+      "unverified_link_hints": [
+        "zhouwei713/seedance-prompt"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "seo-aeo-outline",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "short-drama-director",
+      "group": "user-agent-skills",
+      "base_commit": "d59b9217dd6ebec7515d1170fbe4cd8680992bd2",
+      "records": [
+        "user-agent-skills/short-drama-director/PROVENANCE.json"
+      ],
+      "repositories": [
+        "lixiaoxiao9888-create/manju-laoli-skill"
+      ],
+      "pinned_commits": [
+        "6da07df971c85e730975785e7301cc1de9a7d3e7",
+        "d59b9217dd6ebec7515d1170fbe4cd8680992bd2"
+      ],
+      "unverified_link_hints": [],
+      "status": "reviewed-head-local-base-preserved"
+    },
+    {
+      "skill": "shuohao-video-drama",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/shuohao-video-drama/SOURCE.md"
+      ],
+      "repositories": [
+        "eternityspring/shuohao-skills"
+      ],
+      "pinned_commits": [
+        "0e5eb688ebf1b45e45c9bec31543aaa59e67c7bc"
+      ],
+      "unverified_link_hints": [
+        "eternityspring/shuohao-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "srt-whiteboard-animation",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/srt-whiteboard-animation/SOURCE.md"
+      ],
+      "repositories": [
+        "geeklee/srt-whiteboard-animation"
+      ],
+      "pinned_commits": [
+        "696a7243c0e6ffb6827676e539c2ca5ebae2bf6b"
+      ],
+      "unverified_link_hints": [
+        "geeklee/srt-whiteboard-animation"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "super-video-maker",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/super-video-maker/SOURCE.md"
+      ],
+      "repositories": [
+        "Bomx/super-video-maker-skill"
+      ],
+      "pinned_commits": [
+        "3fec4aa66a1d4f8b249746eabc372547f67bba5c"
+      ],
+      "unverified_link_hints": [
+        "Bomx/super-video-maker-skill"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "ui-refs",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/ui-refs/SOURCE.md"
+      ],
+      "repositories": [
+        "creght-dev/ui-refs"
+      ],
+      "pinned_commits": [
+        "19eeae8e68a62fff7fe0c934ca880d4580722689"
+      ],
+      "unverified_link_hints": [
+        "creght-dev/ui-refs"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "video-podcast-maker",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/video-podcast-maker/SOURCE.md"
+      ],
+      "repositories": [
+        "Agents365-ai/video-podcast-maker"
+      ],
+      "pinned_commits": [
+        "73fcf16836aec2ae014fd68202f095e64c13fc4d"
+      ],
+      "unverified_link_hints": [
+        "Agents365-ai/video-podcast-maker"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "video-recap-skills",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/video-recap-skills/SOURCE.md"
+      ],
+      "repositories": [
+        "worldwonderer/video-recap-skills"
+      ],
+      "pinned_commits": [
+        "7142ee976c647f8b54417aebe13a4cbe0f35ac14"
+      ],
+      "unverified_link_hints": [
+        "worldwonderer/video-recap-skills"
+      ],
+      "status": "review-needed"
+    },
+    {
+      "skill": "video-shotcraft",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [
+        "user-agent-skills/video-shotcraft/SOURCE.md"
+      ],
+      "repositories": [
+        "Vincentwei1021/video-shotcraft"
+      ],
+      "pinned_commits": [
+        "e1d15d91374490c59bbbc1a05c2da7efde429828"
+      ],
+      "unverified_link_hints": [
+        "Vincentwei1021/video-shotcraft"
+      ],
+      "status": "head-matches-pin"
+    },
+    {
+      "skill": "viral-hook-title",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [],
+      "status": "no-pinned-provenance"
+    },
+    {
+      "skill": "youtube-clipper",
+      "group": "user-agent-skills",
+      "base_commit": null,
+      "records": [],
+      "repositories": [],
+      "pinned_commits": [],
+      "unverified_link_hints": [
+        "op7418/Youtube-clipper-skill"
+      ],
+      "status": "no-pinned-provenance"
+    }
+  ]
+}

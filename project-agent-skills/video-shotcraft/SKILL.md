@@ -7,6 +7,10 @@ description: Design cinematic product videos with shot cards, camera language, m
 
 Repository-level Codex router for [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft).
 
+## 2026-10-13 Snapshot Adaptation
+
+The current text snapshot includes the upstream's template, autonomous-creation and collaborative-creation routes. Preserve a route already chosen by the user; do not add approval pauses to authorized autonomous work. Root-relative instructions resolve under `references/upstream/`; template guidance is in `references/upstream/template/`. Images, audio, rendered demos and runtime dependencies are not included. Fetch or install a reviewed complete checkout when a real render requires them, subject to the task's scope and asset rights. Do not claim a demo rendered from this instruction-only export. Verify actual product screenshots and remove sensitive data before using them in a video.
+
 ## Workflow
 
 1. Read `SOURCE.md` for the pinned revision, license, runtime boundary, and provenance.

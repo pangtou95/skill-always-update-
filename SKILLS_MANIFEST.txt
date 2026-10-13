@@ -120,6 +120,7 @@ codex-skills/lm-evaluation-harness/SKILL.md
 codex-skills/long-context/SKILL.md
 codex-skills/make-prompt-seedance2/SKILL.md
 codex-skills/mamba/SKILL.md
+codex-skills/matt-engineering-workflows/SKILL.md
 codex-skills/megatron-core/SKILL.md
 codex-skills/miles/SKILL.md
 codex-skills/ml-paper-writing/SKILL.md
@@ -582,6 +583,7 @@ codex-skills/pyvene/SKILL.md
 codex-skills/qdrant/SKILL.md
 codex-skills/ray-data/SKILL.md
 codex-skills/ray-train/SKILL.md
+codex-skills/rea-analysis/SKILL.md
 codex-skills/research-paper-writing/SKILL.md
 codex-skills/rwkv/SKILL.md
 codex-skills/saelens/SKILL.md
@@ -614,6 +616,7 @@ codex-skills/torchforge/SKILL.md
 codex-skills/torchtitan/SKILL.md
 codex-skills/transformer-lens/SKILL.md
 codex-skills/trl-fine-tuning/SKILL.md
+codex-skills/ui-refs/SKILL.md
 codex-skills/unsloth/SKILL.md
 codex-skills/verl/SKILL.md
 codex-skills/video-director-studio/SKILL.md
@@ -706,6 +709,7 @@ project-agent-skills/jupyter-live-kernel/SKILL.md
 project-agent-skills/ktransformers-ops/SKILL.md
 project-agent-skills/lanshu-ai-presenter-video/SKILL.md
 project-agent-skills/make-prompt-seedance2/SKILL.md
+project-agent-skills/matt-engineering-workflows/SKILL.md
 project-agent-skills/narrator-ai-cli-skill/SKILL.md
 project-agent-skills/nomi-video-workbench/SKILL.md
 project-agent-skills/offer-toolkit-japan/SKILL.md
@@ -719,6 +723,7 @@ project-agent-skills/popular-web-designs/SKILL.md
 project-agent-skills/powerpoint/SKILL.md
 project-agent-skills/ppf-contact-solver-workflows/SKILL.md
 project-agent-skills/publish-metadata-ops/SKILL.md
+project-agent-skills/rea-analysis/SKILL.md
 project-agent-skills/research-paper-writing/SKILL.md
 project-agent-skills/rw-api-reference/SKILL.md
 project-agent-skills/rw-check-compatibility/SKILL.md
@@ -751,6 +756,7 @@ project-agent-skills/srt-whiteboard-animation/SKILL.md
 project-agent-skills/super-video-maker/SKILL.md
 project-agent-skills/taste-skill-frontend-direction/SKILL.md
 project-agent-skills/twenty-crm-development/SKILL.md
+project-agent-skills/ui-refs/SKILL.md
 project-agent-skills/understand-anything-knowledge-graph/SKILL.md
 project-agent-skills/use-runway-api/SKILL.md
 project-agent-skills/video-director-studio/SKILL.md
@@ -781,6 +787,7 @@ user-agent-skills/drama-skills/SKILL.md
 user-agent-skills/erduo-broll-loop/SKILL.md
 user-agent-skills/fact-check-citation/SKILL.md
 user-agent-skills/generative-media-skills/SKILL.md
+user-agent-skills/grill-me/SKILL.md
 user-agent-skills/h3lite/SKILL.md
 user-agent-skills/higgsfield-ai-prompt/SKILL.md
 user-agent-skills/human-writing/SKILL.md
@@ -788,12 +795,14 @@ user-agent-skills/jev-fast-web/SKILL.md
 user-agent-skills/jianying-headless-guide/SKILL.md
 user-agent-skills/lanshu-ai-presenter-video/SKILL.md
 user-agent-skills/make-prompt-seedance2/SKILL.md
+user-agent-skills/matt-engineering-workflows/SKILL.md
 user-agent-skills/narrator-ai-cli-skill/SKILL.md
 user-agent-skills/nomi-video-workbench/SKILL.md
 user-agent-skills/oh-my-cassette/SKILL.md
 user-agent-skills/orkas-video-studio/SKILL.md
 user-agent-skills/platform-repurpose/SKILL.md
 user-agent-skills/publish-metadata-ops/SKILL.md
+user-agent-skills/rea-analysis/SKILL.md
 user-agent-skills/script-writer/SKILL.md
 user-agent-skills/seedance-realistic-prompt/SKILL.md
 user-agent-skills/seo-aeo-outline/SKILL.md
@@ -801,6 +810,7 @@ user-agent-skills/short-drama-director/SKILL.md
 user-agent-skills/shuohao-video-drama/SKILL.md
 user-agent-skills/srt-whiteboard-animation/SKILL.md
 user-agent-skills/super-video-maker/SKILL.md
+user-agent-skills/ui-refs/SKILL.md
 user-agent-skills/video-podcast-maker/SKILL.md
 user-agent-skills/video-recap-skills/SKILL.md
 user-agent-skills/video-shotcraft/SKILL.md

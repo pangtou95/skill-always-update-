@@ -6,6 +6,16 @@
 
 English version: [README.md](README.md)
 
+## 2026 年 10 月复核
+
+从截图确认并新增三个项目的本地适配 Skill：[UI Refs](https://github.com/creght-dev/ui-refs) → `ui-refs`，用于真实界面参考筛选；[Matt Pocock Skills](https://github.com/mattpocock/skills) → `matt-engineering-workflows`，用于诊断、测试、模块设计与工程交接；[REA](https://github.com/morluto/rea) → `rea-analysis`，用于有授权目标的 CLI/MCP 逆向分析。不是把整个应用安装进 Skill，也没有复制 UI 参考图片。
+
+已有库更新了四项：保留 `grill-me` 中文适配并补充决策依赖方法；更新 `ai-shortfilm-prompts`、`video-shotcraft` 的文本快照并补齐根目录模板依赖；`short-drama-director` 选择性吸收已复核的 V6.9.9 方法，同时保留 V6.0 基底与台词锁等本地保护。七个包已安装到本项目 `.agents/skills`，并同步三类导出目录。
+
+[2026-10-13 复核报告](audits/README-2026-10-13.md)盘点了 237 个不同顶层目录名及 35 个有明确记录的上游仓库。仍有 19 个上游 HEAD 变化候选需审查，202 个名称缺少可比较的固定来源记录。**不能说全库和插件已经全部更新至最新版本**；许可受限、执行依赖变化及本地适配都需要分别处理。
+
+在 Codex 对话或终端 Codex 会话里可点名 `$ui-refs`、`$matt-engineering-workflows`、`$rea-analysis`，后面写具体任务；它们不是 zsh 命令。本次未注册 MCP、安装 REA 分析引擎、改变全局插件配置或发起付费调用。
+
 ## 仓库包含什么
 
 这个仓库分成三类导出的技能目录：

@@ -7,6 +7,10 @@ description: Turn a short-film idea into structured prompts for Sora, Kling, Veo
 
 Repository-level Codex router for [jnMetaCode/ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts).
 
+## 2026-10-13 Snapshot Adaptation
+
+The reviewed snapshot is updated, while this local router retains control. Read `references/upstream/skills/shortfilm-prompt/SOURCE_SKILL.md` for the five-part prompt format. Its root-relative `templates/` paths resolve to `references/upstream/templates/`, not the child Skill directory. `AskUserQuestion`/`Read` are upstream names: use the available native tools instead. Genre rules are presets; preserve the user's intended camera, music, framing and duration. Do not reword protected or disallowed material solely to evade moderation. Verify model capability/IP-policy claims from current primary documentation; examples are not official rules.
+
 ## Workflow
 
 1. Read `SOURCE.md` for the pinned revision, license, runtime boundary, and provenance.

@@ -6,6 +6,16 @@ In practice, each skill is a professional operating guide for an AI agent. A `SK
 
 Chinese version: [README.cn.md](README.cn.md)
 
+## October 2026 Review
+
+Added three workspace Skills from the screenshot projects: [UI Refs](https://github.com/creght-dev/ui-refs) → `ui-refs`, [Matt Pocock Skills](https://github.com/mattpocock/skills) → `matt-engineering-workflows`, and [REA](https://github.com/morluto/rea) → `rea-analysis`. These are focused, original Codex adapters, not full application installs. UI Refs images remain with their copyright owners; REA needs separately verified runtime/provider access.
+
+Updated `grill-me` while retaining the Chinese adaptation; refreshed `ai-shortfilm-prompts` and `video-shotcraft` instruction snapshots with root template dependencies; selectively enriched `short-drama-director` from reviewed V6.9.9 while keeping its V6.0 base and local protections. All seven packages are installed at project scope and synchronized across the three export groups.
+
+The [2026-10-13 audit](audits/README-2026-10-13.md) covers 237 different top-level directory names and 35 explicitly recorded upstream repositories. There are 19 remaining HEAD-drift candidates and 202 names without comparable pinned provenance. This is **not a claim that every Skill or bundled plugin is at its latest version**. See the report for scope, exact source evidence, license boundaries and pending priorities.
+
+Within Codex, invoke `$ui-refs`, `$matt-engineering-workflows` or `$rea-analysis` with your task. In a terminal Codex session the same Skill names apply; they are not standalone shell commands. This export contains no new MCP registration, private credentials, paid calls or REA analysis engine.
+
 ## What Is Included
 
 The repository is organized into three exported skill groups:
